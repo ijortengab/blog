@@ -1,0 +1,11 @@
+/app/
+/vendor/
+/output_*
+s3.conf.dist
+s3-publish.sh
+publish.sh
+sculpin.json
+sculpin.lock
+composer.json
+composer.lock
+
