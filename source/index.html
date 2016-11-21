@@ -7,27 +7,120 @@ pagination:
 use:
     - posts
 ---
-{% for post in page.pagination.items %}
+
+
+    
+    <header class="container">
+
+      <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.url }}/">IjorTengab.id</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="{{ site.url }}/">Home</a></li>
+              <li><a href="{{ site.url }}/blog">Blog</a></li>
+              <li class="dropdown">
+                <a href="{{ site.url }}/project" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Project <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ site.url }}/project/ibank">IBank</a></li>
+                  <li><a href="{{ site.url }}/project/web-remote-desktop">Web Remote Desktop</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+    </header> <!-- /container -->
+
+    <div class="container">
+        
+    </div>
+    
+    
+        <div class="mainContent container">
+            <div class="row-fluid">
+                <div class="span8">
+                    {% for post in page.pagination.items %}
+                        <article>
+                            <header>
+                                <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+                            </header>
+                            <div>
+                                {{ post.blocks.content|raw }}
+                            </div>
+                            {% if post.meta.tags %}
+                                <p class="tags">
+                                Tags:
+                                {% for tag in post.meta.tags %}
+                                <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+                                {% endfor %}
+                                </p>
+                            {% endif %}
+                        </article>
+                    {% endfor %}
+                    {% if page.pagination.previous_page or page.pagination.next_page %}
+                        <nav>
+                            {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
+                            {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
+                        </nav>
+                    {% endif %}
+
+
+
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            &copy; {{ "now"|date("Y") }} {{ site.title }}
+        </footer>
+        
+        {% for post in page.pagination.items %}
     <article>
         <header>
-            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <div>
-            {{ post.blocks.content|raw }}
-        </div>
-        {% if post.meta.tags %}
-            <p class="tags">
-            Tags:
-            {% for tag in post.meta.tags %}
-            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% if post.meta.categories %}
+            {% for category in post.meta.categories %}
+            <a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>
             {% endfor %}
-            </p>
-        {% endif %}
+            {% endif %}
+            <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> ::..</h1>
+        </header>
+        <div class="meta" style="margin-bottom: 20px">
+            {% if page.meta.author %}
+            <span class="label label-primary"><i class="fa fa-user"></i>&nbsp;{{ post.meta.author }}</span>
+            {% else %}
+            <span class="label label-primary"><i class="fa fa-user"></i>&nbsp;{{ site.author }}</span>
+            {% endif %}
+            <span class="label label-primary" title="created at {{ post.date|date("r") }}"><i class="fa fa-clock-o"></i>&nbsp;{{ post.date|date("m/d/Y") }}</span>
+            {% if post.meta.updated_at %}
+            <span class="label label-primary" title="updated at {{ post.meta.updated_at|date("r") }}"><i class="fa fa-refresh"></i>&nbsp;{{ post.meta.updated_at|date("m/d/Y") }}</span>
+            {% endif %}
+        </div>
     </article>
 {% endfor %}
+
 {% if page.pagination.previous_page or page.pagination.next_page %}
-    <nav>
-        {% if page.pagination.previous_page %}<a href="{{ site.url }}{{ page.pagination.previous_page.url }}">Newer Posts</a>{% endif %}<br />
-        {% if page.pagination.next_page %}<a href="{{ site.url }}{{ page.pagination.next_page.url }}">Older Posts</a>{% endif %}<br />
-    </nav>
+    <div id="pager">
+        <ul class="pager">
+            {% if page.pagination.previous_page %}
+            <li class="previous"><a href="{{ site.url }}{{ page.pagination.previous_page.url }}"><span class="glyphicon glyphicon-step-backward"></span> Previous</a></li>
+            {% endif %}
+            {% if page.pagination.next_page %}
+            <li class="next" ><a href="{{ site.url }}{{ page.pagination.next_page.url  }}"><span class="glyphicon glyphicon-step-forward"></span> Next</a></li>
+            {% endif %}
+        </ul>
+    </div>
 {% endif %}
+    
+    
+    
+
+
