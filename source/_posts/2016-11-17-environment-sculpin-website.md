@@ -64,7 +64,7 @@ Misalkan project Sculpin berada pada path ```/home/example/sculpin```, maka kita
 buat symbolic link untuk direktori output pada masing-masing environment 
 sesuai dengan konfigurasi root nginx.
 
-```
+```sh
 ln -s /home/example/sculpin/output_prod /home/example/public_html
 ln -s /home/example/sculpin/output_dev /home/example/public_html_dev
 ```
