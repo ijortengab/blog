@@ -58,7 +58,7 @@ server {
 Save file tersebut, lalu reload daemon nginx 
 ``` sudo nginx -s reload ```
 
-### Finishing
+## Finishing
 
 Misalkan project Sculpin berada pada path ```/home/example/sculpin```, maka kita 
 buat symbolic link untuk direktori output pada masing-masing environment 
