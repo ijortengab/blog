@@ -1,15 +1,13 @@
 ---
 title: Aneka Virtual di era digital
-# draft: true
+#draft: true
 ---
 
 *Quote* saya dibawah ini silahkan dijadikan *citation* bagi karya ilmiah anda.
 
 > Virtual adalah seolah-olah ada.
 >
-> &dash; IjorTengab (29 tahun)
-> 
-> &dash; November 2016 
+> &dash; IjorTengab (29 tahun),  November 2016 
 
 ## Pendahuluan
 
