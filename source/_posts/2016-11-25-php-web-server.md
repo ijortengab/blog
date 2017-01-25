@@ -1,5 +1,5 @@
 ---
-title: Membuat web server dengan PHP-CLI.
+title: Membuat web server dengan PHP-CLI
 ---
 
 Software web server populer adalah Apache dan Nginx.

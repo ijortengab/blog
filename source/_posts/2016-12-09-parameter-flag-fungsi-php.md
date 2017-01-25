@@ -3,7 +3,7 @@ title: Membuat function di PHP dengan parameter flag
 ---
 ## Pendahuluan
 
-Tulian ini akan membahas pengalaman membuat fungsi dengan menggunakan parameter FLAG. 
+Tulisan ini akan membahas pengalaman membuat fungsi dengan menggunakan parameter FLAG. 
 
 ## Latar Belakang
 
