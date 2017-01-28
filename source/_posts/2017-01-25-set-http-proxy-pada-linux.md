@@ -1,8 +1,8 @@
 ---
-title: Memasang Proxy pada Linux
+title: Set HTTP Proxy pada Linux
 ---
 
-Proxy yang dimaksud pada tulisan ini adalah **forward proxy server**. Mengingat saat ini sudah ada versi terbalik dari proxy alias **reverse-proxy**.
+Proxy yang dimaksud pada tulisan ini adalah **forward proxy server**. Mengingat saat ini sudah ada versi terbalik dari proxy yakni **reverse-proxy**.
 
 ## Langsung aja mas bro...
 
