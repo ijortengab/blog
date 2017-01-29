@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>IjorTengab</title>
+        <title>{{ site.title }}</title>
         <meta charset="utf-8">
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +11,16 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
         <!link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/bash.min.js" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/php.min.js" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.4.1/github-markdown.min.css" rel="stylesheet">
-        
+
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        
+
         <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">        
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
         <style>
         /** quick fix because bootstrap <pre> has a background-color. */
@@ -31,7 +29,7 @@
         {% block head_styles %}{% endblock %}{% block head_scripts %}{% endblock %}
     </head>
     <body>
-    
+
     <header class="container">
 
       <!-- Static navbar -->
@@ -63,18 +61,31 @@
       </nav>
     </header> <!-- /container -->
    <div class="container">
-    
-    
-    
+
+
+
     {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-    
+
     </div><!--/.container-fluid -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/bash.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/languages/php.min.js"></script>
-    
+
+    {% if site.cloudinary %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
+    <script>
+    $.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})
+    $('cloudinary').each(function () {
+        var $this = $(this);
+        var src = $this.attr('src');
+        var image = $.cloudinary.image(src)
+        $this.replaceWith(image);
+    });
+    </script>
+    {% endif %}
+
     {% block scripts %}
     {% endblock %}
 
@@ -90,12 +101,12 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
-    
+
     <script>hljs.initHighlightingOnLoad();</script>
 
     {% block scripts_after %}
     {% endblock %}
-    
+
     </body>
-    
+
 </html>
