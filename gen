@@ -1,5 +1,0 @@
-#!/bin/bash
-cd ~/sculpin
-rm -rf ./output_dev
-sculpin generate 
-tree -A ./output_dev

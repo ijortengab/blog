@@ -5,7 +5,7 @@ title: Mencari Image Hosting - Cloudinary dot com
 
 ## Pendahulan
 
-[Blog ini][1] di-*design* untuk *low resource*. Untuk itu perlu pemilihan program dan service yang sesuai.
+[Blog ini][1] di-*design* dengan prinsip *low resource*. Untuk itu perlu pemilihan program dan service yang sesuai.
 
  - Software [Sculpin][2] dipilih sebagai [Static Generator][3] alih-alih menggunakan CMS. 
  
@@ -17,7 +17,11 @@ title: Mencari Image Hosting - Cloudinary dot com
  
  - Web service [Disqus][7] dipilih untuk engine diskusi/komentar.
 
-Sampai dengan tulisan ini dibuat, blog ini belum memiliki artikel yang terdapat gambar didalamnya.
+Sampai dengan tulisan ini dibuat, blog ini belum memiliki artikel yang terdapat gambar didalamnya. 
+
+Alih-alih menyimpan image di server sendiri, akan lebih baik jika image di-host oleh pihak ketiga. 
+
+Sesuai dengan prinsip *low resource*. Pencarian web service untuk image hosting pun dimulai.
 
 ## Mengapa Cloudinary dot com
 
@@ -45,7 +49,7 @@ Storage yang dapat dimanage membuat kita bisa membuat subdirektori dan memanage 
 
 Saya mengupload gambar di Cloudinary didalam folder `ijortengab.id` bernama `screenshot.509.png`. 
 
-Setelah meng-upload Terdapat keterangan diantaranya URL dan fungsi dalam beberapa bahasa pemrograman.
+Setelah meng-upload terdapat keterangan diantaranya URL dan fungsi dalam beberapa bahasa pemrograman.
 
 Yang menarik ternyata juga ada fungsi jQuery yakni `$.cloudinary.image("ijortengab.id/screenshot.509.png")`
 
@@ -80,19 +84,27 @@ $('cloudinary').each(function () {
 ```
 {% endverbatim %}
 
-Untuk setiap artikel, memasukkan gambar cukup dengan informasi sebagai berikut (contoh):
+Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 
 ```
-<cloudinary src="ijortengab.id/screenshot.509.png"></cloudinary>
+<cloudinary src="$path_internal">$alt_image</cloudinary>
 ```
 
 ## Contoh Hasil
 
-<cloudinary src="ijortengab.id/screenshot.509.png"></cloudinary>
+Hasil dari code ini:
+
+```
+<cloudinary src="ijortengab.id/screenshot.509.png">Screenshot hasil googling dengan query "image hosting with upload api"</cloudinary>
+```
+
+adalah gambar dibawah ini: 
+
+<cloudinary src="ijortengab.id/screenshot.509.png">Screenshot hasil googling dengan query "image hosting with upload api"</cloudinary>
 
 ## Penutup
 
-Cloudinary dot com adalah pilihan yang tepat (setidaknya untuk saat ini) untuk image hosting bagi situs anda yang di-*design* untuk *low resource*.
+Cloudinary dot com adalah pilihan yang tepat (setidaknya untuk saat ini) untuk image hosting dengan fitur *upload image programatically*.
 
 [1]: http://ijortengab.id/
 [2]: https://sculpin.io/

@@ -1,5 +1,0 @@
-#!/bin/bash
-cd ~/sculpin
-rm -rf ./output_prod
-sculpin generate --env=prod 
-tree -A ./output_prod
