@@ -1,11 +1,11 @@
 ---
 title: Mencari Image Hosting - Cloudinary dot com
-draft: true
+#draft: true
 ---
 
 ## Pendahulan
 
-[Blog ini][1] di-disain untuk *low resource*. Untuk itu **perlu** pemilihan program dan service yang sesuai.
+[Blog ini][1] di-*design* untuk *low resource*. Untuk itu perlu pemilihan program dan service yang sesuai.
 
  - Software [Sculpin][2] dipilih sebagai [Static Generator][3] alih-alih menggunakan CMS. 
  
@@ -63,8 +63,9 @@ cloudinary:
 
 Pada layout utama (default.html), saya menambahkan baris code sebagai berikut:
 
+{% verbatim %}
 ```twig
-\{\% if site.cloudinary \%\}
+{% if site.cloudinary %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
 <script>
 $.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})
@@ -75,10 +76,9 @@ $('cloudinary').each(function () {
     $this.replaceWith(image);
 });
 </script>
-\{\% endif \%\}
+{% endif %}
 ```
-
-> Hilangkan karakter backslash "\" pada code diatas. Backslash ditambahkan agar tidak dianggap format oleh Twig-nya Sculpin.
+{% endverbatim %}
 
 Untuk setiap artikel, memasukkan gambar cukup dengan informasi sebagai berikut (contoh):
 
@@ -92,7 +92,7 @@ Untuk setiap artikel, memasukkan gambar cukup dengan informasi sebagai berikut (
 
 ## Penutup
 
-Cloudinary dot com adalah pilihan yang tepat (setidaknya untuk saat ini) untuk image hosting bagi situs anda yang di-disian untuk *low resource*.
+Cloudinary dot com adalah pilihan yang tepat (setidaknya untuk saat ini) untuk image hosting bagi situs anda yang di-*design* untuk *low resource*.
 
 [1]: http://ijortengab.id/
 [2]: https://sculpin.io/
