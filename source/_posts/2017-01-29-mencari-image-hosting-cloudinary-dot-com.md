@@ -7,32 +7,32 @@ title: Mencari Image Hosting - Cloudinary dot com
 
 [Blog ini][1] di-*design* dengan prinsip *low resource*. Untuk itu perlu pemilihan program dan service yang sesuai.
 
- - Software [Sculpin][2] dipilih sebagai [Static Generator][3] alih-alih menggunakan CMS. 
- 
+ - Software [Sculpin][2] dipilih sebagai [Static Generator][3] alih-alih menggunakan CMS.
+
  - Software Git untuk menyimpan revisi dan [Github][4] sebagai repository-nya.
 
  - Web service [CDNJS dot com][5] dipilih sebagai CDN library Javascript alih-alih self-hosting.
 
  - Web service [Google Analytics][6] dipilih untuk analisis dan statistik pengunjung.
- 
+
  - Web service [Disqus][7] dipilih untuk engine diskusi/komentar.
 
-Sampai dengan tulisan ini dibuat, blog ini belum memiliki artikel yang terdapat gambar didalamnya. 
+Sampai dengan tulisan ini dibuat, blog ini belum memiliki artikel yang terdapat gambar didalamnya.
 
-Alih-alih menyimpan image di server sendiri, akan lebih baik jika image di-host oleh pihak ketiga. 
+Alih-alih menyimpan image di server sendiri, akan lebih baik jika image di-host oleh pihak ketiga.
 
 Sesuai dengan prinsip *low resource*. Pencarian web service untuk image hosting pun dimulai.
 
 ## Mengapa Cloudinary dot com
 
-Berawal dari keinginan untuk "mengupload gambar ke Image Hosting secara programming". 
+Berawal dari keinginan untuk "mengupload gambar ke Image Hosting secara programming".
 
 Googling dengan query "image hosting with upload api" didapat hasil dua teratas:
 
  - [http://stackoverflow.com/q/2642570/][8]
 
  - [http://cloudinary.com/][9]
- 
+
 Cloudinary dot com akhirnya menjadi pilihan untuk Image Hosting setelah menyimak diskusi di [stackoverflow][8] dan membedah [API Cloudinary][10] yang dihost di Github.
 
 Kebutuhan akan upload API ini penting untuk bisnis pengembangan software dan web development kedepannya.
@@ -47,7 +47,7 @@ Storage yang dapat dimanage membuat kita bisa membuat subdirektori dan memanage 
 
 ## Integrasi dengan Sculpin
 
-Saya mengupload gambar di Cloudinary didalam folder `ijortengab.id` bernama `screenshot.509.png`. 
+Saya mengupload gambar di Cloudinary didalam folder `ijortengab.id` bernama `screenshot.509.png`.
 
 Setelah meng-upload terdapat keterangan diantaranya URL dan fungsi dalam beberapa bahasa pemrograman.
 
@@ -55,7 +55,13 @@ Yang menarik ternyata juga ada fungsi jQuery yakni `$.cloudinary.image("ijorteng
 
 Setelah membaca dokumentasi [Cloudinary - jQuery integration][12], saya melakukan sedikit *hacking* agar dapat memasukkan gambar didalam article dengan cara yang berbeda.
 
-Alih-alih menggunakan syntax Markdown, saya menciptakan sendiri tag `<cloudinary>`. Javascript (jQuery) yang akan menggenerate image berdasarkan informasi dari attribute tag tersebut.
+Alih-alih menggunakan full URL, saya menciptakan sendiri attribute `cloudinary` yang berisi path internal file didalam Cloudinary. 
+
+Javascript (jQuery) yang akan menggenerate image berdasarkan informasi dari attribute tag tersebut.
+
+Kekurangan cara ini ialah gambar kemungkinan besar tidak bisa di-retrieve oleh mesin pencari (search engine) semacam Google.
+
+## Hacking
 
 Edit file `sculpin_site.yml` dan tambahkan informasi cloudinary sebagai berikut:
 
@@ -73,11 +79,19 @@ Pada layout utama (default.html), saya menambahkan baris code sebagai berikut:
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
 <script>
 $.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})
-$('cloudinary').each(function () {
-    var $this = $(this);
-    var src = $this.attr('src');
-    var image = $.cloudinary.image(src)
-    $this.replaceWith(image);
+$('img[cloudinary]').each(function () {
+    var cloudinaryPath = this.attributes.cloudinary.value;    
+    var $newImage = $.cloudinary.image(cloudinaryPath);
+    // Copy attributes.
+    $.each(this.attributes, function() {        
+        if (this.specified) {
+            if (this.name != 'src' && this.name != 'cloudinary') {
+                $newImage.attr(this.name, this.value);
+            }      
+        }
+    });
+    // Replace.
+    $(this).replaceWith($newImage);
 });
 </script>
 {% endif %}
@@ -87,7 +101,7 @@ $('cloudinary').each(function () {
 Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 
 ```
-<cloudinary src="$path_internal">$alt_image</cloudinary>
+<img cloudinary="$path_internal">
 ```
 
 ## Contoh Hasil
@@ -95,12 +109,12 @@ Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 Hasil dari code ini:
 
 ```
-<cloudinary src="ijortengab.id/screenshot.509.png">Screenshot hasil googling dengan query "image hosting with upload api"</cloudinary>
+<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
 ```
 
-adalah gambar dibawah ini: 
+adalah gambar dibawah ini:
 
-<cloudinary src="ijortengab.id/screenshot.509.png">Screenshot hasil googling dengan query "image hosting with upload api"</cloudinary>
+<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
 
 ## Penutup
 

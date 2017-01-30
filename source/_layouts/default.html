@@ -77,11 +77,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
     <script>
     $.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})
-    $('cloudinary').each(function () {
-        var $this = $(this);
-        var src = $this.attr('src');
-        var image = $.cloudinary.image(src)
-        $this.replaceWith(image);
+    $('img[cloudinary]').each(function () {
+        var cloudinaryPath = this.attributes.cloudinary.value;
+        var $newImage = $.cloudinary.image(cloudinaryPath);
+        // Copy attributes.
+        $.each(this.attributes, function() {
+            if (this.specified) {
+                if (this.name != 'src' && this.name != 'cloudinary') {
+                    $newImage.attr(this.name, this.value);
+                }
+            }
+        });
+        // Replace.
+        $(this).replaceWith($newImage);
     });
     </script>
     {% endif %}
