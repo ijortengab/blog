@@ -24,14 +24,15 @@ use:
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="{{ site.url }}/">Home</a></li>
-              <li><a href="{{ site.url }}/blog">Blog</a></li>
+              <li><a href="{{ site.url }}/blog/">Blog</a></li>
               <li class="dropdown">
                 <a href="{{ site.url }}/project" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Project <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="{{ site.url }}/project/ibank">IBank</a></li>
-                  <li><a href="{{ site.url }}/project/web-remote-desktop">Web Remote Desktop</a></li>
+                  <li><a href="{{ site.url }}/project/ibank/">IBank</a></li>
+                  <li><a href="{{ site.url }}/project/web-remote-desktop/">Web Remote Desktop</a></li>
                 </ul>
               </li>
+              <li><a href="{{ site.url }}/tools/">Tools</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -53,7 +54,7 @@ use:
                     <tbody>
                         {% for post in page.pagination.items %}
                         <tr>
-                            <td><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>
+                            <td><a href="{{ site.url }}{{ post.url }}/">{{ post.title }}</a></td>
                             <td>
                                 <span class="label label-primary" title="created at {{ post.date|date("r") }}"><i class="fa fa-clock-o"></i>&nbsp;{{ post.date|date("d M Y") }}</span>
                             </td>
