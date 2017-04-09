@@ -10,7 +10,7 @@ categories:
 ## Pendahuluan
 
 [Sculpin][1] sebagai software [static generator][2] menyediakan dua environment 
-(secara default) yakni ```env``` dan ```prod```. Fitur ini bisa kita manfaatkan 
+(secara default) yakni ```dev``` dan ```prod```. Fitur ini bisa kita manfaatkan 
 untuk membuat dua website masing-masing untuk tiap environment tersebut. 
 Misalnya untuk environment production berada pada website http://example.com, 
 dan environment development berada pada website http://dev.example.com.

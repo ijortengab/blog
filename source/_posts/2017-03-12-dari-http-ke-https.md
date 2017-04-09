@@ -48,7 +48,7 @@ Masuk ke DNS Management-nya Rumahweb, kemudian set `systemix.id` diarahkan ke IP
 
 <img cloudinary="ijortengab.id/screenshot.576">
 
-## Create user 
+## Create User 
 
 Seperti webhosting pada umumnya (shared hosting), kita buat user terpisah untuk domain `systemix.id`. Root untuk hosting kita buat pada direktori public_html.
 
@@ -57,7 +57,7 @@ sudo su
 adduser systemix
 ```
 
-## Create Web Server port 80
+## Create Web Server Port 80
 
 ```
 mkdir /home/systemix/public_html
@@ -261,7 +261,7 @@ curl https://systemix.id --cacert /home/systemix/ssl/COMODORSADomainValidationSe
 wget https://systemix.id --ca-certificate=/home/systemix/ssl/COMODORSADomainValidationSecureServerCA.crt -q -O -
 ```
 
-## Redirect port 80 ke port 443
+## Redirect Port 80 ke Port 443
 
 ```
 cd /etc/nginx/sites-available
@@ -282,7 +282,6 @@ nginx -s reload
 ```
 
 ## Reference
-https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
 
 https://support.comodo.com/index.php?/Default/Knowledgebase/Article/View/801/19/nginx-csr-generation-using-openssl
 

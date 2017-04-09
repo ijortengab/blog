@@ -52,6 +52,7 @@ Subnet Mask berdasarkan range diatas, yakni:
 | 115.178.224.0~115.178.255.255 | 115.178.224.0/19 | PT. Wireless Indonesia                           | Smartfren |
 | 120.160.0.0~120.191.255.255   | 120.160.0.0/11   | PT Indosat                                       | IM3 3G    |
 | 114.0.0.0~114.15.255.255      | 114.0.0.0/12     | PT Indosat                                       | Indosat   |
+| 202.80.208.0~202.80.223.255   | 202.80.208.0/20  | PT Dunia Informasi Teknologi                     | MNC Play  |
 
 ## Lampiran
 
@@ -67,4 +68,9 @@ IP Range,CIDR,Corporate,Product
 115.178.224.0~115.178.255.255,115.178.224.0/19,PT. Wireless Indonesia,Smartfren
 120.160.0.0~120.191.255.255,120.160.0.0/11,PT Indosat,IM3 3G
 114.0.0.0~114.15.255.255,114.0.0.0/12,PT Indosat,Indosat
+202.80.208.0~202.80.223.255,202.80.208.0/20,PT Dunia Informasi Teknologi,MNC Play
 ```
+
+## Reference
+
+http://www.tablesgenerator.com/markdown_tables
