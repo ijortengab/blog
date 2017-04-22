@@ -383,6 +383,24 @@ server {
 }
 ```
 
+Ubah PHP location dari:
+
+```
+location ~ \.php$ {
+    ...
+}
+```
+
+menjadi
+
+```
+location ~ \.php(/|$) {
+    ...
+}
+```
+
+untuk meghindari terjadinya error pada kasus `core/authorize.php/core/authorize.php` saat instalasi module melalui admin web interface.
+
 Reload nginx.
 
 ```
@@ -410,3 +428,4 @@ Selamat menikamati Drupal 8.
 
 <https://www.drupal.org/documentation/install/developers>
 
+<https://pantheon.io/blog/update-your-nginx-config-drupal-8>
