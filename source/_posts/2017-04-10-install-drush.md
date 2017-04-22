@@ -28,7 +28,7 @@ Download drush dan semua dependency-nya.
 composer require drush/drush
 ```
 
-Terakhir, buat shortcut.
+Terakhir, buat shortcut di direktori `bin`.
 
 ```
 cd ~/bin
@@ -49,7 +49,7 @@ mkdir ~/bin
 export PATH=$HOME/bin:$PATH
 ```
 
-## Test
+## Test Eksekusi
 
 ```
 which drush

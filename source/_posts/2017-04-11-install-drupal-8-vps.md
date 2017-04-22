@@ -1,7 +1,11 @@
 ---
 title: Instalasi Drupal 8 di Virtual Private Server
-draft: true
+# draft: true
 ---
+
+## Disclaimer
+
+Tulisan ini bersifat live report dan akan menyebut merek/brand tanpa pernah bermaksud untuk promosi.
 
 ## Configuration Management
 
@@ -19,14 +23,14 @@ Dari beberapa opsi environtment, diantaranya:
 
 tulisan ini akan menggunakan pilihan pertama, yakni `development` dan `production`.
 
-Drupal terdapat fitur multisite. Satu script Drupal untuk menge-host banyak website. Namun script Drupal untuk environtment production harus terpisah dengan development. Sehingga saat upgrade versi Drupal di development, tidak berdampak ke production.
+Drupal terdapat fitur multisite, satu script Drupal untuk menge-host banyak website. Fitur ini tidak disarankan digunakan untuk website antar environtment (production dan development). Perlu dipisah script antara environtment development dan production. Sampai suatu saat kita perlu mengupgrade script Drupal di development, maka akan tidak berdampak ke production.
 
 ## Domain
 
  - Production berada pada URL `https://juragan.web.id`
  - Development berada pada URL `https://devel.juragan.web.id`
 
-Setup web server untuk domain <https://juragan.web.id> diatas dapat dilihat pada [pembahasan sebelumnya]. Sementara untuk domain <https://devel.juragan.web.id> juga [telah dibahas].
+Setup web server untuk domain <https://juragan.web.id> diatas dapat dilihat pada [pembahasan sebelumnya]. Sementara untuk domain <https://devel.juragan.web.id> juga [telah dibahas] sebelumnya.
 
 
 
