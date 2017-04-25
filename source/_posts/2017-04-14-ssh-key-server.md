@@ -23,7 +23,7 @@ Cara diatas tidak aman karena menyimpan password (yakni `s3cr3t`) kedalam file t
 
 Cara yang lebih aman ialah dengan menggunakan SSH key.
 
-Login sebagai user yang akan dibuat private key-nya. Misalnya user `ijortengab`. Buat file `authorized_keys` di dalam direktori `.ssh` di dalam HOME. Kemudian tingkatkan security agar group tidak bisa edit.
+Masuk ke server dengan cara regular (input username dan password) sebagai user yang akan dibuat private key-nya. Misalnya user `ijortengab`. Buat file `authorized_keys` di dalam direktori `.ssh` di dalam HOME. Kemudian tingkatkan security agar group tidak bisa edit.
 
 ```
 cd ~
@@ -35,7 +35,11 @@ chmod g-w $HOME $HOME/.ssh $HOME/.ssh/authorized_keys
 
 ## Putty Generator
 
-Pastikan Putty yang terinstall versi lengkap satu set yang mana instalasi Putty menggunakan Windows Installer (.msi). Sehingga pada direktori instalasi terdapat program `puttygen.exe`.
+Download program `puttygen.exe` (bisa diambil dari [IjorTengab Tools][1] atau dari situs resmi <http://www.putty.org/>).
+
+Program sudah tersedia jika instalasi `putty` menggunakan versi Installer `.msi`.
+
+[1]: http://ijortengab.id/tools/
 
 Jalankan `puttygen.exe`. 
 
@@ -53,7 +57,7 @@ Tunggu sampai loading selesai sampai pair public dan private key tercipta.
 
 Block text dan copy pada fieldset Key `Public key for pasting into OpenSSH authorized_keys file:`.
 
-Kemudian paste pada file `authorized_keys` di server.
+Kemudian paste pada file `authorized_keys` di server. Satu baris untuk satu public key.
 
 ```
 su ijortengab
@@ -61,7 +65,7 @@ cd ~/.ssh
 vi authorized_keys
 ```
 
-Save public key ke dalam file misal `C:\Users\ijortengab\.ssh\ijortengab-server1.pub`.
+Save public key ke dalam file misal `C:\Users\ijortengab\.ssh\ijortengab-server1.pub` untuk tujuan backup.
 
 Save private key ke dalam file misal `C:\Users\ijortengab\.ssh\ijortengab-server1.key.ppk`.
 
