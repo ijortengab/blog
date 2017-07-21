@@ -1,0 +1,30 @@
+/**
+ * Layout
+ */
+#backdrop {
+    width:100%;
+    height:300px;
+}
+#title {
+    text-align:center;
+    padding-top:50px;
+    position: relative;
+}
+/**
+ * Style
+ */
+#backdrop::after {
+    content: "";
+    background: url("images.jpg") no-repeat center center;
+    background-size: contain;
+    opacity:0.5;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+#title {
+    color: black;
+}

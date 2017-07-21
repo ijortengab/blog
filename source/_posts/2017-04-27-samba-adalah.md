@@ -186,8 +186,18 @@ Explore file di Linux sekarang menjadi semudah explore file di Windows menggunak
 
 <img cloudinary="ijortengab.id/screenshot.799.png">
 
+## Security
+
+Untuk membatasi akses, gunakan directive `hosts allow` dan pisahkan dengan spasi. Contoh:
+
+```
+hosts allow = 10.8.0.0/24 192.168.1.100/255.255.255.0 
+```
+
 ## Reference
 
 https://www.howtogeek.com/176471/how-to-share-files-between-windows-and-linux/
 
 https://www.samba.org/samba/docs/using_samba/ch09.html
+
+https://bbs.archlinux.org/viewtopic.php?id=108500

@@ -25,6 +25,7 @@ sudo vi /etc/apt/sources.list
 ```
 
 Copas content dibawah ini dan save.
+
 ```sh
 deb http://kambing.ui.ac.id/ubuntu/ xenial main restricted universe multiverse
 deb http://kambing.ui.ac.id/ubuntu/ xenial-updates main restricted universe multiverse
@@ -38,7 +39,18 @@ Terakhir, update apt.
 sudo apt-get update
 ```
 
+## Ubuntu 14.04 LTS
+
+Untuk VPS yang masih menggunakan versi 14.04, maka gunakan source sbb:
+
+```
+deb http://kambing.ui.ac.id/ubuntu/ trusty main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ trusty-security main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ trusty-backports main restricted universe multiverse
+deb http://kambing.ui.ac.id/ubuntu/ trusty-proposed main restricted universe multiverse
+```
+
 ## Credit
 
 http://blog.antoniclianto.web.id/2012/05/daftar-repository-lokal-untuk-ubuntu.html
-

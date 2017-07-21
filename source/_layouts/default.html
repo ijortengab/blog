@@ -78,7 +78,12 @@
     $.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})
     $('img[cloudinary]').each(function () {
         var cloudinaryPath = this.attributes.cloudinary.value;
-        var $newImage = $.cloudinary.image(cloudinaryPath);
+        var options = {}
+        if (typeof this.attributes.width !=  'undefined') {
+            options.width = this.attributes.width.value;
+            options.crop = 'scale';
+        }
+        var $newImage = $.cloudinary.image(cloudinaryPath, options);
         // Copy attributes.
         $.each(this.attributes, function() {
             if (this.specified) {
