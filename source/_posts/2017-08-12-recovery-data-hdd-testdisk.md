@@ -1,5 +1,5 @@
 ---
-title: Recovery Data pada Hard Disk menggunakan TrueImage
+title: Recovery Data pada Hard Disk Drive menggunakan TestDisk
 ---
 
 ## Muqaddimah
@@ -36,9 +36,9 @@ Disk ini adalah HDD 500GB yang seluruh partisi terhapus.
 
 <img cloudinary="ijortengab.id/screenshot.960.png" width="800">
 
-## Recovery menggunakan TrueImage.
+## Recovery menggunakan TestDisk.
 
-Sebuah proyek opensource bernama "TrueImage" memiliki fitur mengembalikan partisi yang terhapus.
+Sebuah proyek opensource bernama "TestDisk" memiliki fitur mengembalikan partisi yang terhapus.
 
 Download program dari homepagenya http://www.cgsecurity.org/.
 
@@ -159,7 +159,7 @@ Pada windows shortcut untuk reboot adalah `shutdown -r -t 0`.
 
 Setelah reboot, partisi otomatis terlihat pada `My Computer` ter-mount dengan letter `J`.
 
-<img cloudinary="ijortengab.id/screenshot.992.png">
+<img cloudinary="ijortengab.id/screenshot.992.png" width="800">
 
 Alhamdulillah, data terselamatkan.
 
