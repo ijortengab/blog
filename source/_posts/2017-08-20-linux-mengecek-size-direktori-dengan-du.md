@@ -1,12 +1,13 @@
 ---
-title: Mengecek size direktori dengan du
+title: Linux - Mengecek size direktori dengan du
 ---
 
 ## DU adalah
 
-Command `ls` digunakan untuk mengecek isi dari cwd (current working directory)
-alias direktori saat ini. Terdapat beberapa parameter yang membantu keluarnya
-output yang lebih spesifik.
+Command `ls` digunakan untuk mengecek isi dari direktori. Direktori defaultnya
+adalah cwd (current working directory) alias direktori saat ini.
+
+Terdapat beberapa parameter yang membantu keluarnya output yang lebih spesifik.
 
 Contoh pada direktori home:
 
@@ -41,13 +42,13 @@ Command `du` terdapat banyak pilihan parameter dan yang saya perlu adalah:
 Dari kebutuhan diatas, maka command yang dibutuhkan adalah:
 
 ```
-du  -d 1 -h 2>/dev/null | sort -hr
+du -d 1 -h 2>/dev/null | sort -hr
 ```
 
 Contoh pada direktori home:
 
 ```
-ijortengab@ijortengab.id:~$ du  -d 1 -h 2>/dev/null | sort -hr
+ijortengab@ijortengab.id:~$ du -d 1 -h 2>/dev/null | sort -hr
 ...
 753M    ./tools
 34M     ./share
