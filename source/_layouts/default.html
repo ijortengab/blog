@@ -74,7 +74,11 @@
     <script src="{{ site.url }}/scripts/imagehosting.core.js"></script>
     <script src="{{ site.url }}/scripts/a2img.js"></script>    
     <script> a2img.init()</script>
-    {% if site.cloudinary %}<script>
+    {% if site.cloudinary %}<script src="{{ site.cdnjs.host }}/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
+    <script src="{{ site.url }}/scripts/imagehosting.extend.cloudinary.js"></script>
+    <script>$.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})</script>
+    <script>new imageHosting.setProvider('cloudinary').init();</script>
+    <script>
     $('img[cloudinary]').each(function () {
         var cloudinaryPath = this.attributes.cloudinary.value;
         var options = {}
@@ -94,11 +98,7 @@
         // Replace.
         $(this).replaceWith($newImage);
     });
-    </script>
-    <script src="{{ site.cdnjs.host }}/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
-    <script src="{{ site.url }}/scripts/imagehosting.extend.cloudinary.js"></script>
-    <script>$.cloudinary.config({ cloud_name: '{{site.cloudinary.cloud_name}}', api_key: '{{site.cloudinary.api_key}}'})</script>
-    <script>new imageHosting.setProvider('cloudinary').init();</script>
+    </script>    
     {% else %}<script>new imageHosting.setProvider('self').init();</script>
     {% endif %}
 

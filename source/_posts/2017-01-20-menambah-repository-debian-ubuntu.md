@@ -4,22 +4,24 @@ title: Menambah Repository pada Linux Debian/Ubuntu
 
 ## Muqaddimah
 
-Tiap kali menginstall Ubuntu Server 16.04 LTS pada Virtual Machine, maka yang 
-saya lakukan segera adalah mengubah repository dari default menjadi repository 
+Tiap kali menginstall Ubuntu Server 16.04 LTS pada Virtual Machine, maka yang
+saya lakukan segera adalah mengubah repository dari default menjadi repository
 lokal Indonesia.
 
 Berhubung saya dan "machine" saya berada di Jabodetabek, maka repository lokal
-yang terdekat adalah http://kambing.ui.ac.id yang berlokasi di Depok, 
-Universitas Indonesia. 
+yang terdekat adalah http://kambing.ui.ac.id yang berlokasi di Depok,
+Universitas Indonesia.
 
-## Kerja, Kerja, Kerja
+## Ubuntu 16.04
 
 Amankan file lama.
+
 ```sh
 sudo mv /etc/apt/sources.list /etc/apt/sources.list~
 ```
 
 Buat file baru.
+
 ```sh
 sudo vi /etc/apt/sources.list
 ```
@@ -35,13 +37,14 @@ deb http://kambing.ui.ac.id/ubuntu/ xenial-proposed main restricted universe mul
 ```
 
 Terakhir, update apt.
+
 ```sh
 sudo apt-get update
 ```
 
 ## Ubuntu 14.04 LTS
 
-Untuk VPS yang masih menggunakan versi 14.04, maka gunakan source sbb:
+Repository Ubuntu 14.04, maka gunakan source sbb:
 
 ```
 deb http://kambing.ui.ac.id/ubuntu/ trusty main restricted universe multiverse
@@ -51,6 +54,28 @@ deb http://kambing.ui.ac.id/ubuntu/ trusty-backports main restricted universe mu
 deb http://kambing.ui.ac.id/ubuntu/ trusty-proposed main restricted universe multiverse
 ```
 
+## Update
+
+Update 2017 09 10 Ahad.
+
+**Debian 7**
+
+```
+deb http://kambing.ui.ac.id/debian/ wheezy main contrib non-free
+deb http://kambing.ui.ac.id/debian/ wheezy-updates main contrib non-free
+deb http://kambing.ui.ac.id/debian-security/ wheezy/updates main contrib non-free
+```
+
+**Debian 9.1**
+
+```
+deb http://kambing.ui.ac.id/debian/ stretch main contrib non-free
+deb http://kambing.ui.ac.id/debian/ stretch-updates main contrib non-free
+deb http://kambing.ui.ac.id/debian-security stretch/updates main contrib non-free
+```
+
 ## Credit
 
 http://blog.antoniclianto.web.id/2012/05/daftar-repository-lokal-untuk-ubuntu.html
+
+https://www.idroot.com/mengubah-repository-debian-ke-repository-local-indonesia

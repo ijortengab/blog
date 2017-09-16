@@ -10,8 +10,8 @@
         <meta name="robots" content="index, follow">
 {% block head_meta %}
 {% endblock %}
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="{{ site.cdnjs.host }}/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{ site.cdnjs.host }}/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,8 +28,8 @@
     <body>
 {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="{{ site.cdnjs.host }}/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{{ site.cdnjs.host }}/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
 {% block scripts %}
 {% endblock %}
 {% if site.google_analytics_tracking_id %}
