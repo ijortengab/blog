@@ -11,12 +11,12 @@ Static Generator by [Sculpin][1].
 
 ## Cara Kerja
 
-1. Offline dulu Online kemudian.
+1. Offline dulu online kemudian.
 
 - Bikin blog offline via localhost.
 - Generate.
 - Lihat hasil secara offline.
-- Git pull, git push dari localhost.
+- Git pull dan git push dari localhost.
 - Rsync file static dari localhost.
 
 2. Online dulu offline kemudian.
@@ -24,7 +24,7 @@ Static Generator by [Sculpin][1].
 - Bikin blog online via server.
 - Generate.
 - Lihat hasil secara online.
-- Git pull, git push dari server.
+- Git pull dan git push dari server.
 - Rsync file static dari localhost.
 
 ## Catatan
