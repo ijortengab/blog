@@ -1,0 +1,11 @@
+sculpin_content_types:
+    projects:        
+        permalink: project/:basename/
+    posts:
+        permalink: blog/:year/:month/:day/:filename/
+        # type: path
+        # path: _projects
+        # permalink: pretty
+        # taxonomies:
+            # - tags
+            # - categori es

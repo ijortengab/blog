@@ -1,8 +1,10 @@
 IjorTengab dot id
 =====================
 
-This repository is source code of ijortengab dot id source. 
+This repository is source code of ijortengab dot id. 
 
-Generate with [Sculpin][1].
+Backup of `/var/www/ijortengab.id`.
+
+Static Generator by [Sculpin][1].
 
 [1]: https://sculpin.io

@@ -1,0 +1,4 @@
+imports:
+    - sculpin_site.yml
+cdnjs: 
+    host: http://cdnjs

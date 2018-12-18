@@ -6,5 +6,6 @@ User-agent: *
 Disallow: /blog/tags/
 Disallow: /blog/categories/
 Disallow: /tools/
+Disallow: /log/
 
 Sitemap: {{ site.url }}/sitemap.xml

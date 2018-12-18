@@ -1,13 +1,9 @@
-/vendor/
-app/
-output_*/
-source/_posts/_drafts/
-bin/
-s3.conf.dist
-s3-publish.sh
-publish.sh
-sculpin.json
-sculpin.lock
-composer.json
-composer.lock
-LICENSE
+bank/
+sculpin/
+# Pengecualian: sculpin/app/*
+tools/
+# Pengecualian: tools/_readme.txt
+static/
+# Pengecualian: static/_readme.txt
+web/
+# Pengecualian: web/_readme.txt

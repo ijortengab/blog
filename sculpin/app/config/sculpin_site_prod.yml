@@ -1,0 +1,12 @@
+imports:
+    - sculpin_site.yml
+google_analytics_tracking_id: UA-76496383-1
+
+# Insert your disqus shortname
+disqus:
+   shortname: ijortengab
+cloudinary:
+  cloud_name: ijortengab
+  api_key: 675184379558338
+cdnjs: 
+    host: https://cdnjs.cloudflare.com
