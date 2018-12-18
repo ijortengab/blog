@@ -1,9 +1,9 @@
 bank/
-sculpin/
+log/private/
 # Pengecualian: sculpin/app/*
-tools/
+tools/ 
 # Pengecualian: tools/_readme.txt
-static/
+static/ 
 # Pengecualian: static/_readme.txt
-web/
+web/ 
 # Pengecualian: web/_readme.txt
