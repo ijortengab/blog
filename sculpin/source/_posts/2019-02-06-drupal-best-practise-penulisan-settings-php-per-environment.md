@@ -1,5 +1,5 @@
 ---
-title: Drupal - Best Practise penulisan setings.php per environment
+title: Drupal - Best Practise penulisan settings.php per environment
 ---
 
 ## Pendahuluan
