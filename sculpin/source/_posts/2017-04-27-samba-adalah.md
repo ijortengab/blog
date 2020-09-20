@@ -1,6 +1,8 @@
 ---
 title: Samba - Solusi Coding Windows Linux
 layout: post_ini
+highligh_js:
+  - ini
 ---
 
 
