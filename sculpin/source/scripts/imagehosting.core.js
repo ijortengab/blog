@@ -60,7 +60,7 @@
  * Sesudah execute javascript:
  *
  * ```html
- * <img src="http://images.ijortengab.id/2017/08/foto.jpg">
+ * <a href="http://images.ijortengab.id/2017/08/foto.jpg">
  * ```
  *
  */
