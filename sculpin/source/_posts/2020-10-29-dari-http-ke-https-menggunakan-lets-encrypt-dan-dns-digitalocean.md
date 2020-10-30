@@ -133,9 +133,9 @@ EOM
 
 **certbot**
 
-[Sejak April 2020][6] `certbot` diinstall menggunakan package manager `snap`.
+[Sejak April 2020][7] `certbot` diinstall menggunakan package manager `snap`.
 
-[6]: https://community.letsencrypt.org/t/a-new-way-to-install-certbot-on-linux/120408
+[7]: https://community.letsencrypt.org/t/a-new-way-to-install-certbot-on-linux/120408
 
 ```
 apt update
