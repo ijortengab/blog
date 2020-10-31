@@ -324,7 +324,7 @@ Kita tentukan user yang berjalan pada webserver adalah user `client2` alih-alih 
 mkdir -p /var/www/client2.prod/web
 echo "Hallo World! I am Client2" > /var/www/client2.prod/web/index.html
 cd /var/www
-chown -R client1:client1 client1.prod
+chown -R client2:client2 client2.prod
 ```
 
 Buat file `/etc/nginx/sites-available/client2.systemix.id` dengan content sebagai berikut.
