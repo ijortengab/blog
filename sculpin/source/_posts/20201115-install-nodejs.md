@@ -1,8 +1,8 @@
 ---
-title: Install NodeJS di mesin Ubuntu 20.04
+title: Install Node.js di mesin Ubuntu 20.04
 ---
 
-## Sekilas tentang Node JS
+## Sekilas tentang Node.js
 
 Node.js adalah platform untuk menjalankan bahasa pemrograman Javascript di mesin server alih-alih di browser (mesin client).
 
