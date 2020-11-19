@@ -30,10 +30,6 @@ Untuk kebutuhan verifikasi, kita install juga aplikasi `watch`.
 sudo apt-get install watch
 ```
 
-Mounting kedua harddisk telah dibahas pada [artikel sebelumnya][1].
-
-[1]: /blog/
-
 ## Bash Script
 
 Untuk syncrhonize antara dua direktori tersebut gunakan perintah sebagai berikut:
