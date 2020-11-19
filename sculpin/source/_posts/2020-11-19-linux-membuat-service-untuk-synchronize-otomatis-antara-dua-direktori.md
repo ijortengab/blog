@@ -70,7 +70,7 @@ done
 
 Service pada linux adalah sebuah aplikasi (atau kumpulan aplikasi) yang berjalan secara background dan menunggu untuk digunakan sewaktu-waktu.
 
-script diatas akan kita jadikan sebagai sebuah service.
+Script diatas akan kita jadikan sebagai sebuah service.
 
 Berikut ini adalah membuat service pada mesin Ubuntu 20.04.
 
@@ -127,24 +127,26 @@ Maka pada Terminal 1 akan terlihat auto synchronize secara realtime, dari path `
 
 Untuk mengontrol service kita gunakan `systemctl`.
 
-Cek status.
+```
+systemctl x rsync-var-www.service
+```
+
+Subcommand `x` diganti dengan salah satu subcommand sbb: `status`, `start`, `stop`, `restart`, `enable`, dan `disable`.
+
+Contoh cek status.
 
 ```
 systemctl status rsync-var-www.service
 ```
 
-Subcommand `status` dapat diganti dengan `start`, `stop`, `restart`, `enable`, dan `disable`.
-
-## Check Status
-
-systemctl status rsync-var-www.service
+Output:
 
 ```
 ExecStart=/usr/local/bin/rsync-var-www.sh
 
 [Install]
 WantedBy=default.target
-root@ijortengab-Aspire-M3710:/home/ijortengab# sudo systemctl status rsync-var-www.service
+root@server:/home/ijortengab# sudo systemctl status rsync-var-www.service
 ● rsync-var-www.service
      Loaded: loaded (/etc/systemd/system/rsync-var-www.service; enabled; vendor preset: ena>
      Active: active (running) since Thu 2020-11-19 20:21:22 WIB; 2h 33min ago
