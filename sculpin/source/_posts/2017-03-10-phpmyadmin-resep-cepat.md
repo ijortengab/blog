@@ -1,5 +1,5 @@
 ---
-title: phpMyAdmin Resep Cepat Gak Pake Lama.
+title: phpMyAdmin Resep Cepat Gak Pake Lama
 ---
 
 ## Requirements

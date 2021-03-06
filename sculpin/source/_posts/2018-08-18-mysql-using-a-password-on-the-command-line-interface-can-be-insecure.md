@@ -1,5 +1,5 @@
 ---
-title: MySQL - Using a password on the command line interface can be insecure.
+title: MySQL - Using a password on the command line interface can be insecure
 ---
 
 ## Latar Belakang
