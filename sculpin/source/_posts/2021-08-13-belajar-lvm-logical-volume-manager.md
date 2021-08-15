@@ -1,12 +1,14 @@
 ---
-title: Belajar LVM (Logical Volume Manager)
+title: Belajar LVM (Logical Volume Manager) - Studi Kasus Combine Disk Drive
 ---
 
-## Contoh Kasus
+## Studi Kasus
 
-Sebuah PC Jadul, merk Acer, akan kita jadikan mini server. PC sudah terinstall Ubuntu 20.04.
+Sebuah Personal Computer (PC) jadul (jaman dulu/sudah tua), dengan merk Acer, akan kita jadikan mini server.
 
-Tiga hard disk jadul identik merk WD 80GB hasil kanibal kita mount ke PC tersebut.
+Satu `hard disk` menjadi tempat pemasangan sistem operasi Ubuntu 20.04 pada PC tersebut.
+
+Tiga `hard disk` lainnya yang identik merk WD 80GB (hasil kanibal) kita mount ke PC tersebut.
 
 Kita akan menggunakan LVM untuk menggabungkan ketiga hard disk tersebut menjadi satu partisi.
 
@@ -203,19 +205,19 @@ pvcreate /dev/sdd
 Output:
 
 ```
-root@pcacer:~# pvcreate /dev/sda
+root@pcjadul:~# pvcreate /dev/sda
   Physical volume "/dev/sda" successfully created.
 ```
 
 ```
-root@pcacer:~# pvcreate /dev/sdb
+root@pcjadul:~# pvcreate /dev/sdb
 WARNING: dos signature detected on /dev/sdb at offset 510. Wipe it? [y/n]: y
   Wiping dos signature on /dev/sdb.
   Physical volume "/dev/sdb" successfully created.
 ```
 
 ```
-root@pcacer:~# pvcreate /dev/sdd
+root@pcjadul:~# pvcreate /dev/sdd
   Physical volume "/dev/sdd" successfully created.
 ```
 
@@ -276,7 +278,7 @@ vgcreate vg00 /dev/sda /dev/sdb /dev/sdd
 Output:
 
 ```
-root@pcacer:/mnt# vgcreate vg00 /dev/sda /dev/sdb /dev/sdd
+root@pcjadul:~# vgcreate vg00 /dev/sda /dev/sdb /dev/sdd
   Volume group "vg00" successfully created
 ```
 
@@ -323,13 +325,13 @@ lvcreate -n lvname -l extent vgname
 Seluruh area pada Volume Group kita gunakan.
 
 ```
-lvcreate -n lv00 -l 100%FREE vg00
+lvcreate -n lv00 -l pvcreate /dev/sdd1100%FREE vg00
 ```
 
 Output:
 
 ```
-root@pcacer:/mnt# lvcreate -n lv00 -l 100%FREE vg00
+root@pcjadul:~# lvcreate -n lv00 -l 100%FREE vg00
   Logical volume "lv00" created.
 ```
 
@@ -342,7 +344,7 @@ Verifikasi:
   VG Name                vg00
   LV UUID                SHhzL3-iLec-AzNE-JggT-nfzH-oA0Z-FJHvGb
   LV Write Access        read/write
-  LV Creation host, time pcacer, 2021-08-13 18:03:57 +0700
+  LV Creation host, time pcjadul, 2021-08-13 18:03:57 +0700
   LV Status              available
   # open                 0
   LV Size                <223,59 GiB
@@ -365,7 +367,7 @@ mkfs.ext4 /dev/vg00/lv00
 Output:
 
 ```
-root@pcacer:/mnt# mkfs.ext4 /dev/vg00/lv00
+root@pcjadul:~# mkfs.ext4 /dev/vg00/lv00
 mke2fs 1.45.5 (07-Jan-2020)
 Creating filesystem with 58611712 4k blocks and 14655488 inodes
 Filesystem UUID: 30bac502-1c94-4f73-a263-f053f0285a07
