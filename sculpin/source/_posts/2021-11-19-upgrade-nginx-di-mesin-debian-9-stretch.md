@@ -4,7 +4,7 @@ title: Upgrade nginx di mesin Debian 9 Stretch
 
 ## Pendahuluan
 
-Mesin server kita menggunakan debian versi 9.
+Mesin server kita menggunakan Debian versi 9.
 
 ```
 root@deb9:~# cat /etc/debian_version
@@ -205,7 +205,7 @@ netstat -tapn | grep 80
 
 Hasilnya process `nginx` dan listening port 80 tidak exists.
 
-Enable.
+Enable dan start.
 
 ```
 systemctl enable nginx --now
@@ -217,12 +217,6 @@ Output:
 root@deb9:~# systemctl enable nginx --now
 Synchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable nginx
-```
-
-Start.
-
-```
-systemctl start nginx
 ```
 
 Verifikasi:
