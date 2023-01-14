@@ -1,5 +1,0 @@
----
-title: IBANK
----
-
-Under Construction
