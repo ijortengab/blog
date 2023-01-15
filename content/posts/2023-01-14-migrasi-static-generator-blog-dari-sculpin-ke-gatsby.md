@@ -362,13 +362,13 @@ Direktori local repository berada pada path:
 ~/github.com/ijortengab/blog
 ```
 
-Sementara repository Gatsby sementara berada pada path:
+Direktori repository Gatsby temporary berada pada path:
 
 ```
 /tmp/blog
 ```
 
-Kita kembalikan post content temporary, ke local repository.
+Kita kembalikan seluruh file static generator dari temporary ke local repository.
 
 ```
 cp -f /tmp/blog/.gitignore -t ~/github.com/ijortengab/blog
@@ -417,7 +417,6 @@ Commit file lainnya.
 
 ```
 git add .
-LekoArts/gatsby-starter-minimal-blog
 git commit -m "Copy file from LekoArts/gatsby-starter-minimal-blog."
 ```
 
