@@ -1,7 +1,5 @@
 ---
 title: Drupal 8 - Membuat Custom Module - part 1 - Custom Page
-slug: /blog/2018/11/13/drupal-8-custom-module-1/
-date: 2018-11-13
 ---
 
 ## Target
@@ -103,3 +101,4 @@ Kunjungi path `/ijortengab` pada browser dan hasilnya sukses.
 https://www.drupal.org/developing/modules/8
 
 https://www.drupal.org/docs/8/api
+

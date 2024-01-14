@@ -1,7 +1,5 @@
 ---
 title: Belajar LVM (Logical Volume Manager) - Studi Kasus Combine Disk Drive
-slug: /blog/2021/08/13/belajar-lvm-logical-volume-manager/
-date: 2021-08-13
 ---
 
 ## Studi Kasus
@@ -14,7 +12,7 @@ Tiga `hard disk` lainnya yang identik merk WD 80GB (hasil kanibal) kita mount ke
 
 Kita akan menggunakan LVM untuk menggabungkan ketiga hard disk tersebut menjadi satu partisi.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/IMG-20210812-WA0021-crop.jpg)
+![Screenshot.](image://ijortengab.id/2021/IMG-20210812-WA0021-crop.jpg)
 
 ## Cek Jeroan
 

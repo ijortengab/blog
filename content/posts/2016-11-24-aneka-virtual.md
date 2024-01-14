@@ -1,7 +1,5 @@
 ---
 title: Aneka Virtual di era digital
-slug: /blog/2016/11/24/aneka-virtual/
-date: 2016-11-24
 #draft: true
 ---
 

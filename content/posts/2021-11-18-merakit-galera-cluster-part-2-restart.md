@@ -1,7 +1,5 @@
 ---
 title: Merakit Galera Cluster Part 2 - Restart
-slug: /blog/2021/11/18/merakit-galera-cluster-part-2-restart/
-date: 2021-11-18
 ---
 
 ## Skenario

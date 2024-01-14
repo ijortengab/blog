@@ -1,7 +1,5 @@
 ---
 title: MySQL - Using a password on the command line interface can be insecure
-slug: /blog/2018/08/18/mysql-using-a-password-on-the-command-line-interface-can-be-insecure/
-date: 2018-08-18
 ---
 
 ## Latar Belakang

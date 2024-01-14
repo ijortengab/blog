@@ -1,7 +1,5 @@
 ---
 title: Fitur Profile pada Firefox
-slug: /blog/2016/11/21/firefox-profile/
-date: 2016-11-21
 
 ---
 

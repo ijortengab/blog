@@ -1,7 +1,5 @@
 ---
 title: Hosting Mail Server di DigitalOcean dan GMail Auto SPAM Label
-slug: /blog/2021/07/24/hosting-mail-server-di-digitalocean-dan-gmail-auto-spam-label/
-date: 2021-07-24
 ---
 
 ## Pendahuluan

@@ -1,7 +1,5 @@
 ---
 title: Drupal - Best Practise penulisan settings.php per environment
-slug: /blog/2019/02/06/drupal-best-practise-penulisan-settings-php-per-environment/
-date: 2019-02-06
 ---
 
 ## Pendahuluan

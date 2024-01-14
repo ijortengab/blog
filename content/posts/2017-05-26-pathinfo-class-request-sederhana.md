@@ -1,7 +1,5 @@
 ---
 title: Mendapatkan PathInfo dengan Class Request sederhana
-slug: /blog/2017/05/26/pathinfo-class-request-sederhana/
-date: 2017-05-26
 #draft: true
 ---
 
@@ -44,6 +42,7 @@ License: MIT License
 
 [HTTP Foundation]: http://symfony.com/components/HttpFoundation
 
+{% verbatim %}
 ```php
 namespace IjorTengab;
 
@@ -308,6 +307,8 @@ class Request {
     }
 }
 ```
+{% endverbatim %}
+
 
 
 

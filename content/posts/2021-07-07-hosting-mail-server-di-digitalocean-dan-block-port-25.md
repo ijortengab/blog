@@ -1,7 +1,5 @@
 ---
 title: Hosting Mail Server di DigitalOcean dan Block Port 25
-slug: /blog/2021/07/07/hosting-mail-server-di-digitalocean-dan-block-port-25/
-date: 2021-07-07
 ---
 
 ## Pendahuluan

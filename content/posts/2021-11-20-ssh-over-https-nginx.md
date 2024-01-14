@@ -1,7 +1,5 @@
 ---
 title: SSH bersembunyi dibalik HTTPS (SSL/TLS) menggunakan Nginx
-slug: /blog/2021/11/20/ssh-over-https-nginx/
-date: 2021-11-20
 ---
 
 ## Studi Kasus

@@ -1,7 +1,5 @@
 ---
 title: Upgrade PHP 7 di Ubuntu 14.04
-slug: /blog/2017/04/06/upgrade-php7-ubuntu-16.04/
-date: 2017-04-06
 ---
 
 ## Gerak cepat

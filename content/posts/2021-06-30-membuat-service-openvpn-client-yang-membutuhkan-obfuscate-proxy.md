@@ -1,7 +1,5 @@
 ---
 title: Membuat Service OpenVPN Client yang Membutuhkan Obfuscate Proxy
-slug: /blog/2021/06/30/membuat-service-openvpn-client-yang-membutuhkan-obfuscate-proxy/
-date: 2021-06-30
 ---
 
 ## Pertanyaan

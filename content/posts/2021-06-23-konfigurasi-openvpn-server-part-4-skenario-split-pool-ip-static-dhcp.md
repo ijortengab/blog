@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 4 Skenario Split Pool IP Static & DHCP
-slug: /blog/2021/06/23/konfigurasi-openvpn-server-part-4-skenario-split-pool-ip-static-dhcp/
-date: 2021-06-23
 ---
 
 ## Skenario Basic

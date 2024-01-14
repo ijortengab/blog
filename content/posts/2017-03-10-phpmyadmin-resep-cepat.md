@@ -1,7 +1,5 @@
 ---
 title: phpMyAdmin Resep Cepat Gak Pake Lama
-slug: /blog/2017/03/10/phpmyadmin-resep-cepat/
-date: 2017-03-10
 ---
 
 ## Requirements

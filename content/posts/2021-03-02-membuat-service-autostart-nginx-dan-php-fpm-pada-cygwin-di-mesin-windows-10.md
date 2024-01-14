@@ -1,7 +1,5 @@
 ---
 title: Membuat service autostart Nginx dan PHP-FPM pada Cygwin di Mesin Windows 10
-slug: /blog/2021/03/02/membuat-service-autostart-nginx-dan-php-fpm-pada-cygwin-di-mesin-windows-10/
-date: 2021-03-02
 ---
 
 ## Pendahuluan
@@ -16,29 +14,29 @@ Lantas bagaimanakah membuat service otomatis start Nginx dan PHP-FPM menggunakan
 
 Kunjungi website Cygwin (http://www.cygwin.com/) dan download file `setup-x86_64.exe`, kemudian jalankan.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_23.22.57.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_23.22.57.jpg)
 
 Pilih `nginx` dan `php` dengan cara mencari pada input pencarian. Lalu double click pada kolom `New` sehingga berubah dari `Skip` menjadi version terkini.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_21.49.56.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_21.49.56.jpg)
 
 Sebaiknya seluruh aplikasi `php` dan turunan-nya di-install agar tidak perlu mengulang setup.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_21.50.42.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_21.50.42.jpg)
 
 Next, dan selesaikan proses download dan instalasi.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_21.56.24.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_21.56.24.jpg)
 
 Tambahkan icon pada Desktop.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_22.09.21.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_22.09.21.jpg)
 
 ## Setup Service Cygserver
 
 Jalankan mintty dengan run as admin.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_21.59.35.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_21.59.35.jpg)
 
 Jalankan command `cygserver-config` jika belum pernah dijalankan sebelumnya.
 
@@ -66,7 +64,7 @@ file carefully. The best option for the start is to just leave it alone.
 Basic Cygserver configuration finished. Have fun!
 ```
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_22.15.35.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_22.15.35.jpg)
 
 ## Setup Service Nginx dan PHP-FPM
 
@@ -97,11 +95,11 @@ cygrunsrv --install php-fpm --path /usr/sbin/php-fpm.exe --args "--fpm-config /e
 
 Run, ketik `services.msc`, Enter.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_23.10.33.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_23.10.33.jpg)
 
 Verifikasi dengan melihat melalui Services.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_23.10.19.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_23.10.19.jpg)
 
 ## Jalankan service
 
@@ -178,7 +176,7 @@ Terlihat error, tetapi jika dilihat pada process, service Nginx sudah exists.
 tasklist.exe | grep.exe nginx
 ```
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_23.08.37.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_23.08.37.jpg)
 
 Run PHP-FPM service.
 
@@ -199,7 +197,7 @@ Verifikasi:
 tasklist.exe | grep.exe php-fpm
 ```
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_23.39.04.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_23.39.04.jpg)
 
 ## Setup Virtual Host
 
@@ -264,7 +262,7 @@ Restart Nginx.
 /usr/sbin/nginx.exe -s reload
 ```
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-02_05.06.39.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-02_05.06.39.jpg)
 
 Buat satu contoh file `.php`.
 
@@ -284,7 +282,7 @@ phpinfo();
 
 Test dengan membuka browser dan kunjungi `localhost/index.php`.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-02_05.16.20.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-02_05.16.20.jpg)
 
 Restart mesin Windows 10 untuk memastikan service autostart saat mesin dinyalakan.
 
@@ -292,7 +290,7 @@ Restart mesin Windows 10 untuk memastikan service autostart saat mesin dinyalaka
 shutdown -r -t 0
 ```
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-02_05.22.00.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-02_05.22.00.jpg)
 
 Buka browser dan kunjungi kembali `localhost/index.php`.
 

@@ -1,7 +1,5 @@
 ---
 title: Menambah Repository pada Linux Debian/Ubuntu
-slug: /blog/2017/01/20/menambah-repository-debian-ubuntu/
-date: 2017-01-20
 ---
 
 ## Muqaddimah

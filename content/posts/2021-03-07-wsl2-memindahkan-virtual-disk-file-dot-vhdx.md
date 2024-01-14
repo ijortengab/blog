@@ -1,7 +1,5 @@
 ---
 title: WSL2 - Memindahkan virtual disk (file dot vhdx)
-slug: /blog/2021/03/07/wsl2-memindahkan-virtual-disk-file-dot-vhdx/
-date: 2021-03-07
 ---
 
 ## Pertanyaan
@@ -26,17 +24,17 @@ wsl --shutdown
 
 Command Prompt:
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.17.57.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.17.57.jpg)
 
 PowerShell:
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.18.25.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.18.25.jpg)
 
 Buka Registry Editor melalui Run.
 
 Ketik `regedit` dan Enter.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.11.03.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.11.03.jpg)
 
 Copy path berikut:
 
@@ -46,7 +44,7 @@ HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Lxss
 
 dan paste di Address Bar-nya Registry Editor:
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.12.22.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.12.22.jpg)
 
 Kita akan menemukan sub `key` dibawah `Lxss` dengan format nama UUID (Universally unique identifier).
 
@@ -66,15 +64,15 @@ ke direktori lain, misalnya:
 Z:\WSL\ubuntu-20.04
 ```
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.30.02.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.30.02.jpg)
 
 Lalu pindahkan file `.vhdx` dari direktori sebelumnya ke direktori baru.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_19.33.06.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_19.33.06.jpg)
 
 Selesai dan jalankan kembali terminal untuk automatis menjalankan WSL.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-06_21.28.22.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-06_21.28.22.jpg)
 
 ## Reference
 

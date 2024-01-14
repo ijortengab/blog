@@ -1,7 +1,5 @@
 ---
 title: Keepalive pada PuTTy.exe secara CLI
-slug: /blog/2017/05/03/putty-keepalive/
-date: 2017-05-03
 ---
 
 ## Keepalive
@@ -18,7 +16,7 @@ PuTTy > Category > Connection > Sending of null packets to keep session active >
 
 Isi dengan value antara 10 sampai 30 (satuan detik). Saya prefer di angka `10`.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.820.png"></img>
+<img cloudinary="ijortengab.id/screenshot.820.png">
 
 ## Permasalahan
 
@@ -40,7 +38,7 @@ Opsi lainnya dikosongkan (atau opsi default) seperti host name, port, type, dll.
 
 Kemudian save session tersebut.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.822.png"></img>
+<img cloudinary="ijortengab.id/screenshot.822.png">
 
 ## Test
 

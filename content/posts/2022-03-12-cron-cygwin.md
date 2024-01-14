@@ -1,7 +1,5 @@
 ---
 title: Cron di Cygwin
-slug: /blog/2022/03/12/cron-cygwin/
-date: 2022-03-12
 ---
 
 ## Pendahuluan
@@ -34,7 +32,7 @@ Pastikan pada kolom New, berubah dari `Skip` menjadi version number.
 
 https://cygwin.com/setup-x86_64.exe
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-11-20_22.33.12.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-11-20_22.33.12.jpg)
 
 ## Cron Config
 
@@ -42,7 +40,7 @@ Kita akan menjalankan cron sebagai service di Windows.
 
 Jalankan Cygwin Terminal dengan priviledge administrator. (Klik kanan run as administrator).
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-11-20_22.50.48.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-11-20_22.50.48.jpg)
 
 Jalankan cron-config.
 

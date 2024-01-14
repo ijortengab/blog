@@ -1,7 +1,5 @@
 ---
 title: Membuat Repository Git Pribadi di Localhost
-slug: /blog/2017/05/12/repository-git-localhost/
-date: 2017-05-12
 ---
 
 ## Skenario

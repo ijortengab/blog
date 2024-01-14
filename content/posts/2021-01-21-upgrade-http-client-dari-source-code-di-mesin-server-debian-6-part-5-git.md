@@ -1,7 +1,5 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 5 Git
-slug: /blog/2021/01/21/upgrade-http-client-dari-source-code-di-mesin-server-debian-6-part-5-git/
-date: 2021-01-21
 ---
 
 Git membutuhkan akses `https` untuk melakukan cloning repository termasuk akses ke Github.com yang hanya mendukung protocol TLS versi >= 1.2.
@@ -451,3 +449,4 @@ Koneksi **berhasil** ke website yang menggunakan TLS versi >= 1.2 seperti github
 https://stackoverflow.com/questions/53594412/what-version-of-git-supports-tls-1-2/53604947#53604947
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+

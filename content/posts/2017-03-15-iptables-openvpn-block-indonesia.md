@@ -1,7 +1,5 @@
 ---
 title: Block akses ke VPN Server dari negara Indonesia menggunakan IPTables
-slug: /blog/2017/03/15/iptables-openvpn-block-indonesia/
-date: 2017-03-15
 # draft: true
 ---
 

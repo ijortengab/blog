@@ -1,7 +1,5 @@
 ---
 title: Mencari Image Hosting - Cloudinary dot com
-slug: /blog/2017/01/29/mencari-image-hosting-cloudinary-dot-com/
-date: 2017-01-29
 #draft: true
 ---
 
@@ -75,6 +73,7 @@ cloudinary:
 
 Pada layout utama (default.html), saya menambahkan baris code sebagai berikut:
 
+{% verbatim %}
 ```twig
 {% if site.cloudinary %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-jquery-file-upload/2.1.9/cloudinary-jquery-file-upload.min.js"></script>
@@ -97,11 +96,12 @@ $('img[cloudinary]').each(function () {
 </script>
 {% endif %}
 ```
+{% endverbatim %}
 
 Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 
 ```
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/$path_internal"></img>
+<img cloudinary="$path_internal">
 ```
 
 ## Contoh Hasil
@@ -109,12 +109,12 @@ Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 Hasil dari code ini:
 
 ```
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;"></img>
+<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
 ```
 
 adalah gambar dibawah ini:
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;"></img>
+<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
 
 ## Penutup
 

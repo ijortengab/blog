@@ -1,7 +1,5 @@
 ---
 title: Definisi PathInfo pada URL
-slug: /blog/2017/05/23/definisi-pathinfo-pada-url/
-date: 2017-05-23
 ---
 
 ## Front Controller dan Rewrite
@@ -187,7 +185,7 @@ $_SERVER["PHP_SELF"]        = "/directory/subdirectory/script.php";
 
 ## References
 
-https://github.com/symfony/http-foundation/blob/master/Request.php
+<https://github.com/symfony/http-foundation/blob/master/Request.php>
 
 [1]: https://en.wikipedia.org/wiki/Front_controller
 [2]: http://symfony.com/components/HttpFoundation

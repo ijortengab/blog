@@ -1,7 +1,5 @@
 ---
 title: CSS - Background image opacity
-slug: /blog/2017/05/02/css-background-image-opacity/
-date: 2017-05-02
 ---
 
 ## Pendahuluan
@@ -28,7 +26,7 @@ Contoh:
 
 Preview:
 
-<iframe src="/embed/css-background-image-opacity/index_1.html"></iframe>
+<iframe src="/embed/css-background-image-opacity/index_1.html" style="width:100%; height:400px;"></iframe>
 
 ## Tantangan
 
@@ -51,7 +49,7 @@ Coba kita kasih `opacity` pada `div`:
 
 Hasilnya:
 
-<iframe src="/embed/css-background-image-opacity/index_2.html"></iframe>
+<iframe src="/embed/css-background-image-opacity/index_2.html" style="width:100%; height:400px;"></iframe>
 
 Solusi tersebut  **failed**. Karena background dan text sama-sama transparant.
 
@@ -78,7 +76,7 @@ Kemudian set `position` sebagai `absolute` karena pseudo element ini akan *ditim
 
 Hasilnya:
 
-<iframe src="/embed/css-background-image-opacity/index_3.html"></iframe>
+<iframe src="/embed/css-background-image-opacity/index_3.html" style="width:100%; height:400px;"></iframe>
 
 Karena psuedo element menggunakan position absolute, maka position absolute-nya relative terhadap parent yang ber-element `position: relative`. 
 
@@ -92,7 +90,7 @@ Untuk itu beri info tambahan pada div#backdrop agar menjadi relative.
 
 Hasilnya:
 
-<iframe src="/embed/css-background-image-opacity/index.html"></iframe>
+<iframe src="/embed/css-background-image-opacity/index.html" style="width:100%; height:400px;"></iframe>
 
 ## Hasil Akhir
 
@@ -152,9 +150,10 @@ File: `style.css`
 
 ## Reference
 
-https://css-tricks.com/snippets/css/transparent-background-images/
+<https://css-tricks.com/snippets/css/transparent-background-images/>
 
-http://endlessnow.com/images/opensuse13.2.jpg
+<http://endlessnow.com/images/opensuse13.2.jpg>
+
 
 
 

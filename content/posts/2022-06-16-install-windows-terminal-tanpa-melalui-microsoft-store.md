@@ -1,7 +1,5 @@
 ---
 title: Install Windows Terminal tanpa melalui Microsoft Store
-slug: /blog/2022/06/16/install-windows-terminal-tanpa-melalui-microsoft-store/
-date: 2022-06-16
 ---
 
 ## Cygwin

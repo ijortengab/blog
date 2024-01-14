@@ -1,7 +1,5 @@
 ---
 title: Linux - Autostart script saat selesai booting
-slug: /blog/2017/09/16/linux-autostart-script-saat-selesai-booting/
-date: 2017-09-16
 ---
 
 ## Pertanyaan
@@ -48,4 +46,5 @@ Script akan run setelah reboot, baik user reguler maupun sudo.
 
 Googling: debian boot startup script
 
-https://serverfault.com/questions/735621
+<https://serverfault.com/questions/735621>
+

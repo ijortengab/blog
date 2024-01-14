@@ -1,7 +1,5 @@
 ---
 title: Install Node.js di mesin Ubuntu 20.04
-slug: /blog/2020/11/15/install-nodejs/
-date: 2020-11-15
 ---
 
 ## Sekilas tentang Node.js
@@ -102,3 +100,4 @@ https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-an
 https://heynode.com/tutorial/install-nodejs-locally-nvm
 
 https://www.gatsbyjs.com/tutorial/part-zero/#install-nodejs-for-your-appropriate-operating-system
+

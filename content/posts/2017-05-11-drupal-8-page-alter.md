@@ -1,7 +1,5 @@
 ---
 title: Drupal 8 - Page Alter
-slug: /blog/2017/05/11/drupal-8-page-alter/
-date: 2017-05-11
 ---
 
 ## Pendahuluan
@@ -102,6 +100,6 @@ Finish.
 
 ## Reference
 
-https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook
+<https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook>
 
-https://www.drupal.org/node/2187643
+<https://www.drupal.org/node/2187643>

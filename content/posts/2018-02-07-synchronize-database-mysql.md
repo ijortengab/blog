@@ -1,7 +1,5 @@
 ---
 title: Synchronize database MySQL - Gak Pake Lama
-slug: /blog/2018/02/07/synchronize-database-mysql/
-date: 2018-02-07
 ---
 
 ## Latar Belakang
@@ -238,4 +236,4 @@ ssh ${REMOTE_SSH_USER}@${REMOTE_SSH_HOST} -p ${REMOTE_SSH_PORT} $SSH_EXEC
 
 [2]: /blog/2018/01/26/mengirim-file-ke-server-di-balik-reverse-proxy-dengan-ssh-tunnel/
 
-https://stackoverflow.com/questions/425158/skip-certain-tables-with-mysqldump
+<https://stackoverflow.com/questions/425158/skip-certain-tables-with-mysqldump>

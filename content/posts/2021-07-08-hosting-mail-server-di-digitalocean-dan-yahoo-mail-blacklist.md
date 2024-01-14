@@ -1,7 +1,5 @@
 ---
 title: Hosting Mail Server di DigitalOcean dan Yahoo Mail Blacklist
-slug: /blog/2021/07/08/hosting-mail-server-di-digitalocean-dan-yahoo-mail-blacklist/
-date: 2021-07-08
 ---
 
 ## Pendahuluan
@@ -33,7 +31,7 @@ the ip is in Spamhaus's list; see https://postmaster.verizonmedia.com/error-code
 
 IP Public kita termasuk dalam blacklist Spamhaus.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-04_14.27.24.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-04_14.27.24.jpg)
 
 Solusi adalah dengan mengirim request ke Spamhaus melalui formulir online:
 
@@ -81,7 +79,7 @@ Solusi adalah dengan mengirim request ke Yahoo melalui formulir online:
 
 Lalu klik link `Yahoo Sender Support Request`.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-25_15.40.42.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-25_15.40.42.jpg)
 
 Jalan lain menuju formulir online adalah:
 
@@ -93,7 +91,7 @@ Jalan lain menuju formulir online adalah:
 
 Pada input email, masukkan alamat email yang berasal dari mail server kita (bukan dari provider lain seperti Gmail).
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-05_19.59.01.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-05_19.59.01.jpg)
 
 **Jawaban via Email**
 

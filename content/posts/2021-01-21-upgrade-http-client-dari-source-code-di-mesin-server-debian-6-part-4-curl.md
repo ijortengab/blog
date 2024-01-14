@@ -1,7 +1,5 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 4 Curl
-slug: /blog/2021/01/21/upgrade-http-client-dari-source-code-di-mesin-server-debian-6-part-4-curl/
-date: 2021-01-21
 ---
 
 ## Aplikasi Curl Sebelum Upgrade
@@ -831,3 +829,4 @@ Koneksi **berhasil** ke website yang menggunakan TLS versi >= 1.2 seperti github
 https://curl.se/docs/install.html
 
 https://github.com/curl/curl/issues/4448
+

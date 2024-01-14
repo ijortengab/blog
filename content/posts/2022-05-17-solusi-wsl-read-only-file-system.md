@@ -1,7 +1,5 @@
 ---
 title: Solusi WSL Read-only file system
-slug: /blog/2022/05/17/solusi-wsl-read-only-file-system/
-date: 2022-05-17
 ---
 
 ## Latar Belakang
@@ -148,3 +146,4 @@ wsl
 https://github.com/microsoft/WSL/issues/6220
 
 https://github.com/microsoft/WSL/issues/7433
+

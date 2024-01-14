@@ -1,7 +1,5 @@
 ---
 title: Upgrade nginx di mesin Ubuntu 18.04
-slug: /blog/2022/03/09/upgrade-nginx-di-mesin-ubuntu-18.04-bionic/
-date: 2022-03-09
 ---
 
 ## Pendahuluan

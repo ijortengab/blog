@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 5 Skenario Multiple Daemons TCP & UDP
-slug: /blog/2021/06/24/konfigurasi-openvpn-server-part-5-multiple-daemons-tcp-udp/
-date: 2021-06-24
 ---
 
 ## Skenario Basic

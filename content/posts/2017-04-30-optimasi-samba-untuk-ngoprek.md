@@ -1,7 +1,5 @@
 ---
 title: Optimasi Samba dengan VPN
-slug: /blog/2017/04/30/optimasi-samba-untuk-ngoprek/
-date: 2017-04-30
 ---
 
 Tulisan ini terkait dengan [tulisan sebelumnya][1].
@@ -34,11 +32,11 @@ Software dapat didownload di `https://live.sysinternals.com/`.
 
 Pengamatan dilakukan.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.810.edited.png"></img>
+<img cloudinary="ijortengab.id/screenshot.810.edited.png">
 
 Koneksi `System` yang mengakses port 445 ternyata mudah ngedrop jika idle selama sekitar tiga menit (Local Port berganti dari sebelumnya `xxx` menjadi `yyy`).
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.811.edited.png"></img>
+<img cloudinary="ijortengab.id/screenshot.811.edited.png">
 
 ## Solusi
 
@@ -52,11 +50,11 @@ Koneksi ke VPN dilakukan dan komputer localhost mendapat IP Address private.
 
 Mencoba konek ke file sharing windows dengan mengakses path IP Address `\\10.8.0.1` melalui `explorer.exe` dan berhasil dengan sukses.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.813.png"></img>
+<img cloudinary="ijortengab.id/screenshot.813.png">
 
 Idle selama 5 menit, kemudian kembali mengakses folder file sharing dan kali ini tanpa hambatan. Langsung tanpa proses loading seperti sebelumya.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.814.png"></img>
+<img cloudinary="ijortengab.id/screenshot.814.png">
 
 Pengamatan melalui `Tcpview.exe` memperlihatkan bahwa localport untuk mengakses server tidak mengalami perubahan. Berarti koneksi stabil.
 

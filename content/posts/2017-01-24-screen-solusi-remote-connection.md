@@ -1,7 +1,5 @@
 ---
 title: Screen sebagai solusi remote connection
-slug: /blog/2017/01/24/screen-solusi-remote-connection/
-date: 2017-01-24
 ---
 
 ## Latar Belakang

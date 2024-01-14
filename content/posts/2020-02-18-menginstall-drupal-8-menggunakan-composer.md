@@ -1,7 +1,5 @@
 ---
 title: Menginstall Drupal 8 menggunakan Composer
-slug: /blog/2020/02/18/menginstall-drupal-8-menggunakan-composer/
-date: 2020-02-18
 ---
 
 ## Official 

@@ -1,7 +1,5 @@
 ---
 title: Menjadikan environment pada Sculpin sebagai website tersendiri
-slug: /blog/2016/11/17/environment-sculpin-website/
-date: 2016-11-17
 tags:
     - sculpin
     - nginx

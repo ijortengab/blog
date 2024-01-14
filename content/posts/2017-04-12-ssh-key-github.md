@@ -1,7 +1,5 @@
 ---
 title: SSH Key untuk koneksi ke Github tanpa Password
-slug: /blog/2017/04/12/ssh-key-github/
-date: 2017-04-12
 # draft: true
 ---
 
@@ -100,11 +98,11 @@ Identity added: /home/<user>/.ssh/id_rsa (/home/<user>/.ssh/id_rsa)
 
 Masuk ke site:
 
-https://github.com/settings/keys
+<https://github.com/settings/keys>
 
 Create New Key.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.720.edited.png"></img>
+<img cloudinary="ijortengab.id/screenshot.720.edited.png">
 
 Title:
 
@@ -122,12 +120,12 @@ cat ~/.ssh/id_rsa.pub
 
 Pastekan di field Key.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.721.edited.png"></img>
+<img cloudinary="ijortengab.id/screenshot.721.edited.png">
 
 Tekan tombol [Add SSH key], dan akan muncul input-an password.
 
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.723.png"></img>
+<img cloudinary="ijortengab.id/screenshot.723.png">
 
 ## Testing your SSH connection
 

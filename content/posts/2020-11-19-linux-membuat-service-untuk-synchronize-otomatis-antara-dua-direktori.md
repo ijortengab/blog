@@ -1,7 +1,5 @@
 ---
 title: Linux - Membuat service untuk synchronize otomatis antara dua direktori
-slug: /blog/2020/11/19/linux-membuat-service-untuk-synchronize-otomatis-antara-dua-direktori/
-date: 2020-11-19
 ---
 
 ## Studi Kasus

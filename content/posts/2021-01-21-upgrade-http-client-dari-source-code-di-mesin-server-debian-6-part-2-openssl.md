@@ -1,7 +1,5 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 2 OpenSSL
-slug: /blog/2021/01/21/upgrade-http-client-dari-source-code-di-mesin-server-debian-6-part-2-openssl/
-date: 2021-01-21
 ---
 
 ## Aplikasi OpenSSL Sebelum Upgrade
@@ -202,7 +200,7 @@ Creating Makefile
 ***   OpenSSL has been successfully configured                     ***
 ***                                                                ***
 ***   If you encounter a problem while building, please open an    ***
-***   issue on GitHub https://github.com/openssl/openssl/issues  ***
+***   issue on GitHub <https://github.com/openssl/openssl/issues>  ***
 ***   and include the output from the following command:           ***
 ***                                                                ***
 ***       perl configdata.pm --dump                                ***
@@ -422,3 +420,4 @@ https://www.howtoforge.com/tutorial/how-to-install-openssl-from-source-on-linux/
 https://stackoverflow.com/questions/42828083/error-while-loading-shared-libraries-usr-local-lib64-libssl-so-1-1/47805278#47805278
 
 https://www.howtoforge.com/tutorial/how-to-install-openssl-from-source-on-linux/
+

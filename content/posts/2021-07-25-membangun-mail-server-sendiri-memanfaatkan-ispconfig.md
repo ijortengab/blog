@@ -1,7 +1,5 @@
 ---
 title: Membangun Mail Server Sendiri Memanfaatkan ISPConfig
-slug: /blog/2021/07/25/membangun-mail-server-sendiri-memanfaatkan-ispconfig/
-date: 2021-07-25
 ---
 
 ## Disclaimer
@@ -70,15 +68,15 @@ Kita tetapkan nantinya alamat untuk ISPConfig, PHPMyAdmin dan Roundcube adalah:
 
 Beli domain `build.web.id` di `RumahWeb`, selesaikan adminstrasi, kemudian masuk ke DNS Management, dan ubah name server ke `DigitalOcean`.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-23_22.56.10.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-23_22.56.10.jpg)
 
 Name server default adalah: ns1.rumahweb.com (1-4).
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-23_23.45.10.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-23_23.45.10.jpg)
 
 Kita ubah menjadi: ns1.digitalocean.com (1-3).
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-23_23.45.27.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-23_23.45.27.jpg)
 
 Verifikasi dengan `dig`.
 
@@ -116,15 +114,15 @@ Pada DigitalOcean, mengeset DNS Reverse dari IP yang didapat dari pembelian drop
 
 Tambah droplet melalui Control Panel DigitalOcean. Linux Distribution yang kita pilih adalah `Debian 10` sesuai dengan referensi utama.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_14.17.41.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_14.17.41.jpg)
 
 Beri nama droplet dengan `FQDN`, yakni: `server.build.web.id`.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_14.20.09.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_14.20.09.jpg)
 
 Jika berhasil, maka satu server tersebut sudah terdapat satu buah IP Publik.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_18.16.27.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_18.16.27.jpg)
 
 Verifikasi hostname:
 
@@ -153,7 +151,7 @@ Masuk ke Control Panel DigitalOcean, pilih menu item `API`, tambah token:
 
 Catat dan simpan informasi token tersebut.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_21.23.21.jpg)
+[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_21.23.21.jpg)
 
 Panduan manual setup ISPConfig sudah dijelaskan secara lengkap di referensi utama, pada tautan berikut:
 
@@ -170,7 +168,7 @@ bash debian10.digitalocean.sh
 
 Muncul dialog dan berikan jawaban.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-25_18.48.06.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-25_18.48.06.jpg)
 
 Execute. Proses berjalan sekitar 7 menit.
 
@@ -253,21 +251,21 @@ Trying to create... Created.
 
 Proses selesai dengan informasi credentials.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_22.10.31.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_22.10.31.jpg)
 
 ## Hasil
 
 https://cp.build.web.id
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_22.52.44.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_22.52.44.jpg)
 
 https://db.build.web.id
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_22.52.56.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_22.52.56.jpg)
 
 https://mail.build.web.id
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-07-24_22.53.04.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-24_22.53.04.jpg)
 
 Penambahan alamat email (mailbox) dari domain `build.web.id` dilakukan melalui Control Panel ISPConfig atau secara CLI (Command Line Interface) menggunakan command `isp`.
 

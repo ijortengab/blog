@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 2 Skenario Flexible Route Traffic
-slug: /blog/2021/06/21/konfigurasi-openvpn-server-part-2-skenario-flexible-route-traffic/
-date: 2021-06-21
 ---
 
 ## Skenario Basic

@@ -1,7 +1,5 @@
 ---
 title: Nginx - mengubah tampilan (theming) directory index
-slug: /blog/2021/03/01/nginx-mengubah-tampilan-theming-directory-index/
-date: 2021-03-01
 ---
 
 ## Pertanyaan
@@ -14,11 +12,11 @@ Kondisi sebelum dan sesudah adalah sebagai berikut:
 
 Sebelum:
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_09.30.14.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_09.30.14.jpg)
 
 Sesudah:
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-01_11.24.21.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_11.24.21.jpg)
 
 ## Pendahuluan
 

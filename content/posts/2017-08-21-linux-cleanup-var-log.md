@@ -1,7 +1,5 @@
 ---
 title: Linux - Cleanup direktori /var/log
-slug: /blog/2017/08/21/linux-cleanup-var-log/
-date: 2017-08-21
 ---
 
 ## Pendahuluan

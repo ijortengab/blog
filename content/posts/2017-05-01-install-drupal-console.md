@@ -1,7 +1,5 @@
 ---
 title: Install Drupal Console
-slug: /blog/2017/05/01/install-drupal-console/
-date: 2017-05-01
 ---
 
 ## Pendahuluan
@@ -96,8 +94,8 @@ drupal list
 
 ## References
 
-https://pantheon.io/drupal-8/introduction-drush-and-drupal-console
+<https://pantheon.io/drupal-8/introduction-drush-and-drupal-console>
 
-https://ffwagency.com/digital-strategies-blog/ten-things-you-need-know-about-drupal-console
+<https://ffwagency.com/digital-strategies-blog/ten-things-you-need-know-about-drupal-console>
 
-http://enzolutions.com/articles/2015/01/25/what-is-drupal-console-for-me/
+<http://enzolutions.com/articles/2015/01/25/what-is-drupal-console-for-me/>

@@ -1,7 +1,5 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 3 WGet
-slug: /blog/2021/01/21/upgrade-http-client-dari-source-code-di-mesin-server-debian-6-part-3-wget/
-date: 2021-01-21
 ---
 
 ## Aplikasi WGet Sebelum Upgrade
@@ -42,7 +40,7 @@ Link: gcc -g -O2 -D_FILE_OFFSET_BITS=64 -O2 -g -Wall /usr/lib/libssl.so
 
 Copyright (C) 2009 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later
-http://www.gnu.org/licenses/gpl.html.
+<http://www.gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -408,7 +406,7 @@ Link:
 
 Copyright (C) 2015 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later
-http://www.gnu.org/licenses/gpl.html.
+<http://www.gnu.org/licenses/gpl.html>.
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 
@@ -656,3 +654,4 @@ https://coolestguidesontheplanet.com/install-and-configure-wget-macos/
 https://serverfault.com/questions/896082/fixing-wget-certificates/896088#896088
 
 https://serverfault.com/questions/896082/fixing-wget-certificates
+

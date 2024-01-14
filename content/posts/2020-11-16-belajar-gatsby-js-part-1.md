@@ -1,7 +1,5 @@
 ---
 title: Belajar Gatsby.js - part 1 - Hello World Starter
-slug: /blog/2020/11/16/belajar-gatsby-js-part-1/
-date: 2020-11-16
 ---
 
 ## Pendahuluan
@@ -60,11 +58,11 @@ Buka browser kunjungi mesin port 8000, maka sudah muncul halaman Hello world!
 
 `http://localhost:8000`
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-11-15_5.jpg)
+![Screenshot.](image://ijortengab.id/screenshot.2020-11-15_5.jpg)
 
 Command `gatsby develop` diatas akan membuat webserver development pada port `8000` dan menjadikan terminal dalam keadaaan siaga untuk mendeteksi perubahan file source.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-11-15_6.jpg)
+![Screenshot.](image://ijortengab.id/screenshot.2020-11-15_6.jpg)
 
 Buka terminal baru dan lakukan sedikit perubahan source menggunakan `vi`.
 
@@ -90,7 +88,7 @@ Terminal yang siaga tadi akan *auto detect* perubahan file `index.js` dan kemudi
 
 Tanpa perlu melakukan refresh/reload, browser akan di-push perubahan oleh webserver development.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-11-15_7.jpg)
+![Screenshot.](image://ijortengab.id/screenshot.2020-11-15_7.jpg)
 
 Stop webserver development dengan masuk kembali ke terminal siaga tadi lalu tekan tombol keyboard `Ctrl+c`.
 
@@ -130,7 +128,7 @@ Test dengan browser.
 
 `http://localhost`
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-11-15_8.jpg)
+![Screenshot.](image://ijortengab.id/screenshot.2020-11-15_8.jpg)
 
 Website Gatsby Starter berhasil kita buat.
 

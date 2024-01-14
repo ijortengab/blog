@@ -1,7 +1,5 @@
 ---
 title: Menyembunyikan trafik dengan Obfuscate Proxy - Part 2 Protokol OpenVPN
-slug: /blog/2021/06/26/menyembunyikan-trafik-dengan-obfuscate-proxy-part-2-protokol-openvpn/
-date: 2021-06-26
 ---
 
 ## Pendahuluan

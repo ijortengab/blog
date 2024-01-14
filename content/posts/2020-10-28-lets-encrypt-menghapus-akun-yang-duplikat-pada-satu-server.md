@@ -1,7 +1,5 @@
 ---
 title: Let's Encrypt - Menghapus akun yang duplikat pada satu server
-slug: /blog/2020/10/28/lets-encrypt-menghapus-akun-yang-duplikat-pada-satu-server/
-date: 2020-10-28
 ---
 
 ## Latar Belakang

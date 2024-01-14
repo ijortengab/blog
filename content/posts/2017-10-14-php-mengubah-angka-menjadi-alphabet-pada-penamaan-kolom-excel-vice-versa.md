@@ -1,7 +1,5 @@
 ---
 title: PHP - Mengubah Angka menjadi Alphabet pada penamaan kolom Excel (vice versa)
-slug: /blog/2017/10/14/php-mengubah-angka-menjadi-alphabet-pada-penamaan-kolom-excel-vice-versa/
-date: 2017-10-14
 ---
 
 ## Pendahuluan
@@ -135,8 +133,8 @@ function alphabet_to_number($string) {
 
 ## Reference
 
-https://ryanstutorials.net/binary-tutorial/binary-conversions.php
+<https://ryanstutorials.net/binary-tutorial/binary-conversions.php>
 
-https://icesquare.com/wordpress/example-code-to-convert-a-number-to-excel-column-letter/
+<https://icesquare.com/wordpress/example-code-to-convert-a-number-to-excel-column-letter/>
 
 Google: excel convert column alphabet to number php

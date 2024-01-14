@@ -1,7 +1,5 @@
 ---
 title: Repository Pribadi - Tools
-slug: /blog/2017/03/16/repository-pribadi-tools/
-date: 2017-03-16
 ---
 
 ## Pendahuluan
@@ -96,7 +94,7 @@ Arti kode diatas adalah apapun request yang berakhiran dot exe akan dicoba melih
 
 Test dengan langsung lihat di browser, cekidot http://ijortengab.id/putty.exe. Hasilnya memuaskan, tertera pada gambar dibawah.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.593.png"></img>
+<img cloudinary="ijortengab.id/screenshot.593.png">
 
 ## Finishing
 

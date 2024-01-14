@@ -1,7 +1,5 @@
 ---
 title: Install Nginx dari Source Code di mesin Debian
-slug: /blog/2021/02/12/install-nginx-dari-source-code-di-mesin-debian/
-date: 2021-02-12
 ---
 
 ## Pendahulan

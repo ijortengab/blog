@@ -1,7 +1,5 @@
 ---
 title: Berkenalan dengan Windows Terminal
-slug: /blog/2021/03/08/berkenalan-dengan-windows-terminal/
-date: 2021-03-08
 ---
 
 ## Command Prompt, PowerShell, Mintty, dan Windows Terminal
@@ -24,11 +22,11 @@ Blog terkait:
 
 Fitur tab adalah **alasan utama** akhirnya menggunakan Windows Terminal.
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-08_08.49.32.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-08_08.49.32.jpg)
 
 Bahkan dalam satu `tab` masih dapat di-split menjadi beberapa `pane` (sub tab).
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2021/screenshot.2021-03-08_08.52.50.jpg)
+![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-08_08.52.50.jpg)
 
 ## Install
 

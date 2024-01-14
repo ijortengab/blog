@@ -1,7 +1,5 @@
 ---
 title: Merakit Galera Cluster Part 1 - Setup
-slug: /blog/2021/11/16/merakit-galera-cluster-part-1-setup/
-date: 2021-11-16
 ---
 
 ## Pendahuluan

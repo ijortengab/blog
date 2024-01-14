@@ -1,7 +1,5 @@
 ---
 title: Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH
-slug: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
-date: 2017-01-28
 ---
 
 ## Latar Belakang
@@ -85,7 +83,6 @@ $ ssh-host-config
 
 Pemilihan jawaban saya sesuaikan dengan [sumber reference][1].
 
-```
 > Should StrictModes be used? **no**
 
 Sesuai dengan penjelasan yang tertera pada terminal, maka saya melonggarkan permission dengan memilih opsi no.
@@ -105,7 +102,6 @@ Sesuai dengan penjelasan yang tertera pada terminal, maka saya melonggarkan perm
 > Please enter the password: **<password>**
 
 > Reenter: **<password>**
-```
 
 ## Konfigurasi Service SSH Daemon
 

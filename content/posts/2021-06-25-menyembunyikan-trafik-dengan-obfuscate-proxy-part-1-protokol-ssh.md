@@ -1,7 +1,5 @@
 ---
 title: Menyembunyikan trafik dengan Obfuscate Proxy - Part 1 Protokol SSH
-slug: /blog/2021/06/25/menyembunyikan-trafik-dengan-obfuscate-proxy-part-1-protokol-ssh/
-date: 2021-06-25
 ---
 
 ## Latar Belakang

@@ -1,7 +1,5 @@
 ---
 title: Dari http ke https menggunakan Let's Encrypt dan DNS DigitalOcean
-slug: /blog/2020/10/29/dari-http-ke-https-menggunakan-lets-encrypt-dan-dns-digitalocean/
-date: 2020-10-29
 ---
 
 ## Disclaimer
@@ -103,11 +101,11 @@ API DNS DigitalOcean termasuk yang [disupport oleh certbot][6]. Untuk akses API,
 
 Token dapat di-generate pada dashboard DigitalOcean pada menu Applications & API.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-10-28_3.jpg)
+[Screenshot.](image://ijortengab.id/screenshot.2020-10-28_3.jpg)
 
 Pada saat generate token, tambahkan akses "write" pada scopes.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-10-28_5.jpg)
+[Screenshot.](image://ijortengab.id/screenshot.2020-10-28_5.jpg)
 
 Jika hanya akses "read", maka saat auto validasi DNS akan gagal.
 
@@ -220,7 +218,7 @@ certbot-dns-digitalocean 1.9.0 from Certbot Project (certbot-eff✓) installed
 
 Untuk domain `systemix.id` dan wildcard subdomain `*.systemix.id` pastikan sudah terdapat A Record pada DNS DigitalOcean.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-10-29_2.jpg)
+[Screenshot.](image://ijortengab.id/screenshot.2020-10-29_2.jpg)
 
 **Website Utama**
 
@@ -536,7 +534,7 @@ certbot -i nginx \
 
 Setelah deploy SSL untuk https://client2.systemix.id, maka akses ke https://systemix.id terdapat error.
 
-[Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.2020-10-30_1.jpg)
+[Screenshot.](image://ijortengab.id/screenshot.2020-10-30_1.jpg)
 
 ```
 root@server:~# curl -L https://systemix.id -v

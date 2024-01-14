@@ -1,7 +1,5 @@
 ---
 title: Akses VPN Server via WiFi Publik (gratisan)
-slug: /blog/2017/01/30/akses-vpn-server-wifi-publik/
-date: 2017-01-30
 # draft: true
 ---
 

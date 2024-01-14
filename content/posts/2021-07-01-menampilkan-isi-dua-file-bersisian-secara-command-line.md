@@ -1,7 +1,5 @@
 ---
 title: Menampilkan Isi Dua File Bersisian Secara Command Line
-slug: /blog/2021/07/01/menampilkan-isi-dua-file-bersisian-secara-command-line/
-date: 2021-07-01
 ---
 
 ## Pendahuluan

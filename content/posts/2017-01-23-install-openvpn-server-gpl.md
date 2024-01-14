@@ -1,7 +1,5 @@
 ---
 title: Install OpenVPN Server GPL (Gak Pake Lama)
-slug: /blog/2017/01/23/install-openvpn-server-gpl/
-date: 2017-01-23
 ---
 
 ## Pendahuluan

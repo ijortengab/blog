@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 1 Skenario Basic
-slug: /blog/2021/06/20/konfigurasi-openvpn-server-part-1-skenario-basic/
-date: 2021-06-20
 ---
 
 ## Skenario Basic

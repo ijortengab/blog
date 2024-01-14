@@ -1,7 +1,5 @@
 ---
 title: Linux - Switch User Root dan ShutDown/Reboot Gak Pake Lama
-slug: /blog/2017/09/18/linux-su-shutdown-reboot-gpl/
-date: 2017-09-18
 ---
 
 ## Pendahuluan

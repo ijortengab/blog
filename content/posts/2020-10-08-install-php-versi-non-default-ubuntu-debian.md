@@ -1,7 +1,5 @@
 ---
 title: Install PHP versi non default pada Server Ubuntu/Debian
-slug: /blog/2020/10/08/install-php-versi-non-default-ubuntu-debian/
-date: 2020-10-08
 ---
 
 ## Pendahuluan

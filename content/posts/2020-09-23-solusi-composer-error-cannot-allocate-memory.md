@@ -1,7 +1,5 @@
 ---
 title: Solusi Composer Error Cannot Allocate Memory
-slug: /blog/2020/09/23/solusi-composer-error-cannot-allocate-memory/
-date: 2020-09-23
 ---
 
 ## Pendahuluan

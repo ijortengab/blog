@@ -1,7 +1,5 @@
 ---
 title: Monitoring Server menggunakan Watch dan Tail
-slug: /blog/2017/04/22/watch-tail/
-date: 2017-04-22
 ---
 
 ## Watch adalah

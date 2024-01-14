@@ -1,7 +1,5 @@
 ---
 title: PHP - Array ke Excel
-slug: /blog/2017/10/15/array-excel/
-date: 2017-10-15
 ---
 
 ## Pendahuluan

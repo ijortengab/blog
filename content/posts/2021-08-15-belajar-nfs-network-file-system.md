@@ -1,7 +1,5 @@
 ---
 title: Belajar NFS (Network File System) - Studi Kasus Create Backup
-slug: /blog/2021/08/15/belajar-nfs-network-file-system/
-date: 2021-08-15
 ---
 
 ## Studi Kasus

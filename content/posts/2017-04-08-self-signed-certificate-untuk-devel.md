@@ -1,7 +1,5 @@
 ---
 title: Self Signed Certificate untuk Website Development
-slug: /blog/2017/04/08/self-signed-certificate-untuk-devel/
-date: 2017-04-08
 # draft: true
 ---
 
@@ -23,7 +21,7 @@ Masuk kembali ke DNS Management-nya [RumahWeb]. Create Record CNAME untuk pembua
 
 [RumahWeb]: https://www.rumahweb.com/
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.655.png"></img>
+<img cloudinary="ijortengab.id/screenshot.655.png">
 
 Masuk kembali ke direktori penampungan ssl.
 
@@ -135,17 +133,17 @@ nginx -s reload
 
 Test pada browser Firefox dan Chrome. Keduanya sama-sama memberikan warning bahwa Certificate Authority tidak mereka kenal. Resiko ditanggung penumpang. 
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.712.png"></img>
+<img cloudinary="ijortengab.id/screenshot.712.png">
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.713.png"></img>
+<img cloudinary="ijortengab.id/screenshot.713.png">
 
 Karena pengguna website development terbatas hanya kepada developer dan orang-orang tertentu, maka kita lanjutkan mengunjungi website tersebut.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.714.png"></img>
+<img cloudinary="ijortengab.id/screenshot.714.png">
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.715.png"></img>
+<img cloudinary="ijortengab.id/screenshot.715.png">
 
 
 ## Reference
 
-https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
+<https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04>

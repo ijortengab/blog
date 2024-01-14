@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi NginX untuk mendapatkan PathInfo
-slug: /blog/2017/05/24/nginx-pathinfo/
-date: 2017-05-24
 ---
 
 ## Skenario
@@ -112,8 +110,8 @@ var_dump($_SERVER['PATH_INFO']);
 
 ## Reference
 
-https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/
+<https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/>
 
-http://symfony.com/doc/current/setup/web_server_configuration.html
+<http://symfony.com/doc/current/setup/web_server_configuration.html>
 
-https://stackoverflow.com/questions/12654521/why-is-nginx-is-ignoring-my-query-strings
+<https://stackoverflow.com/questions/12654521/why-is-nginx-is-ignoring-my-query-strings>

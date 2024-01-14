@@ -1,7 +1,5 @@
 ---
 title: IP Address Range dari berbagai ISP di Indonesia
-slug: /blog/2017/03/13/ip-address-range-isp-indonesia/
-date: 2017-03-13
 ---
 
 ## Pendahuluan

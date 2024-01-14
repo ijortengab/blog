@@ -1,7 +1,5 @@
 ---
 title: Drupal 8 - Membuat Custom Module - part 2 - Redirect
-slug: /blog/2018/11/16/drupal-8-custom-module-2/
-date: 2018-11-16
 ---
 
 ## Studi Kasus

@@ -1,7 +1,5 @@
 ---
 title: IPTables adalah
-slug: /blog/2017/03/14/iptables-adalah/
-date: 2017-03-14
 #draft: true
 ---
 

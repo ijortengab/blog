@@ -1,7 +1,5 @@
 ---
 title: Update Drupal 8 secara manual melalui CLI
-slug: /blog/2018/11/06/update-drupal-8-manual-cli/
-date: 2018-11-06
 ---
 
 ## Gerak Cepat

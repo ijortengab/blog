@@ -1,7 +1,5 @@
 ---
 title: Membuat function di PHP dengan parameter flag
-slug: /blog/2016/12/09/parameter-flag-fungsi-php/
-date: 2016-12-09
 ---
 ## Pendahuluan
 

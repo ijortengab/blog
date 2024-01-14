@@ -1,7 +1,5 @@
 ---
 title: Mendapatkan PathInfo dengan Symfony HTTP-Foundation
-slug: /blog/2017/05/25/pathinfo-symfony-http-foundation/
-date: 2017-05-25
 ---
 
 ## Pendahuluan

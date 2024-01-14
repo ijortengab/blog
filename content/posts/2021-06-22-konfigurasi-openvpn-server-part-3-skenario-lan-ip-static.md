@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 3 Skenario LAN & IP Static
-slug: /blog/2021/06/22/konfigurasi-openvpn-server-part-3-skenario-lan-ip-static/
-date: 2021-06-22
 ---
 
 ## Skenario Basic

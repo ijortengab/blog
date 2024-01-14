@@ -1,7 +1,5 @@
 ---
 title: Konfigurasi Nginx Drupal yang berada di dalam subdirektori
-slug: /blog/2018/01/31/konfigurasi-nginx-drupal-subdirektori/
-date: 2018-01-31
 ---
 
 ## Pertanyaan

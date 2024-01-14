@@ -1,7 +1,5 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 1 Compiler
-slug: /blog/2021/01/21/upgrade-http-client-dari-source-code-di-mesin-server-debian-6-part-1-compiler/
-date: 2021-01-21
 ---
 
 ## Kesimpulan
@@ -212,3 +210,4 @@ https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https
 https://www.globalsign.com/en/blog/ssl-vs-tls-difference
 
 https://midtrans.com/blog/time-to-upgrade-to-tls-version-1-2
+

@@ -1,7 +1,5 @@
 ---
 title: Samba - Solusi Coding Windows Linux
-slug: /blog/2017/04/27/samba-adalah/
-date: 2017-04-27
 layout: post_ini
 highligh_js:
   - ini
@@ -42,11 +40,11 @@ Setelah samba terinstall, maka harusnya server dapat diakses melalui domain atau
 
 Contoh masuk ke explorer.exe melalui Run:
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.795.png"></img>
+<img cloudinary="ijortengab.id/screenshot.795.png">
 
 `Explorer.exe` muncul dengan path `\\ijortengab.id`.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.796.png"></img>
+<img cloudinary="ijortengab.id/screenshot.796.png">
 
 Saat ini belum ada direktori sharing. Masuk kembali ke server.
 
@@ -180,15 +178,15 @@ service smbd restart
 
 Cek kembali path `\\ijortengab.id` melalui `explorer.exe`, maka akan muncul direktori sharing bernama `Tools`. 
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.797.png"></img>
+<img cloudinary="ijortengab.id/screenshot.797.png">
 
 Masuk kedalam direktori akan muncul popup untuk login, gunakan username Linux `ijortengab` dan password Samba-nya.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.798.png"></img>
+<img cloudinary="ijortengab.id/screenshot.798.png">
 
 Explore file di Linux sekarang menjadi semudah explore file di Windows menggunakan Windows Explorer (`explorer.exe`).
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.799.png"></img>
+<img cloudinary="ijortengab.id/screenshot.799.png">
 
 ## Security
 

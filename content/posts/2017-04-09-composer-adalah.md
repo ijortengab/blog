@@ -1,7 +1,5 @@
 ---
 title: Composer adalah
-slug: /blog/2017/04/09/composer-adalah/
-date: 2017-04-09
 #draft: true
 ---
 
@@ -41,7 +39,7 @@ composer [argument]
 
 Untuk mendownload file `composer.phar` secara manual yakni dengan mengunjungi link berikut:
 
-https://getcomposer.org/download/
+<https://getcomposer.org/download/>
 
 Lihat pada section Manual Download.
 

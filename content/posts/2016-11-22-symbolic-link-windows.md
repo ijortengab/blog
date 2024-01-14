@@ -1,7 +1,5 @@
 ---
 title: Membuat Symbolic Link pada Windows 7
-slug: /blog/2016/11/22/symbolic-link-windows/
-date: 2016-11-22
 ---
 
 ## Pendahuluan

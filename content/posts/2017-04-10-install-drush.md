@@ -1,7 +1,5 @@
 ---
 title: Install Drush
-slug: /blog/2017/04/10/install-drush/
-date: 2017-04-10
 #draft: true
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: Linux - Mengecek size direktori dengan du
-slug: /blog/2017/08/20/linux-mengecek-size-direktori-dengan-du/
-date: 2017-08-20
 ---
 
 ## DU adalah
@@ -73,3 +71,4 @@ alias dudidudidamdam='du -d 1 -h 2>/dev/null | sort -hr'
 ## References
 
 https://serverfault.com/questions/62411/how-can-i-sort-du-h-output-by-size
+

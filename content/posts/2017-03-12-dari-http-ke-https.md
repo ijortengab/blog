@@ -1,7 +1,5 @@
 ---
 title: Dari http ke https
-slug: /blog/2017/03/12/dari-http-ke-https/
-date: 2017-03-12
 #draft: true
 ---
 
@@ -48,7 +46,7 @@ Comodo, Inc dipilih karena terdapat opsi [free trial][4] selama 90 hari.
 
 Masuk ke DNS Management-nya Rumahweb, kemudian set `systemix.id` diarahkan ke IP VPS.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.576"></img>
+<img cloudinary="ijortengab.id/screenshot.576">
 
 ## Create User 
 
@@ -100,7 +98,7 @@ Cek di browser dan website port 80 telah live.
 curl systemix.id
 wget systemix.id -q -O -
 ```
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.577"></img>
+<img cloudinary="ijortengab.id/screenshot.577">
 
 
 ## Create Certificate 
@@ -156,7 +154,7 @@ Copy paste isi dari file systemix.csr kedalam box.
 
 Pilih **nginx** pada pertanyaan "Select the server software used to generate the CSR".
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.570"></img>
+<img cloudinary="ijortengab.id/screenshot.570">
 
 Next dan kita akan sampai pada form STEP 2. Domain Control Validation.
 
@@ -168,7 +166,7 @@ MD5 = 6720C8C58E17D6A9C3AA5F1A038947B2
 SHA-1 = D471359881F6BF35435AC1EFADFB535200C3879E
 ```
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.578"></img>
+<img cloudinary="ijortengab.id/screenshot.578">
 
 Buat file pada server root:
 
@@ -192,13 +190,13 @@ Next dan kita masuk ke Step 3: Your Corporate Details. Isi semua field yang requ
 
 Next. Tiba dihalaman Agreement. Checklist pada tickbox, dan klik tombol Continue.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.572"></img>
+<img cloudinary="ijortengab.id/screenshot.572">
 
 Tiba di halaman Complete Order. Untuk melihat status validasi certificate dapat melalui halaman client area di https://secure.comodo.net/products/frontpage.
 
 Waktu yang dibutuhkan agar certificate selesai diproses oleh Comodo hanya kurang dari dua menit jika email aktif dan sesuai. Certifikat akan dikirim via attachment serta juga tertera pada body email.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.579.edited"></img>
+<img cloudinary="ijortengab.id/screenshot.579.edited">
 
 Jika certificate telah dikirim via email, download lampirannya dan upload kembali ke dalam server folder `/home/systemix/ssl` menggunakan Ftp Client atau Scp Client.
 
@@ -247,7 +245,7 @@ nginx -s reload
 
 Cek di browser dan website port 443 telah live.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.580"></img>
+<img cloudinary="ijortengab.id/screenshot.580">
 
 Cek melalui console bila tanpa verifikasi host:
 

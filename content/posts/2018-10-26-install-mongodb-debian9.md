@@ -1,7 +1,5 @@
 ---
 title: Install Mongodb di Debian 9
-slug: /blog/2018/10/26/install-mongodb-debian9/
-date: 2018-10-26
 ---
 
 ## Gerak Cepat

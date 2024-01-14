@@ -1,7 +1,5 @@
 ---
 title: Instalasi Drupal 8 di Virtual Private Server
-slug: /blog/2017/04/11/install-drupal-8-vps/
-date: 2017-04-11
 # draft: true
 ---
 
@@ -32,7 +30,7 @@ Drupal terdapat fitur multisite, satu script Drupal untuk menge-host banyak webs
  - Production berada pada URL `https://juragan.web.id`
  - Development berada pada URL `https://devel.juragan.web.id`
 
-Setup web server untuk domain https://juragan.web.id diatas dapat dilihat pada [pembahasan sebelumnya]. Sementara untuk domain https://devel.juragan.web.id juga [telah dibahas] sebelumnya.
+Setup web server untuk domain <https://juragan.web.id> diatas dapat dilihat pada [pembahasan sebelumnya]. Sementara untuk domain <https://devel.juragan.web.id> juga [telah dibahas] sebelumnya.
 
 
 
@@ -153,7 +151,7 @@ mv public_html_devel public_html_devel~
 
 [drupal]: https://www.drupal.org/project/drupal
 
-https://ftp.drupal.org/files/projects/drupal-8.3.0.tar.gz
+<https://ftp.drupal.org/files/projects/drupal-8.3.0.tar.gz>
 
 ```
 read -p "Link Download: " -e LINK && wget $LINK && ls | grep drupal
@@ -264,11 +262,11 @@ service php7.0-fpm restart
 
 Buka website via browser dan jalankan instalasi.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.716.png"></img>
+<img cloudinary="ijortengab.id/screenshot.716.png">
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.717.png"></img>
+<img cloudinary="ijortengab.id/screenshot.717.png">
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.718.png"></img>
+<img cloudinary="ijortengab.id/screenshot.718.png">
 
 ### Development
 
@@ -299,7 +297,7 @@ Congratulations, you installed Drupal!                                          
 
 Finish dan lihat di browser, website Drupal Development.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.719.png"></img>
+<img cloudinary="ijortengab.id/screenshot.719.png">
 
 ## Nginx Configuration
 
@@ -420,14 +418,14 @@ Selamat menikamati Drupal 8.
 [composer]: /blog/2017/04/09/install-composer/
 [drush]: /blog/2017/04/10/install-drush/
 
-http://stackoverflow.com/questions/1135245/how-to-get-a-list-of-mysql-user-accounts
+<http://stackoverflow.com/questions/1135245/how-to-get-a-list-of-mysql-user-accounts>
 
-https://dev.mysql.com/doc/refman/5.7/en/adding-users.html
+<https://dev.mysql.com/doc/refman/5.7/en/adding-users.html>
 
-https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/
+<https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/>
 
-https://www.scalescale.com/tips/nginx/504-gateway-time-out-using-nginx/
+<https://www.scalescale.com/tips/nginx/504-gateway-time-out-using-nginx/>
 
-https://www.drupal.org/documentation/install/developers
+<https://www.drupal.org/documentation/install/developers>
 
-https://pantheon.io/blog/update-your-nginx-config-drupal-8
+<https://pantheon.io/blog/update-your-nginx-config-drupal-8>

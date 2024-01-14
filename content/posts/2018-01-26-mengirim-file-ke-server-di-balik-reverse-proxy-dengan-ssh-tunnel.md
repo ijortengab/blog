@@ -1,7 +1,5 @@
 ---
 title: Mengirim file ke server di balik reverse proxy dengan SSH tunnel
-slug: /blog/2018/01/26/mengirim-file-ke-server-di-balik-reverse-proxy-dengan-ssh-tunnel/
-date: 2018-01-26
 ---
 
 ## Pertanyaan
@@ -34,6 +32,6 @@ File `sql.db` telah tiba di server tujuan yang berada di balik reverse proxy.
 
 Google query: "rsync ssh tunnel"
 
-https://stackoverflow.com/questions/16654751/rsync-through-ssh-tunnel
+<https://stackoverflow.com/questions/16654751/rsync-through-ssh-tunnel>
 
-https://linux.die.net/man/1/scp
+<https://linux.die.net/man/1/scp>

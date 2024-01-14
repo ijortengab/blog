@@ -1,7 +1,5 @@
 ---
 title: SSH Key untuk koneksi ke Server tanpa Password - 2
-slug: /blog/2017/09/14/ssh-key-server-2/
-date: 2017-09-14
 ---
 
 ## Pendahuluan
@@ -310,6 +308,7 @@ $ chmod 600 .ssh/id_rsa
 [2]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
 [3]: /blog/2017/04/14/ssh-key-server/
 
-https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
+<https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/>
 
-https://serverfault.com/questions/690855/check-the-fingerprint-for-the-ecdsa-key-sent-by-the-remote-host
+<https://serverfault.com/questions/690855/check-the-fingerprint-for-the-ecdsa-key-sent-by-the-remote-host>
+

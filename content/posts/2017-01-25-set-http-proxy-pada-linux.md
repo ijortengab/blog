@@ -1,7 +1,5 @@
 ---
 title: Set HTTP Proxy pada Linux
-slug: /blog/2017/01/25/set-http-proxy-pada-linux/
-date: 2017-01-25
 ---
 
 Proxy yang dimaksud pada tulisan ini adalah **forward proxy server**. Mengingat saat ini sudah ada versi terbalik dari proxy yakni **reverse-proxy**.

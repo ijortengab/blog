@@ -1,7 +1,5 @@
 ---
 title: SSH Key untuk koneksi ke Server tanpa Password
-slug: /blog/2017/04/14/ssh-key-server/
-date: 2017-04-14
 ---
 
 ## Shortcut
@@ -17,7 +15,7 @@ Sesuaikan variable diatas dengan value aktual, lalu save dengan nama file `login
 
 Eksekusi file `login.bat` maka Putty muncul dalam keadaan sudah login dan siap digunakan.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.749.png"></img>
+<img cloudinary="ijortengab.id/screenshot.749.png">
 
 ## Ada cara yang lebih aman?
 
@@ -37,7 +35,7 @@ chmod g-w $HOME $HOME/.ssh $HOME/.ssh/authorized_keys
 
 ## Putty Generator
 
-Download program `puttygen.exe` (bisa diambil dari [IjorTengab Tools][1] atau dari situs resmi http://www.putty.org/).
+Download program `puttygen.exe` (bisa diambil dari [IjorTengab Tools][1] atau dari situs resmi <http://www.putty.org/>).
 
 Program sudah tersedia jika instalasi `putty` menggunakan versi Installer `.msi`.
 
@@ -45,7 +43,7 @@ Program sudah tersedia jika instalasi `putty` menggunakan versi Installer `.msi`
 
 Jalankan `puttygen.exe`. 
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.750.png"></img>
+<img cloudinary="ijortengab.id/screenshot.750.png">
 
 Pada input `Number of bits in a generated key:` masukkan value `2048`. 
 
@@ -53,7 +51,7 @@ Pada input `Type of key to generate:` pilih value `SSH-2-RSA`.
 
 Klik tombol Generate. Putar-putar cursor mouse di blank area fieldset `Key` agar tecipta random string.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.752.png"></img>
+<img cloudinary="ijortengab.id/screenshot.752.png">
 
 Tunggu sampai loading selesai sampai pair public dan private key tercipta. 
 
@@ -73,7 +71,7 @@ Save private key ke dalam file misal `C:\Users\ijortengab\.ssh\ijortengab-server
 
 Passphrase kita kosongkan saja.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.753.png"></img>
+<img cloudinary="ijortengab.id/screenshot.753.png">
 
 ## Finishing
 
@@ -84,7 +82,7 @@ cd "C:\Program Files (x86)\PuTTY"
 start putty.exe 1.2.3.4 -l ijortengab -i "C:\Users\ijortengab\.ssh\ijortengab-server1.key.ppk"
 ```
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.754.png"></img>
+<img cloudinary="ijortengab.id/screenshot.754.png">
 
 Eksekusi file `login.bat` maka Putty muncul dalam keadaan sudah login dan siap digunakan.
 
@@ -99,3 +97,4 @@ Eksekusi file `login.bat` maka Putty muncul dalam keadaan sudah login dan siap d
 http://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter8.html
 
 http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+

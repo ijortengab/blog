@@ -1,7 +1,5 @@
 ---
 title: Upgrade nginx di mesin Debian 9 Stretch
-slug: /blog/2021/11/19/upgrade-nginx-di-mesin-debian-9-stretch/
-date: 2021-11-19
 ---
 
 ## Pendahuluan

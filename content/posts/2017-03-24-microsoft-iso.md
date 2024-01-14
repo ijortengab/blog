@@ -1,13 +1,11 @@
 ---
 title: Microsoft (Windows + Office) ISO Files
-slug: /blog/2017/03/24/microsoft-iso/
-date: 2017-03-24
 # draft: true
 ---
 
 Halaman utama untuk mendownload file ISO dari product Microsoft  (Windows dan Office) adalah:
 
-https://www.microsoft.com/en-us/software-download/
+<https://www.microsoft.com/en-us/software-download/>
 
 Untuk bisa mengakses file ISO tersebut, memerlukan product key yang valid.
 
@@ -15,7 +13,7 @@ Programmer yang baik hati [telah membuat tools][1] untuk mempermudah download fi
 
 [1]: https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool?showall=1
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.616.png" title="Screenshot tampilan dari tools tersebut."></img>
+<img cloudinary="ijortengab.id/screenshot.616.png" title="Screenshot tampilan dari tools tersebut.">
 
 > This tool allows an easy and comfortable way to download genuine Windows 7, Windows 8.1 and Windows 10 disk images (ISO) directly from Microsoft's servers, as well as Office 2007, Office 2010, Office 2013, Office 2016, and Office 2011 for Mac.
 >
@@ -24,7 +22,7 @@ Programmer yang baik hati [telah membuat tools][1] untuk mempermudah download fi
 
 Tools tersebut telah saya amankan di Repository Tools dengan link sebagai berikut:
 
-http://ijortengab.id/tools/Windows%20ISO%20Downloader.exe
+<http://ijortengab.id/tools/Windows%20ISO%20Downloader.exe>
 
 
 

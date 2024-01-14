@@ -1,7 +1,5 @@
 ---
 title: Solusi temporary file system pada Cygwin menggunakan ImDisk
-slug: /blog/2022/06/07/solusi-temporary-file-system-pada-cygwin-menggunakan-imdisk/
-date: 2022-06-07
 ---
 
 ## ImDisk
@@ -39,7 +37,7 @@ imdisk -d -m R:
 
 Hasil benchmark:
 
-![Screenshot.](https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/2022/screenshot.2022-06-07_12.32.12.jpg)
+![Screenshot.](image://ijortengab.id/2022/screenshot.2022-06-07_12.32.12.jpg)
 
 Kecepatan hingga Gigabyte per second yang membuktikan bahwa RAM Disk berjalan normal.
 

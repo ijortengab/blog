@@ -1,7 +1,5 @@
 ---
 title: Hiren Boot USB
-slug: /blog/2017/07/20/hiren-boot-usb/
-date: 2017-07-20
 ---
 
 ## Pendahuluan
@@ -32,7 +30,7 @@ Colok USB Flash Drive.
 
 Jalankan binary `usb_format.exe` run as admin. Format Flash disk dengan FileSystem FAT32, centang QuickFormat.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.947.png"></img>
+<img cloudinary="ijortengab.id/screenshot.947.png">
 
 Jalankan binary `grubinst_gui.exe`.
 
@@ -42,11 +40,11 @@ Tekan tombol Refresh disamping field Part List hingga muncul options pada field 
 
 Tekan tombol Install.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.917.png"></img>
+<img cloudinary="ijortengab.id/screenshot.917.png">
 
 Muncul command prompt, tekan ENTER untuk melanjutkan.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.918.png"></img>
+<img cloudinary="ijortengab.id/screenshot.918.png">
 
 Mount file dot ISO `Hiren's.BootCD.15.2.iso` ke salah satu Virtual CD Drive atau extract file dot ISO tersebut.
 
@@ -56,7 +54,7 @@ Kemudian masuk ke folder `HBCD`, copy file `grldr` dan `menu.lst` ke folder satu
 
 Sehingga hasil akhir seperti terlihat pada gambar dibawah ini.
 
-<img src="https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/screenshot.948.png"></img>
+<img cloudinary="ijortengab.id/screenshot.948.png">
 
 ## Finish
 

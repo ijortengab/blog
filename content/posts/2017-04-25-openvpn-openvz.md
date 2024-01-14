@@ -1,7 +1,5 @@
 ---
 title: Install OpenVPN Server di VPS OpenVZ
-slug: /blog/2017/04/25/openvpn-openvz/
-date: 2017-04-25
 ---
 
 ## Disclaimer
@@ -142,13 +140,13 @@ Secara otomatis rules baru `iptables` telah terbuat secara permanent. Client pun
 
 ## Reference
 
-http://askubuntu.com/questions/747023/systemd-fails-to-start-openvpn-in-lxd-managed-16-04-container
+<http://askubuntu.com/questions/747023/systemd-fails-to-start-openvpn-in-lxd-managed-16-04-container>
 
-http://serverfault.com/questions/307059/openvpn-server-running-on-openvz-how-to-write-iptables-rule-without-masquerade
+<http://serverfault.com/questions/307059/openvpn-server-running-on-openvz-how-to-write-iptables-rule-without-masquerade>
 
-https://openvpn.net/index.php/access-server/docs/admin-guides/186-how-to-run-access-server-on-a-vps-container.html
+<https://openvpn.net/index.php/access-server/docs/admin-guides/186-how-to-run-access-server-on-a-vps-container.html>
 
-http://serverfault.com/q/307059/
+<http://serverfault.com/q/307059/>
 
 ## Lampiran Debug
 
