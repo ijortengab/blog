@@ -1,7 +1,5 @@
 ---
 title: Migrasi Static Generator Blog dari Sculpin ke Gatsby
-slug: blog/2023/01/14/migrasi-static-generator-blog-dari-sculpin-ke-gatsby
-date: 2023-01-14
 ---
 
 ## Pendahulan
@@ -76,6 +74,7 @@ rm -rf content/posts/*
 
 Kita buat script PHP `gak-pake-lama.php` untuk menginject informasi `slug` dan `date`.
 
+{% verbatim %}
 ```
 #!/usr/bin/env php
 <?php
@@ -112,6 +111,7 @@ foreach ($list as $file) {
     }
 }
 ```
+{% endverbatim %}
 
 Taruh file di PATH, dan pastikan dapat di execute:
 
@@ -176,55 +176,71 @@ Expected a closing tag for `<hostname>` (97:39-97:49) before the end of `paragra
 
 Perlu kita jadikan sebagai code block. Preview:
 
+{% verbatim %}
 ```
 sed -e '107i ```' -e '88i ```' 2017-01-28-windows-rasa-linux-cygwin-openssh-server.md
 ```
+{% endverbatim %}
 
 Eksekusi:
 
+{% verbatim %}
 ```
 sed -e '107i ```' -e '88i ```' -i 2017-01-28-windows-rasa-linux-cygwin-openssh-server.md
 ```
+{% endverbatim %}
 
 Terdapat metadata `date` yang double:
 
+{% verbatim %}
 ```
 grep -rn -E '^date: ....-..-.. ..:..'
 ```
+{% endverbatim %}
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -e "/date: ....-..-.. ..:../d" 2015-04-19-path-cli.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E 'date: ....-..-.. ..:..' | while IFS= read line; do \
     sed -e "/date: ....-..-.. ..:../d" -i "$line"
 done
 ```
+{% endverbatim %}
 
 Terdapat karakter Twig yang bentrok dengan JSX.
 
+{% verbatim %}
 ```
 grep -rn '%\s.*verbatim\s%'
 ```
+{% endverbatim %}
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -e "/%\s.*verbatim\s%/d" 2017-05-26-pathinfo-class-request-sederhana.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l '%\s.*verbatim\s%' | while IFS= read line; do \
     sed -e "/%\s.*verbatim\s%/d" -i "$line"
 done
 ```
+{% endverbatim %}
 
 Terdapat kesalahan pada link.
 
@@ -234,17 +250,21 @@ grep -rn -E '<http[^>]+>'
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -E 's|<http([^>]+)>|http\1|g' 2017-04-11-install-drupal-8-vps.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E '<http[^>]+>' | while IFS= read line; do \
     sed -E 's|<http([^>]+)>|http\1|g' -i "$line"
 done
 ```
+{% endverbatim %}
 
 Attribute HTML `cloudinary` yang dimanipulasi dengan javascript, untuk sementara diubah menjadi absolute path.
 
@@ -254,85 +274,109 @@ grep -rn -E 'cloudinary="([^"]+)"'
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -E 's|cloudinary="([^"]+)"|src="https://res.cloudinary.com/ijortengab/image/upload/v1/\1"|g' \
     2017-07-21-hapus-password-windos-7.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E 'cloudinary="([^"]+)"' | while IFS= read line; do \
     sed -E 's|cloudinary="([^"]+)"|src="https://res.cloudinary.com/ijortengab/image/upload/v1/\1"|g' -i "$line"
 done
 ```
+{% endverbatim %}
 
 Link screenshot yang juga dimanipulasi dengan javascript, untuk sementara dikembalikan menjadi absolute path.
 
+{% verbatim %}
 ```
 grep -rn -E '\(image://ijortengab\.id/[^)]+\)'
 ```
+{% endverbatim %}
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -E "s|\(image://ijortengab\.id/([^)]+)\)|(https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/\1)|g" \
     2017-08-25-vm-install-ubuntu-server-16-04.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E '\(image://ijortengab\.id/[^)]+\)' | while IFS= read line; do \
     sed -E "s|\(image://ijortengab\.id/([^)]+)\)|(https://res.cloudinary.com/ijortengab/image/upload/v1/ijortengab.id/\1)|g" -i "$line"
 done
 ```
+{% endverbatim %}
 
 Tag HTML `<img>` memerlukan penutup.
 
+{% verbatim %}
 ```
 grep -rn -E '<img[^>]+>'
 ```
+{% endverbatim %}
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -E 's|<img([^>]+)>|<img\1></img>|g' 2017-05-03-putty-keepalive.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E '<img[^>]+>' | while IFS= read line; do \
     sed -E 's|<img([^>]+)>|<img\1></img>|g' -i "$line"
 done
 ```
+{% endverbatim %}
 
 Attribute `style` pada tag `img` mengakibatkan error sbb:
 
+{% verbatim %}
 ```
 The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
 ```
+{% endverbatim %}
 
 Kita hapus saja.
 
+{% verbatim %}
 ```
 grep -E -rn ' style="[^"]+"'
 ```
+{% endverbatim %}
 
 Preview hasil pada satu file.
 
+{% verbatim %}
 ```
 sed -E 's| style="[^"]+"||g' 2017-08-12-recovery-data-hdd-testdisk.md
 ```
+{% endverbatim %}
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 grep -r -l -E ' style="[^"]+"' | while IFS= read line; do \
     sed -E 's| style="[^"]+"||g' -i "$line"
 done
 ```
+{% endverbatim %}
 
 Hapus character Carriage Return (CR).
 
@@ -348,11 +392,13 @@ cat 2015-04-09-thinkpad-x220.md | sed 's/\r$//' | cat
 
 Eksekusi massal.
 
+{% verbatim %}
 ```
 ls | while IFS= read line; do
     sed 's/\r$//' -i "$line"
 done
 ```
+{% endverbatim %}
 
 ## Commit content
 
