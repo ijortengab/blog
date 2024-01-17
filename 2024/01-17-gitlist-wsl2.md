@@ -7,26 +7,29 @@ tags:
 
 ## Pendahulan
 
-Gitlist adalah web application untuk sekedar melihat repository git menggunakan
-browser.
+Gitlist adalah web application untuk explore repository git menggunakan
+browser dengan tampilan yang mirip seperti Github.com.
 
-Repository bare tidak bisa di browse.
+Hanya repository normal yang dapat di-explore, repository bare tidak bisa
+di-explore.
 
 ## Konvensi
 
-Kita sepakati dimana source code web aplikasi berada pada path:
+Sebelum install, kita sepakati beberapa variable.
 
-```
+Source code web aplikasi berada pada path:
+
+```plaintext
 /usr/local/share/<project>/<version>/
 ```
 
 **Direktori Repository**
 
-Pada tulisan ini, user regular Linux yang akan digunakan adalah `ijortengab`.
+User regular Linux yang akan digunakan adalah `ijortengab`.
 
-Buat direktori `repositories`.
+Direktori yang berisi repository, kita set berada di `~/repositories`.
 
-```
+```sh
 cd
 mkdir -p repositories
 ```
@@ -41,14 +44,14 @@ Setting DNS Local pada Windows Host.
 
 Buka dialog RUN. Ketik:
 
-```
+```sh
 notepad C:\Windows\System32\drivers\etc\hosts
 ```
 
 Lalu tekan CTRL+SHIFT+ENTER agar run as admin. Notepad terbuka, lalu append
 value berikut:
 
-```
+```sh
 127.0.0.1 gitlist.localhost
 ```
 
@@ -56,27 +59,27 @@ value berikut:
 
 Masuk ke WSL2 sebagai root. Buka dialog RUN. Ketik:
 
-```
+```sh
 wsl -u root
 ```
 
 [Release](https://github.com/klaussilveira/gitlist/releases) terbaru gitlist
 adalah versi `2.0.0` dimana membutuhkan PHP versi 8.1. Maka:
 
-```
+```sh
 apt update
 apt install nginx php8.1-fpm php8.1-cli
 ```
 
 Kita set agar PHP-CLI menggunakan versi 8.1 juga.
 
-```
+```sh
 update-alternatives --config php
 ```
 
 Output:
 
-```
+```sh
 There are 3 choices for the alternative php (providing /usr/bin/php).
 
   Selection    Path             Priority   Status
@@ -94,20 +97,20 @@ update-alternatives: using /usr/bin/php8.1 to provide /usr/bin/php (php) in manu
 
 Pastikan command npm telah exists.
 
-```
+```sh
 which npm
 ```
 
 Jika tidak ada, maka:
 
-```
+```sh
 cd
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 ```
 
 Tambahkan pada current shell:
 
-```
+```sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -115,26 +118,26 @@ export NVM_DIR="$HOME/.nvm"
 
 Check npm terbaru.
 
-```
+```sh
 nvm ls-remote
 ```
 
 Install versi 20.
 
-```
+```sh
 nvm install 20
 ```
 
 **Setup PHP-FPM**
 
-```
+```sh
 cd /etc/php/8.1/fpm/pool.d
 vi ijortengab.conf
 ```
 
 Content:
 
-```
+```ini
 [ijortengab]
 user = ijortengab
 group = ijortengab
@@ -150,7 +153,7 @@ pm.max_spare_servers = 3
 
 Restart.
 
-```
+```sh
 /etc/init.d/php8.1-fpm restart
 ```
 
@@ -158,7 +161,7 @@ Restart.
 
 **Download Gitlist**
 
-```
+```sh
 mkdir -p /usr/local/share/gitlist/2.0.0/
 cd       /usr/local/share/gitlist/2.0.0/
 git clone https://github.com/klaussilveira/gitlist/ . # End line with dot
@@ -168,21 +171,21 @@ git clone https://github.com/klaussilveira/gitlist/ . # End line with dot
 
 Install.
 
-```
+```sh
 cd /usr/local/share/gitlist/2.0.0/
 npm install
 ```
 
 Kemudian build. Proses akan berlangsung lama (5 menit).
 
-```
+```sh
 cd /usr/local/share/gitlist/2.0.0/
 npm run build
 ```
 
 Output:
 
-```
+```plaintext
  DONE  Compiled successfully in 324479ms
 ```
 
@@ -192,13 +195,13 @@ User dari process PHP-FPM adalah `ijortengab`.
 
 Change owner.
 
-```
+```sh
 chown -R ijortengab:ijortengab /usr/local/share/gitlist/2.0.0/
 ```
 
 Jalankan composer sebagai user `ijortengab`.
 
-```
+```sh
 cd /usr/local/share/gitlist/2.0.0/
 sudo -u ijortengab HOME=/home/ijortengab composer install
 ```
@@ -207,14 +210,14 @@ sudo -u ijortengab HOME=/home/ijortengab composer install
 
 Masuk ke nginx.
 
-```
+```sh
 cd /etc/nginx/sites-available/
 vi gitlist.localhost
 ```
 
 Content:
 
-```
+```nginx
 server {
     listen 80;
     listen [::]:80;
@@ -253,7 +256,7 @@ server {
 
 Buat symlink, dan reload.
 
-```
+```sh
 cd ../sites-enabled/
 ln -sf ../sites-available/gitlist.localhost
 nginx -s reload
@@ -261,14 +264,14 @@ nginx -s reload
 
 **Setup Gitlist**
 
-```
+```sh
 cd /usr/local/share/gitlist/2.0.0/
 vi config/config.yml
 ```
 
 Ubah value:
 
-```
+```yml
 parameters:
   default_repository_dir: /home/ijortengab/repositories
 ```
@@ -277,7 +280,7 @@ parameters:
 
 Pastikan nginx dan PHP-FPM daemon berjalan.
 
-```
+```sh
 /etc/init.d/nginx start
 /etc/init.d/php8.1-fpm start
 ```
