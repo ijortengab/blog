@@ -1,5 +1,8 @@
 ---
 title: SSH bersembunyi dibalik HTTPS (SSL/TLS) menggunakan Nginx
+tags:
+  - ssh
+  - nginx
 ---
 
 ## Studi Kasus

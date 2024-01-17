@@ -1,5 +1,8 @@
 ---
 title: Hosting Mail Server di DigitalOcean dan GMail Auto SPAM Label
+tags:
+  - mail-server
+  - digitalocean
 ---
 
 ## Pendahuluan

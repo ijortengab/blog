@@ -1,5 +1,7 @@
 ---
 title: Merakit Galera Cluster Part 2 - Restart
+tags:
+  - galera-cluster
 ---
 
 ## Skenario

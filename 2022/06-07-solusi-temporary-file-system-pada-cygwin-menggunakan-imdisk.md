@@ -1,5 +1,7 @@
 ---
 title: Solusi temporary file system pada Cygwin menggunakan ImDisk
+tags:
+  - cygwin
 ---
 
 ## ImDisk

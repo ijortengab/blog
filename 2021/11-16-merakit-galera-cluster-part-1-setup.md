@@ -1,5 +1,7 @@
 ---
 title: Merakit Galera Cluster Part 1 - Setup
+tags:
+  - galera-cluster
 ---
 
 ## Pendahuluan

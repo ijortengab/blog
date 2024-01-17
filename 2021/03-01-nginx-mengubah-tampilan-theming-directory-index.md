@@ -1,5 +1,7 @@
 ---
 title: Nginx - mengubah tampilan (theming) directory index
+tags:
+  - nginx
 ---
 
 ## Pertanyaan

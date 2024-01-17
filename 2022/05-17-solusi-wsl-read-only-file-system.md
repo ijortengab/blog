@@ -1,5 +1,7 @@
 ---
 title: Solusi WSL Read-only file system
+tags:
+  - wsl2
 ---
 
 ## Latar Belakang

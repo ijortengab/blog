@@ -1,5 +1,7 @@
 ---
 title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 4 Curl
+tags:
+  - debian6
 ---
 
 ## Aplikasi Curl Sebelum Upgrade

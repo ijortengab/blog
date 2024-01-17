@@ -1,5 +1,7 @@
 ---
 title: Belajar NFS (Network File System) - Studi Kasus Create Backup
+tags:
+  - nfs
 ---
 
 ## Studi Kasus

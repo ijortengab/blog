@@ -1,5 +1,7 @@
 ---
 title: WSL2 - Memindahkan virtual disk (file dot vhdx)
+tags:
+  - wsl2
 ---
 
 ## Pertanyaan

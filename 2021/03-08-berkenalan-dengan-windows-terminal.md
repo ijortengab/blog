@@ -1,5 +1,7 @@
 ---
 title: Berkenalan dengan Windows Terminal
+tags:
+  - wt
 ---
 
 ## Command Prompt, PowerShell, Mintty, dan Windows Terminal

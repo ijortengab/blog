@@ -1,5 +1,7 @@
 ---
 title: Install Windows Terminal tanpa melalui Microsoft Store
+tags:
+  - wt
 ---
 
 ## Cygwin

@@ -1,5 +1,7 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 4 Skenario Split Pool IP Static & DHCP
+tags:
+  - openvpn
 ---
 
 ## Skenario Basic

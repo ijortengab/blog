@@ -1,5 +1,7 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 1 Skenario Basic
+tags:
+  - openvpn
 ---
 
 ## Skenario Basic

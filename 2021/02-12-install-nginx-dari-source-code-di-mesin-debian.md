@@ -1,5 +1,7 @@
 ---
 title: Install Nginx dari Source Code di mesin Debian
+tags:
+  - nginx
 ---
 
 ## Pendahulan

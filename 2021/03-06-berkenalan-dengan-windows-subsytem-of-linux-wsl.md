@@ -1,5 +1,7 @@
 ---
 title: Berkenalan dengan Windows Subsytem of Linux (WSL)
+tags:
+  - wsl2
 ---
 
 ## Pendahuluan

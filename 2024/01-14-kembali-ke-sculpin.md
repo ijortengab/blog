@@ -1,5 +1,8 @@
 ---
 title: Kembali ke Sculpin dari Gatsby
+tags:
+  - sculpin
+  - gatsby
 ---
 
 ## Pendahulan

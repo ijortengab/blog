@@ -1,5 +1,9 @@
 ---
 title: Membuat service autostart Nginx dan PHP-FPM pada Cygwin di Mesin Windows 10
+tags:
+  - cygwin
+  - nginx
+  - php
 ---
 
 ## Pendahuluan

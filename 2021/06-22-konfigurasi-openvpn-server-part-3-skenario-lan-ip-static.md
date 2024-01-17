@@ -1,5 +1,7 @@
 ---
 title: Konfigurasi OpenVPN Server - Part 3 Skenario LAN & IP Static
+tags:
+  - openvpn
 ---
 
 ## Skenario Basic

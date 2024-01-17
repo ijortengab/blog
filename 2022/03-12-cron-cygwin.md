@@ -1,5 +1,7 @@
 ---
 title: Cron di Cygwin
+tags:
+  - cygwin
 ---
 
 ## Pendahuluan
