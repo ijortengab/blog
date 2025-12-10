@@ -1,8 +1,5 @@
 # Self Signed Certificate untuk Website Development
 
----
-# draft: true
----
 
 ## Pendahuluan
 

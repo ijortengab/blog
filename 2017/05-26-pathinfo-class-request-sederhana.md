@@ -1,8 +1,5 @@
 # Mendapatkan PathInfo dengan Class Request sederhana
 
----
-#draft: true
----
 
 ## Pendahuluan
 

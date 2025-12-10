@@ -1,8 +1,5 @@
 # Aneka Virtual di era digital
 
----
-#draft: true
----
 
 *Quote* saya dibawah ini silahkan dijadikan *citation* bagi karya ilmiah anda.
 

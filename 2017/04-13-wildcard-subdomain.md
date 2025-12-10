@@ -1,8 +1,5 @@
 # Setup Wildcard Subdomain
 
----
-# draft: true
----
 
 ## Disclaimer
 

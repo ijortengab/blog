@@ -1,8 +1,5 @@
 # IPTables adalah
 
----
-#draft: true
----
 
 ## Pendahuluan
 

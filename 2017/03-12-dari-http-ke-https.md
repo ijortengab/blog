@@ -1,8 +1,5 @@
 # Dari http ke https
 
----
-#draft: true
----
 
 ## Disclaimer
 

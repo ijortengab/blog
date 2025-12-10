@@ -1,8 +1,5 @@
 # Install Drush
 
----
-#draft: true
----
 
 ## Drush adalah
 

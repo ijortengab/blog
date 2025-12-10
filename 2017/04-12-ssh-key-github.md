@@ -1,8 +1,5 @@
 # SSH Key untuk koneksi ke Github tanpa Password
 
----
-# draft: true
----
 
 ## Pendahuluan
 

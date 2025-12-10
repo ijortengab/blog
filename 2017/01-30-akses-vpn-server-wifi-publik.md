@@ -1,8 +1,5 @@
 # Akses VPN Server via WiFi Publik (gratisan)
 
----
-# draft: true
----
 
 ## Latar Belakang
 

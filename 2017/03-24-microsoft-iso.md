@@ -1,8 +1,5 @@
 # Microsoft (Windows + Office) ISO Files
 
----
-# draft: true
----
 
 Halaman utama untuk mendownload file ISO dari product Microsoft  (Windows dan Office) adalah:
 

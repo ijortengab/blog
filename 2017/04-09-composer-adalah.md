@@ -1,8 +1,5 @@
 # Composer adalah
 
----
-#draft: true
----
 
 ## Composer adalah
 

@@ -1,8 +1,5 @@
 # Block akses ke VPN Server dari negara Indonesia menggunakan IPTables
 
----
-# draft: true
----
 
 ## Studi Kasus
 

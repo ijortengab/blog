@@ -1,8 +1,5 @@
 # Mencari Image Hosting - Cloudinary dot com
 
----
-#draft: true
----
 
 ## Pendahulan
 

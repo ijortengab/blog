@@ -1,8 +1,5 @@
 # Instalasi Drupal 8 di Virtual Private Server
 
----
-# draft: true
----
 
 ## Disclaimer
 
