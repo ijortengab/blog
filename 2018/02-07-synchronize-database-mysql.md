@@ -231,8 +231,8 @@ ssh ${REMOTE_SSH_USER}@${REMOTE_SSH_HOST} -p ${REMOTE_SSH_PORT} $SSH_EXEC
 
 ## Reference
 
-[1]: /blog/2017/09/14/ssh-key-server-2/
+[1]: /blog/2017/09-14-ssh-key-server-2.md
 
-[2]: /blog/2018/01/26/mengirim-file-ke-server-di-balik-reverse-proxy-dengan-ssh-tunnel/
+[2]: /blog/2018/01-26-mengirim-file-ke-server-di-balik-reverse-proxy-dengan-ssh-tunnel.md
 
-<https://stackoverflow.com/questions/425158/skip-certain-tables-with-mysqldump>
+https://stackoverflow.com/questions/425158/skip-certain-tables-with-mysqldump

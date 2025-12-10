@@ -11,7 +11,7 @@ tags:
 
 [Tulisan sebelumnya][1] sudah membahas cara menginstall WSL2.
 
-[1]: /blog/2021/03/06/berkenalan-dengan-windows-subsytem-of-linux-wsl
+[1]: /blog/2021/03-06-berkenalan-dengan-windows-subsytem-of-linux-wsl.md
 
 Bagaimanakah memasang Distro Linux tanpa Microsoft Store?
 

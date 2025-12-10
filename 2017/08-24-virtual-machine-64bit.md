@@ -5,7 +5,7 @@
 
 Salah satu provider virtual machine adalah [VirtualBox].
 
-[VirtualBox]: /blog/2015/04/10/virtualbox/
+[VirtualBox]: /blog/2015/04-10-virtualbox.md
 
 Saat akan memilih virtual machine, maka opsi yang tersedia ternyata hanya CPU
 32bit.

@@ -24,8 +24,8 @@ Pada tulisan sebelumnya dibahas penggunaan Certificate Authority [Comodo][3] dan
 [3]: https://ssl.comodo.com/
 [4]: https://www.geotrust.com/
 
-- [Dari http ke https](/blog/2017/03/12/dari-http-ke-https/)
-- [VirtualHost dan https](/blog/2017/04/07/virtualhost-https/)
+- [Dari http ke https](/blog/2017/03-12-dari-http-ke-https.md)
+- [VirtualHost dan https](/blog/2017/04-07-virtualhost-https.md)
 
 Tulisan kali ini kita akan praktek menggunakan layanan SSL gratis dari Certificate Authority [Let's Encrypt](https://letsencrypt.org/).
 

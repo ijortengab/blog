@@ -391,11 +391,11 @@ Selamat bermain.
 
 ## References
 
-[1]: /blog/2017/09/16/linux-autostart-script-saat-selesai-booting/
-[2]: /blog/2017/09/14/ssh-key-server-2/
-[3]: /blog/2015/04/19/path-cli/
-[4]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
-[5]: /blog/2017/09/13/vm-lan-ssh/
+[1]: /blog/2017/09-16-linux-autostart-script-saat-selesai-booting.md
+[2]: /blog/2017/09-14-ssh-key-server-2.md
+[3]: /blog/2015/04-19-path-cli.md
+[4]: /blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md
+[5]: /blog/2017/09-13-vm-lan-ssh.md
 
 Googling:
 
@@ -403,18 +403,18 @@ Googling:
 - cmd while true
 - ssh connection timeout
 
-<https://askubuntu.com/questions/469143/how-to-enable-ssh-root-access-on-ubuntu-14-04>
+https://askubuntu.com/questions/469143/how-to-enable-ssh-root-access-on-ubuntu-14-04
 
-<https://linux.die.net/man/1/ssh>
+https://linux.die.net/man/1/ssh
 
-<https://stackoverflow.com/questions/6359820/how-to-set-commands-output-as-a-variable-in-a-batch-file>
+https://stackoverflow.com/questions/6359820/how-to-set-commands-output-as-a-variable-in-a-batch-file
 
-<https://stackoverflow.com/questions/1289026/syntax-for-a-single-line-bash-infinite-while-loop>
+https://stackoverflow.com/questions/1289026/syntax-for-a-single-line-bash-infinite-while-loop
 
-<https://stackoverflow.com/questions/5487473/how-to-create-an-infinite-loop-in-windows-batch-file>
+https://stackoverflow.com/questions/5487473/how-to-create-an-infinite-loop-in-windows-batch-file
 
-<https://www.computerhope.com/issues/ch001050.htm>
+https://www.computerhope.com/issues/ch001050.htm
 
-<https://www.computerhope.com/choicehl.htm>
+https://www.computerhope.com/choicehl.htm
 
-<https://www.computerhope.com/issues/ch001674.htm>
+https://www.computerhope.com/issues/ch001674.htm

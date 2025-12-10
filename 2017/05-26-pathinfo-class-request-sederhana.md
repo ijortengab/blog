@@ -5,7 +5,7 @@
 
 Project HTTP Foundation bawaan Symfony Component [menyediakan cara untuk mendapatkan informasi PathInfo][1] dengan URL mode rewrite maupun non rewrite.
 
-[1]: /blog/2017/05/25/pathinfo-symfony-http-foundation/
+[1]: /blog/2017/05-25-pathinfo-symfony-http-foundation.md
 
 Gunakan method `::getPathInfo()`. Contoh:
 

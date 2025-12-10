@@ -45,5 +45,5 @@ Script akan run setelah reboot, baik user reguler maupun sudo.
 
 Googling: debian boot startup script
 
-<https://serverfault.com/questions/735621>
+https://serverfault.com/questions/735621
 

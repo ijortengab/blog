@@ -5,7 +5,7 @@ Tulisan ini terkait dengan [tulisan sebelumnya][1].
 
 ## Pendahuluan
 
-[1]: /blog/2017/04/27/samba-adalah/
+[1]: /blog/2017/04-27-samba-adalah.md
 
 Mengakses file di server Linux dengan client Windows dapat dilakukan setelah server Linux dipasang software Samba.
 
@@ -43,7 +43,7 @@ Solusi agar stabil adalah menggunakan VPN. Solusi didapat berdasarkan pengalaman
 
 [OpenVPN dipasang di server][2] dengan protokol `udp`. IP Address private dari server adalah `10.8.0.1` subnet mask `255.255.255.0`.
 
-[2]: /blog/2017/01/23/install-openvpn-server-gpl/
+[2]: /blog/2017/01-23-install-openvpn-server-gpl.md
 
 Koneksi ke VPN dilakukan dan komputer localhost mendapat IP Address private.
 

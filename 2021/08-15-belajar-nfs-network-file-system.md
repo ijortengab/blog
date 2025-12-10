@@ -10,7 +10,7 @@ tags:
 Pada [tulisan sebelumnya][1], sebuah PC jadul telah terdapat partisi LVM dengan
 Logical Volume (LV) berkapasitas 223,6GB.
 
-[1]: /blog/2021/08/13/belajar-lvm-logical-volume-manager/
+[1]: /blog/2021/08-13-belajar-lvm-logical-volume-manager.md
 
 Untuk mengantisipasi kegagalan hard disk, kita perlu buat backup.
 
@@ -418,7 +418,7 @@ Proses backup akan menggunakan `rsync` seperti pada tulisan berikut ini:
 
 [Linux - Membuat service untuk synchronize otomatis antara dua direktori][2]
 
-[2]: /blog/2020/11/19/linux-membuat-service-untuk-synchronize-otomatis-antara-dua-direktori/
+[2]: /blog/2020/11-19-linux-membuat-service-untuk-synchronize-otomatis-antara-dua-direktori.md
 
 **Gerak cepat**
 

@@ -99,6 +99,6 @@ Finish.
 
 ## Reference
 
-<https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook>
+https://www.drupal.org/docs/8/converting-drupal-7-modules-to-drupal-8/d7-to-d8-upgrade-tutorial-convert-hook_menu-and-hook
 
-<https://www.drupal.org/node/2187643>
+https://www.drupal.org/node/2187643

@@ -10,7 +10,7 @@ Drush adalah Drupal Shell. Tools untuk management Drupal via Command Line.
 Pastikan di server sudah terinstall [Composer] dengan syntax yang ringkas `composer [argument]`. Setup sudah dibahas pada [tulisan sebelumnya].
 
 [Composer]: https://getcomposer.org/
-[tulisan sebelumnya]: /blog/2017/04/09/composer-adalah/
+[tulisan sebelumnya]: /blog/2017/04-09-composer-adalah.md
 
 Buat direktori project untuk Drush di HOME.
 

@@ -149,7 +149,7 @@ mv public_html_devel public_html_devel~
 
 [drupal]: https://www.drupal.org/project/drupal
 
-<https://ftp.drupal.org/files/projects/drupal-8.3.0.tar.gz>
+https://ftp.drupal.org/files/projects/drupal-8.3.0.tar.gz
 
 ```
 read -p "Link Download: " -e LINK && wget $LINK && ls | grep drupal
@@ -411,19 +411,19 @@ Selamat menikamati Drupal 8.
 
 ## Reference
 
-[pembahasan sebelumnya]: /blog/2017/04/07/virtualhost-https/
-[telah dibahas]: /blog/2017/04/08/self-signed-certificate-untuk-devel/
-[composer]: /blog/2017/04/09/install-composer/
-[drush]: /blog/2017/04/10/install-drush/
+[pembahasan sebelumnya]: /blog/2017/04-07-virtualhost-https.md
+[telah dibahas]: /blog/2017/04-08-self-signed-certificate-untuk-devel.md
+[composer]: /blog/2017/04-09-install-composer.md
+[drush]: /blog/2017/04-10-install-drush.md
 
-<http://stackoverflow.com/questions/1135245/how-to-get-a-list-of-mysql-user-accounts>
+http://stackoverflow.com/questions/1135245/how-to-get-a-list-of-mysql-user-accounts
 
-<https://dev.mysql.com/doc/refman/5.7/en/adding-users.html>
+https://dev.mysql.com/doc/refman/5.7/en/adding-users.html
 
-<https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/>
+https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/
 
-<https://www.scalescale.com/tips/nginx/504-gateway-time-out-using-nginx/>
+https://www.scalescale.com/tips/nginx/504-gateway-time-out-using-nginx/
 
-<https://www.drupal.org/documentation/install/developers>
+https://www.drupal.org/documentation/install/developers
 
-<https://pantheon.io/blog/update-your-nginx-config-drupal-8>
+https://pantheon.io/blog/update-your-nginx-config-drupal-8

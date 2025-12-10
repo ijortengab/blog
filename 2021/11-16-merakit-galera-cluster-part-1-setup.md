@@ -164,7 +164,7 @@ root@pchaha:~# mysql -u root -e "SHOW STATUS LIKE 'wsrep_cluster_size'"
 
 ## Testing
 
-Gunakan fitur pane/sub tab pada [Windows Terminal](/blog/2021/03/08/berkenalan-dengan-windows-terminal/) untuk shell login ke 5 node sekaligus dalam satu layar/window.
+Gunakan fitur pane/sub tab pada [Windows Terminal](/blog/2021/03-08-berkenalan-dengan-windows-terminal.md) untuk shell login ke 5 node sekaligus dalam satu layar/window.
 
 Jalankan watch pada keempat node:
 

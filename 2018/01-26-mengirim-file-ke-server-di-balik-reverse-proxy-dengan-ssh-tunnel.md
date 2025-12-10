@@ -31,6 +31,6 @@ File `sql.db` telah tiba di server tujuan yang berada di balik reverse proxy.
 
 Google query: "rsync ssh tunnel"
 
-<https://stackoverflow.com/questions/16654751/rsync-through-ssh-tunnel>
+https://stackoverflow.com/questions/16654751/rsync-through-ssh-tunnel
 
-<https://linux.die.net/man/1/scp>
+https://linux.die.net/man/1/scp

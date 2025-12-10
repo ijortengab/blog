@@ -47,7 +47,7 @@ Versi yang saya gunakan adalah versi 7.1 (beta), versi terbaru per Agustus 2017.
 
 File program telah dibuat mirror pada [IjorTengab Tools][tools]. Download [32bit][1] atau [64bit][2]. 
 
-[tools]: /blog/2017/03/16/repository-pribadi-tools/
+[tools]: /blog/2017/03-16-repository-pribadi-tools.md
 
 [1]:http://ijortengab.id/tools/testdisk-7.1-WIP.win.zip
 

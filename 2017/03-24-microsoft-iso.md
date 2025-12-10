@@ -3,7 +3,7 @@
 
 Halaman utama untuk mendownload file ISO dari product Microsoft  (Windows dan Office) adalah:
 
-<https://www.microsoft.com/en-us/software-download/>
+https://www.microsoft.com/en-us/software-download/
 
 Untuk bisa mengakses file ISO tersebut, memerlukan product key yang valid.
 
@@ -20,7 +20,7 @@ Programmer yang baik hati [telah membuat tools][1] untuk mempermudah download fi
 
 Tools tersebut telah saya amankan di Repository Tools dengan link sebagai berikut:
 
-<http://ijortengab.id/tools/Windows%20ISO%20Downloader.exe>
+http://ijortengab.id/tools/Windows%20ISO%20Downloader.exe
 
 
 

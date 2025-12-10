@@ -36,7 +36,7 @@ Download list IP Indonesia. Set [http proxy][1] jika diperlukan.
 wget http://www.ipdeny.com/ipblocks/data/countries/id.zone
 ```
 
-[1]: /blog/2017/01/25/set-http-proxy-pada-linux/
+[1]: /blog/2017/01-25-set-http-proxy-pada-linux.md
 
 Kita akan buat new Chain, sebelumnya kita flush dan delete Chain yang pernah exists.
 ```
@@ -55,7 +55,7 @@ Create rules iptables secara looping. Sebaiknya gunakan [screen][2] karena prose
 read -p "Protocol VPN Server (udp/tcp): " -e -i 'udp' PROTO && read -p "Port VPN Server: " -e -i '1194' PORT && BADIPS=$(egrep -v "^#|^$" './id.zone') && for ipblock in $BADIPS; do echo iptables -A countrydrop -p $PROTO -s $ipblock --dport $PORT -j DROP && iptables -A countrydrop -p $PROTO -s $ipblock --dport $PORT -j DROP; done
 ```
 
-[2]: /blog/2017/01/24/screen-solusi-remote-connection/
+[2]: /blog/2017/01-24-screen-solusi-remote-connection.md
 
 Drop koneksi masuk berdasarkan chain yang baru dibuat.
 ```

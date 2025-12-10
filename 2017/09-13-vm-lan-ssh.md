@@ -425,14 +425,14 @@ dirakit sehingga menjadi seperti jaringan LAN.
 
 ## Reference
 
-[1]: /blog/2017/08/25/vm-install-ubuntu-server-16-04/
-[2]: /blog/2017/08/30/vm-install-debian-9-1/
-[3]: /blog/2017/09/11/vm-winxp/
-[4]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
-[5]: /blog/2017/09/12/openssh-server-winxp/
+[1]: /blog/2017/08-25-vm-install-ubuntu-server-16-04.md
+[2]: /blog/2017/08-30-vm-install-debian-9-1.md
+[3]: /blog/2017/09-11-vm-winxp.md
+[4]: /blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md
+[5]: /blog/2017/09-12-openssh-server-winxp.md
 
-<https://www.howtogeek.com/103190/change-your-ip-address-from-the-command-prompt/>
+https://www.howtogeek.com/103190/change-your-ip-address-from-the-command-prompt/
 
-<https://winscp.net/eng/docs/guide_windows_openssh_server>
+https://winscp.net/eng/docs/guide_windows_openssh_server
 
-<http://opensshwindows.sourceforge.net/>
+http://opensshwindows.sourceforge.net/

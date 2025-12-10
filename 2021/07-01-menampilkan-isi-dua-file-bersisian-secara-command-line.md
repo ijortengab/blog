@@ -732,10 +732,10 @@ Penerapan command `diff2files.sh` terdapat pada tulisan:
  - [Konfigurasi OpenVPN Server - Part 4 Skenario Split Pool IP Static & DHCP][link_3]
  - [Konfigurasi OpenVPN Server - Part 5 Skenario Multiple Daemons TCP & UDP][link_4]
 
-[link_1]: /blog/2021/06/21/konfigurasi-openvpn-server-part-2-skenario-flexible-route-traffic/
-[link_2]: /blog/2021/06/22/konfigurasi-openvpn-server-part-3-skenario-lan-ip-static/
-[link_3]: /blog/2021/06/23/konfigurasi-openvpn-server-part-4-skenario-split-pool-ip-static-dhcp/
-[link_4]: /blog/2021/06/24/konfigurasi-openvpn-server-part-5-multiple-daemons-tcp-udp/
+[link_1]: /blog/2021/06-21-konfigurasi-openvpn-server-part-2-skenario-flexible-route-traffic.md
+[link_2]: /blog/2021/06-22-konfigurasi-openvpn-server-part-3-skenario-lan-ip-static.md
+[link_3]: /blog/2021/06-23-konfigurasi-openvpn-server-part-4-skenario-split-pool-ip-static-dhcp.md
+[link_4]: /blog/2021/06-24-konfigurasi-openvpn-server-part-5-multiple-daemons-tcp-udp.md
 
 ## Reference
 

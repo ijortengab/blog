@@ -52,4 +52,4 @@ Sun Jan 29 14:34:43 2017 SIGUSR1[soft,tls-error] received, process restarting
 Sun Jan 29 14:34:43 2017 MANAGEMENT: >STATE:1485675283,RECONNECTING,tls-error,,
 Sun Jan 29 14:34:43 2017 Restart pause, 2 second(s)
 ```
-[gpl]: /blog/2017/01/23/install-openvpn-server-gpl
+[gpl]: /blog/2017/01-23-install-openvpn-server-gpl.md

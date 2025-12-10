@@ -14,7 +14,7 @@ Blog terkait:
 
  > [Menyembunyikan trafik dengan Obfuscate Proxy - Part 2 Protokol OpenVPN][link]
 
-[link]: /blog/2021/06/26/menyembunyikan-trafik-dengan-obfuscate-proxy-part-2-protokol-openvpn/
+[link]: /blog/2021/06-26-menyembunyikan-trafik-dengan-obfuscate-proxy-part-2-protokol-openvpn.md
 
 ## Requirement
 

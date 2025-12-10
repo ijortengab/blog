@@ -17,9 +17,9 @@ Windows Terminal `wt.exe` hadir menggabungkan keseluruhan console tersebut.
 
 Blog terkait:
 
- > [Berkenalan dengan Windows Subsytem of Linux (WSL)](/blog/2021/03/06/berkenalan-dengan-windows-subsytem-of-linux-wsl/)
+ > [Berkenalan dengan Windows Subsytem of Linux (WSL)](/blog/2021/03-06-berkenalan-dengan-windows-subsytem-of-linux-wsl.md)
  >
- > [Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH](/blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/)
+ > [Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH](/blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md)
 
 ## Fitur Utama
 

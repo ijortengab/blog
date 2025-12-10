@@ -17,8 +17,8 @@ var_dump($_SERVER['PATH_INFO']);
 
 Informasi diatas didapat setelah melakukan konfigurasi di [web server][2].
 
-[1]: /blog/2017/05/23/definisi-pathinfo-pada-url/
-[2]: /blog/2017/05/24/nginx-pathinfo/
+[1]: /blog/2017/05-23-definisi-pathinfo-pada-url.md
+[2]: /blog/2017/05-24-nginx-pathinfo.md
 
 ## Permasalahan
 

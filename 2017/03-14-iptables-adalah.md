@@ -15,7 +15,7 @@ Pada sistem operasi Ubuntu 16.04, dengan command `journalctl -xe` akan terlihat 
 
 Dengan iptables, kita akan memblock koneksi dari semua tempat kecuali dari [provider Indonesia][1].
 
-[1]: /blog/2017/03/13/ip-address-range-isp-indonesia
+[1]: /blog/2017/03-13-ip-address-range-isp-indonesia.md
 
 Izinkan akses dari ISP Bolt.
 ```

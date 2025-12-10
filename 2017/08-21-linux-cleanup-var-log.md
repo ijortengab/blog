@@ -10,7 +10,7 @@ pada CWD. Kita buat alias:
 alias du='du -d 1 -h 2>/dev/null | sort -hr'
 ```
 
-[1]: /blog/2017/08/20/linux-mengecek-size-direktori-dengan-du/
+[1]: /blog/2017/08-20-linux-mengecek-size-direktori-dengan-du.md
 
 Masuk ke direktori root dan scan size direktori.
 

@@ -11,8 +11,8 @@ Untuk merasakan pengalaman *environment* Linux menggunakan mesin Windows 10, kit
 
 Blog terkait:
 
- - [Belajar Virtual Box](/blog/2015/04/10/virtualbox/)
- - [Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH](/blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/)
+ - [Belajar Virtual Box](/blog/2015/04-10-virtualbox.md)
+ - [Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH](/blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md)
 
 Windows 10 kini menghadirkan Windows Subsytem of Linux (WSL).
 

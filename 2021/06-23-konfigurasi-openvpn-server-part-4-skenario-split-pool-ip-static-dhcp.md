@@ -7,7 +7,7 @@ tags:
 
 ## Skenario Basic
 
-Skenario Basic yang dibahas pada [tulisan sebelumnya](/blog/2021/06/20/konfigurasi-openvpn-server-part-1-skenario-basic/), menggunakan variable sbb:
+Skenario Basic yang dibahas pada [tulisan sebelumnya](/blog/2021/06-20-konfigurasi-openvpn-server-part-1-skenario-basic.md), menggunakan variable sbb:
 
  - IP Publik: `200.200.20.20`
  - Protokol: `TCP`
@@ -69,7 +69,7 @@ Kita perlu mengedit dua file konfigurasi, yakni:
 
 Pada file `/etc/openvpn/server/server.conf`, kita ubah directive `server` dan tambahkan directive `ifconfig-pool`.
 
-Seperti yang dijelaskan pada [Skenario LAN & IP Static](/blog/2021/06/22/konfigurasi-openvpn-server-part-3-skenario-lan-ip-static/), kita akan menggunakan directive `client-config-dir` dan `client-to-client`.
+Seperti yang dijelaskan pada [Skenario LAN & IP Static](/blog/2021/06-22-konfigurasi-openvpn-server-part-3-skenario-lan-ip-static.md), kita akan menggunakan directive `client-config-dir` dan `client-to-client`.
 
 Sebelumnya:
 

@@ -206,7 +206,7 @@ Login dengan username dan password. Setelah sukses otentikasi, Debian siap digun
 
 ## References
 
-<https://www.debian.org/News/2017/20170722>
+https://www.debian.org/News/2017/20170722
 
 [22 Juli 2017]: https://www.debian.org/News/2017/20170722
 
@@ -214,4 +214,4 @@ Login dengan username dan password. Setelah sukses otentikasi, Debian siap digun
 
 [VirtualBox]: https://www.virtualbox.org/
 
-[1]: /blog/2017/08/24/virtual-machine-64bit/
+[1]: /blog/2017/08-24-virtual-machine-64bit.md

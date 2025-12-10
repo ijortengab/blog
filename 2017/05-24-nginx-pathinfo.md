@@ -5,7 +5,7 @@
 
 Defini PathInfo telah dijelaskan pada [tulisan sebelumnya].
 
-[tulisan sebelumnya]: /blog/2017/05/23/definisi-pathinfo-pada-url/
+[tulisan sebelumnya]: /blog/2017/05-23-definisi-pathinfo-pada-url.md
 
 Contoh URL dengan PathInfo (mode regular, diluar mode rewrite) ialah:
 
@@ -109,8 +109,8 @@ var_dump($_SERVER['PATH_INFO']);
 
 ## Reference
 
-<https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/>
+https://www.nginx.com/resources/wiki/start/topics/recipes/drupal/
 
-<http://symfony.com/doc/current/setup/web_server_configuration.html>
+http://symfony.com/doc/current/setup/web_server_configuration.html
 
-<https://stackoverflow.com/questions/12654521/why-is-nginx-is-ignoring-my-query-strings>
+https://stackoverflow.com/questions/12654521/why-is-nginx-is-ignoring-my-query-strings

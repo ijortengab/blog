@@ -137,7 +137,7 @@ Default content:
 
 Misalnya direktori dari repository [IjorTengab Tools][1] yakni `/home/ijortengab/tools` akan kita sharing.
 
-[1]: /blog/2017/03/16/repository-pribadi-tools/
+[1]: /blog/2017/03-16-repository-pribadi-tools.md
 
 Tambahkan informasi berikut:
 

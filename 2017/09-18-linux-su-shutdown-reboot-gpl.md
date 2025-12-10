@@ -143,5 +143,5 @@ root.
 
 Selamat ngoprek server.
 
-[1]: /blog/2017/09/14/ssh-key-server-2/
-[2]: /blog/2017/09/15/ssh-gpl/
+[1]: /blog/2017/09-14-ssh-key-server-2.md
+[2]: /blog/2017/09-15-ssh-gpl.md

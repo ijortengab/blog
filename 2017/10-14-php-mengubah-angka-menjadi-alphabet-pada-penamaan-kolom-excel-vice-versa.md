@@ -132,8 +132,8 @@ function alphabet_to_number($string) {
 
 ## Reference
 
-<https://ryanstutorials.net/binary-tutorial/binary-conversions.php>
+https://ryanstutorials.net/binary-tutorial/binary-conversions.php
 
-<https://icesquare.com/wordpress/example-code-to-convert-a-number-to-excel-column-letter/>
+https://icesquare.com/wordpress/example-code-to-convert-a-number-to-excel-column-letter/
 
 Google: excel convert column alphabet to number php

@@ -277,9 +277,9 @@ Penambahan alamat email (mailbox) dari domain `build.web.id` dilakukan melalui C
 
 Permasalahan hosting mail server di DigitalOcean dan solusinya:
 
- - [Block Port 25](/blog/2021/07/07/hosting-mail-server-di-digitalocean-dan-block-port-25/)
- - [Yahoo Mail Blacklist](/blog/2021/07/08/hosting-mail-server-di-digitalocean-dan-yahoo-mail-blacklist/)
- - [GMail Auto SPAM Label](/blog/2021/07/24/hosting-mail-server-di-digitalocean-dan-gmail-auto-spam-label/)
+ - [Block Port 25](/blog/2021/07-07-hosting-mail-server-di-digitalocean-dan-block-port-25.md)
+ - [Yahoo Mail Blacklist](/blog/2021/07-08-hosting-mail-server-di-digitalocean-dan-yahoo-mail-blacklist.md)
+ - [GMail Auto SPAM Label](/blog/2021/07-24-hosting-mail-server-di-digitalocean-dan-gmail-auto-spam-label.md)
 
 ## References
 

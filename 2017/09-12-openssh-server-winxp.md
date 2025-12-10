@@ -307,7 +307,7 @@ Login sebagai user `ijortengab` juga sukses.
 
 ## Reference
 
-[1]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
+[1]: /blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md
 [2]: /tools/ssh/sshwindows.sourceforge.net/setupssh381-20040709.zip
 [3]: /tools/ssh/opensshwindows.sourceforge.net/OpenSSHWindows53p1-2.msi
 [4]: /tools/ssh/sshwindows.webheat.co.uk/OpenSSH_for_Windows_5.6p1-2.exe

@@ -113,6 +113,6 @@ ssh iwx
 
 ## Reference
 
-[1]: /blog/2017/09/14/ssh-key-server-gpl-2
+[1]: /blog/2017/09-14-ssh-key-server-gpl-2.md
 
-<http://fabien.potencier.org/quick-ssh-tip.html>
+http://fabien.potencier.org/quick-ssh-tip.html

@@ -5,7 +5,7 @@
 
 Drupal Console adalah teman akrab dari [Drush]. Keduanya memudahkan penggunaan Drupal melalui CLI (Command Line Interface).
 
-[Drush]: /blog/2017/04/10/install-drush/
+[Drush]: /blog/2017/04-10-install-drush.md
 
 ## Install 
 
@@ -93,8 +93,8 @@ drupal list
 
 ## References
 
-<https://pantheon.io/drupal-8/introduction-drush-and-drupal-console>
+https://pantheon.io/drupal-8/introduction-drush-and-drupal-console
 
-<https://ffwagency.com/digital-strategies-blog/ten-things-you-need-know-about-drupal-console>
+https://ffwagency.com/digital-strategies-blog/ten-things-you-need-know-about-drupal-console
 
-<http://enzolutions.com/articles/2015/01/25/what-is-drupal-console-for-me/>
+http://enzolutions.com/articles/2015/01/25/what-is-drupal-console-for-me/

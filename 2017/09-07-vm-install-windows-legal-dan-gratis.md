@@ -196,20 +196,20 @@ Jika masa trial sudah habis, maka kita perlu reinstall kembali. Oleh karena itu
 
 [Microsoft]: https://www.microsoft.com/en-us/download/details.aspx%3Fid=8002
 
-<https://www.microsoft.com/en-us/download/details.aspx%3Fid=8002>
+https://www.microsoft.com/en-us/download/details.aspx%3Fid=8002
 
-<http://www.makeuseof.com/tag/download-windows-xp-for-free-and-legally-straight-from-microsoft-si/>
+http://www.makeuseof.com/tag/download-windows-xp-for-free-and-legally-straight-from-microsoft-si/
 
 [1]: https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>
 
-<https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
-<https://opensource.microsoft.com/>
+https://opensource.microsoft.com/
 
-<https://app.vagrantup.com/Microsoft/boxes/EdgeOnWindows10>
+https://app.vagrantup.com/Microsoft/boxes/EdgeOnWindows10
 
-<https://www.howtogeek.com/244678/you-dont-need-a-product-key-to-install-and-use-windows-10/>
+https://www.howtogeek.com/244678/you-dont-need-a-product-key-to-install-and-use-windows-10/
 
-<https://en.wikipedia.org/wiki/Microsoft_Product_Activation>
+https://en.wikipedia.org/wiki/Microsoft_Product_Activation
 
-<https://www.windowscentral.com/you-do-not-need-activate-windows-10>
+https://www.windowscentral.com/you-do-not-need-activate-windows-10

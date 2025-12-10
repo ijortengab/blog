@@ -13,7 +13,7 @@ Output dari Gatsby adalah website yang sangat-sangat cepat dalam hal loading kar
 
 Install dahulu Node.js di server seperti yang sudah dibahas pada [artikel sebelumnya][1].
 
-[1]: /blog/2020/11/15/install-nodejs/
+[1]: /blog/2020/11-15-install-nodejs.md
 
 ## Install Gatbsy CLI
 

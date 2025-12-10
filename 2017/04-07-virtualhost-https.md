@@ -508,10 +508,10 @@ Browser Firefox dapat dengan cepat memeriksa Certificate Authority cukup menge-k
 
 ## Reference
 
-<https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple-ssl-certificates-on-one-ip-with-nginx-on-ubuntu-12-04>
+https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple-ssl-certificates-on-one-ip-with-nginx-on-ubuntu-12-04
 
-<https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04>
+https://www.digitalocean.com/community/tutorials/how-to-host-multiple-websites-securely-with-nginx-and-php-fpm-on-ubuntu-14-04
 
-<http://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file>
+http://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
 
-<http://www.linfo.org/vi/search.html>
+http://www.linfo.org/vi/search.html

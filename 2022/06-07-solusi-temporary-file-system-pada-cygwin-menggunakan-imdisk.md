@@ -104,7 +104,7 @@ mklink /D %target% %link% > NUL
 
 Kita akan menggunakan `cron` pada Cygwin sebagai autorun alih-alih Task Schedule. Blog terkait:
 
-[Cron di Cygwin](/blog/2022/03/12/cron-cygwin/)
+[Cron di Cygwin](/blog/2022/03-12-cron-cygwin.md)
 
 Jalankan crontab:
 

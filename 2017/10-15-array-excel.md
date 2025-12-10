@@ -108,4 +108,4 @@ $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
 $objWriter->save('php://output');
 ```
 
-[1]: /blog/2017/04/09/composer-adalah/
+[1]: /blog/2017/04-09-composer-adalah.md

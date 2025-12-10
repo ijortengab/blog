@@ -96,7 +96,7 @@ Identity added: /home/<user>/.ssh/id_rsa (/home/<user>/.ssh/id_rsa)
 
 Masuk ke site:
 
-<https://github.com/settings/keys>
+https://github.com/settings/keys
 
 Create New Key.
 

@@ -14,7 +14,7 @@ tags:
 Windows kita sudah terpasang [ssh server][1] yang me-listen port 22 menggunakan
 environment Cygwin.
 
-[1]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server
+[1]: /blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md
 
 Kita akan menambah ssh server, kali ini menggunakan environment WSL2. Kita
 gunakan port yang berbeda dari port 22. Misalnya: `40022`.
@@ -59,7 +59,7 @@ WSL dan SSH Daemon-nya WSL akan autostart setelah user login ke Windows.
 
 Cara ini cocok untuk pc yang difungsikan sebagai server.
 
-Kita membutuhkan `cron` di [Cygwin](/blog/2022/03/12/cron-cygwin).
+Kita membutuhkan `cron` di [Cygwin](/blog/2022/03-12-cron-cygwin.md).
 
 Di dalam environment Cygwin, kita buat file bernama `/usr/local/wsl-sshd-autostart.sh`.
 

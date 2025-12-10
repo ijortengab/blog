@@ -14,7 +14,7 @@ Setelah [port 25 dibuka][link_1], kendala berikutnya adalah kemungkinan IP Publi
 
 Solusi yang bisa ditempuh adalah melakukan manual request unlisting kepada Penyedia Mail Service yang akan dituju.
 
-[link_1]: /blog/2021/07/07/hosting-mail-server-di-digitalocean-dan-block-port-25/
+[link_1]: /blog/2021/07-07-hosting-mail-server-di-digitalocean-dan-block-port-25.md
 
 ## Gmail
 

@@ -149,9 +149,9 @@ File: `style.css`
 
 ## Reference
 
-<https://css-tricks.com/snippets/css/transparent-background-images/>
+https://css-tricks.com/snippets/css/transparent-background-images/
 
-<http://endlessnow.com/images/opensuse13.2.jpg>
+http://endlessnow.com/images/opensuse13.2.jpg
 
 
 

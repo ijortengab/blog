@@ -22,7 +22,7 @@ Jika client adalah Windows, maka gunakan **WSL 2** dan pasang Ubuntu 20.04 didal
 
 Blog terkait:
 
- > [Berkenalan dengan Windows Subsytem of Linux (WSL)](/blog/2021/03/06/berkenalan-dengan-windows-subsytem-of-linux-wsl/)
+ > [Berkenalan dengan Windows Subsytem of Linux (WSL)](/blog/2021/03-06-berkenalan-dengan-windows-subsytem-of-linux-wsl.md)
 
 Install `obfs4proxy`.
 
@@ -52,7 +52,7 @@ Variable yang kita gunakan sebagai contoh adalah sesuai dengan **Skenario Basic*
 
 Blog terkait:
 
- > [Konfigurasi OpenVPN Server - Part 1 Skenario Basic](/blog/2021/06/20/konfigurasi-openvpn-server-part-1-skenario-basic/)
+ > [Konfigurasi OpenVPN Server - Part 1 Skenario Basic](/blog/2021/06-20-konfigurasi-openvpn-server-part-1-skenario-basic.md)
 
 Jalankan program `obfs4proxy` di sisi server.
 
@@ -317,7 +317,7 @@ Untuk kembali deattach screen:
 
 Blog terkait:
 
- > [Screen sebagai solusi remote connection](/blog/2017/01/24/screen-solusi-remote-connection/)
+ > [Screen sebagai solusi remote connection](/blog/2017/01-24-screen-solusi-remote-connection.md)
 
 ## OpenVPN Command
 

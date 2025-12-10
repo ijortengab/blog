@@ -9,7 +9,7 @@ tags:
 
 ## Pendahuluan
 
-[Cygwin adalah](/blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/) software yang memberikan fasilitas Linux pada Windows.
+[Cygwin adalah](/blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md) software yang memberikan fasilitas Linux pada Windows.
 
 Instalasi Nginx dan PHP-FPM pada environment Linux umumnya sudah otomatis dengan service berupa daemon.
 

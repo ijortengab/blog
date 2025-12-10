@@ -96,4 +96,4 @@ Buku Seni Teknik Hacking 1 oleh S'to penerbit Jasakom.
 
 http://www.hirensbootcd.org/resetting-windows-password/
 
-[1]: /blog/2017/07/20/hiren-boot-usb/
+[1]: /blog/2017/07-20-hiren-boot-usb.md

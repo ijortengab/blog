@@ -7,7 +7,7 @@ tags:
 
 ## Skenario Basic
 
-Skenario Basic yang dibahas pada [tulisan sebelumnya](/blog/2021/06/20/konfigurasi-openvpn-server-part-1-skenario-basic/), menggunakan variable sbb:
+Skenario Basic yang dibahas pada [tulisan sebelumnya](/blog/2021/06-20-konfigurasi-openvpn-server-part-1-skenario-basic.md), menggunakan variable sbb:
 
  - IP Publik: `200.200.20.20`
  - Protokol: `TCP`

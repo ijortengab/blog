@@ -22,7 +22,7 @@ Firewall yang kita maksud adalah firewall yang rules-nya sederhana berdasarkan f
 
 Untuk firewall next-generation perlu cara tersendiri. Blog terkait:
 
-> [Menyembunyikan trafik dengan Obfuscate Proxy - Part 1 Protokol SSH](/blog/2021/06/25/menyembunyikan-trafik-dengan-obfuscate-proxy-part-1-protokol-ssh/)
+> [Menyembunyikan trafik dengan Obfuscate Proxy - Part 1 Protokol SSH](/blog/2021/06-25-menyembunyikan-trafik-dengan-obfuscate-proxy-part-1-protokol-ssh.md)
 
 Agar bisa masuk ke server masih bisa diakali dengan berbagai solusi.
 
@@ -32,7 +32,7 @@ Solusi cepat adalah dengan mengganti port SSH server menjadi port `443` (menggun
 
 Mirip dengan mengganti port VPN dari default `1194` menjadi port `443`. Blog terkait:
 
-> [Akses VPN Server via WiFi Publik (gratisan)](/blog/2017/01/30/akses-vpn-server-wifi-publik/)
+> [Akses VPN Server via WiFi Publik (gratisan)](/blog/2017/01-30-akses-vpn-server-wifi-publik.md)
 
 ## Solusi Terkini
 

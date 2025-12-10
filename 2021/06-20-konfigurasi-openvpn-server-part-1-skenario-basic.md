@@ -21,7 +21,7 @@ wget https://git.io/vpn -O openvpn-install.sh && bash openvpn-install.sh
 
 Blog terkait:
 
- > [Install OpenVPN Server GPL (Gak Pake Lama)](/blog/2017/01/23/install-openvpn-server-gpl/)
+ > [Install OpenVPN Server GPL (Gak Pake Lama)](/blog/2017/01-23-install-openvpn-server-gpl.md)
 
 Pada saat instalasi, kita ambil contoh opsi sebagai berikut:
 

@@ -179,7 +179,7 @@ Tampilan Shell setelah login.
 
 ## References
 
-<http://www.pcworld.com/article/3182088/linux/why-you-might-want-to-skip-ubuntu-1704.html>
+http://www.pcworld.com/article/3182088/linux/why-you-might-want-to-skip-ubuntu-1704.html
 
 [VirtualBox]: https://www.virtualbox.org/
 
@@ -187,4 +187,4 @@ Tampilan Shell setelah login.
 
 [Kambing UI]: http://kambing.ui.ac.id/iso/ubuntu/
 
-[1]: /blog/2017/08/24/virtual-machine-64bit/
+[1]: /blog/2017/08-24-virtual-machine-64bit.md

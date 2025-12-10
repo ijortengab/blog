@@ -303,11 +303,11 @@ $ chmod 600 .ssh/id_rsa
 
 ## Reference
 
-[1]: /blog/2017/08/25/vm-install-ubuntu-server-16-04/
-[2]: /blog/2017/01/28/windows-rasa-linux-cygwin-openssh-server/
-[3]: /blog/2017/04/14/ssh-key-server/
+[1]: /blog/2017/08-25-vm-install-ubuntu-server-16-04.md
+[2]: /blog/2017/01-28-windows-rasa-linux-cygwin-openssh-server.md
+[3]: /blog/2017/04-14-ssh-key-server.md
 
-<https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/>
+https://www.tecmint.com/ssh-passwordless-login-using-ssh-keygen-in-5-easy-steps/
 
-<https://serverfault.com/questions/690855/check-the-fingerprint-for-the-ecdsa-key-sent-by-the-remote-host>
+https://serverfault.com/questions/690855/check-the-fingerprint-for-the-ecdsa-key-sent-by-the-remote-host
 

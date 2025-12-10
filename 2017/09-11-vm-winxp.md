@@ -108,25 +108,25 @@ Selamat bernostalgia dengan Windows XP.
 
 [1]: https://support.microsoft.com/en-us/help/14223/windows-xp-end-of-support
 
-<https://support.microsoft.com/en-us/help/14223/windows-xp-end-of-support>
+https://support.microsoft.com/en-us/help/14223/windows-xp-end-of-support
 
-<https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support>
+https://www.microsoft.com/en-us/windowsforbusiness/end-of-xp-support
 
 [2]: https://technet.microsoft.com/library/security/ms17-010
 
-<https://technet.microsoft.com/library/security/ms17-010>
+https://technet.microsoft.com/library/security/ms17-010
 
 [3]: https://support.microsoft.com/en-us/help/4012598/title
 
-<https://support.microsoft.com/en-us/help/4012598/title>
+https://support.microsoft.com/en-us/help/4012598/title
 
 [4]: https://www.microsoft.com/en-us/download/details.aspx?id=55245
 
-<https://www.microsoft.com/en-us/download/details.aspx?id=55245>
+https://www.microsoft.com/en-us/download/details.aspx?id=55245
 
-[5]: /blog/2017/09/10/google-chrome-for-windows-xp-v49-offline-installer-standalone/
+[5]: /blog/2017/09-10-google-chrome-for-windows-xp-v49-offline-installer-standalone.md
 
-[6]: /blog/2017/09/07/vm-install-windows-legal-dan-gratis/
+[6]: /blog/2017/09-07-vm-install-windows-legal-dan-gratis.md
 
 [7]: https://download-sha1.cdn.mozilla.net/pub/firefox/releases/52.3.0esr/win32-sha1/en-US/Firefox%20Setup%2052.3.0esr.exe
 
@@ -134,14 +134,14 @@ Selamat bernostalgia dengan Windows XP.
 
 [9]: https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista
 
-<https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista>
+https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista
 
 [10]: https://chrome.googleblog.com/2015/11/updates-to-chrome-platform-support.html
 
-<https://chrome.googleblog.com/2015/11/updates-to-chrome-platform-support.html>
+https://chrome.googleblog.com/2015/11/updates-to-chrome-platform-support.html
 
 [11]: https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
 
-<https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/>
+https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
 
 [LightScreen]: http://lightscreen.com.ar/

@@ -5,7 +5,7 @@
 
 Tulisan ini terkait dengan [tulisan sebelumnya].
 
-[tulisan sebelumnya]: /blog/2017/04/07/virtualhost-https/
+[tulisan sebelumnya]: /blog/2017/04-07-virtualhost-https.md
 
 Website `juragan.web.id` menggunakan protokol `https` dengan Certificate Authority dari GeoTrust. Untuk kebutuhan development, maka dibuatlah domain khusus untuk kebutuhan pengembangan dengan subdomain `devel.juragan.web.id`.
 
@@ -144,4 +144,4 @@ Karena pengguna website development terbatas hanya kepada developer dan orang-or
 
 ## Reference
 
-<https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04>
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
