@@ -1,6 +1,5 @@
----
-title: Mencari CIDR dari sebuah ISP
----
+# Mencari CIDR dari sebuah ISP
+
 
 ## Pendahuluan
 

@@ -1,6 +1,5 @@
----
-title: Mengirim file ke server di balik reverse proxy dengan SSH tunnel
----
+# Mengirim file ke server di balik reverse proxy dengan SSH tunnel
+
 
 ## Pertanyaan
 

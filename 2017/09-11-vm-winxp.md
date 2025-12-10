@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Nostalgia Windows XP
----
+# Virtual Machine - Nostalgia Windows XP
+
 
 ## Nostalgia Windows XP
 

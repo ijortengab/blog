@@ -1,6 +1,5 @@
----
-title: SSH - Gak Pake Lama
----
+# SSH - Gak Pake Lama
+
 
 ## Dasar Pemalas
 

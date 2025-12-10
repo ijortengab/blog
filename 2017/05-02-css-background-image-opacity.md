@@ -1,6 +1,5 @@
----
-title: CSS - Background image opacity
----
+# CSS - Background image opacity
+
 
 ## Pendahuluan
 

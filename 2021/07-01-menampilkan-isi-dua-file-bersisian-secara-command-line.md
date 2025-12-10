@@ -1,5 +1,6 @@
+# Menampilkan Isi Dua File Bersisian Secara Command Line
+
 ---
-title: Menampilkan Isi Dua File Bersisian Secara Command Line
 tags:
   - bash
 ---

@@ -1,5 +1,6 @@
+# Migrasi Static Generator Blog dari Sculpin ke Gatsby
+
 ---
-title: Migrasi Static Generator Blog dari Sculpin ke Gatsby
 tags:
   - sculpin
   - gatsby

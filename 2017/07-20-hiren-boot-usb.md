@@ -1,6 +1,5 @@
----
-title: Hiren Boot USB
----
+# Hiren Boot USB
+
 
 ## Pendahuluan
 

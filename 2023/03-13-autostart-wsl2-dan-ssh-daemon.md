@@ -1,5 +1,6 @@
+# Autostart WSL2 dan SSH Daemon
+
 ---
-title: Autostart WSL2 dan SSH Daemon
 slug: blog/2023/03/13/autostart-wsl2-dan-ssh-daemon
 date: 2023-03-13
 tags:

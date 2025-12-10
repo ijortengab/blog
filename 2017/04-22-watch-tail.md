@@ -1,6 +1,5 @@
----
-title: Monitoring Server menggunakan Watch dan Tail
----
+# Monitoring Server menggunakan Watch dan Tail
+
 
 ## Watch adalah
 

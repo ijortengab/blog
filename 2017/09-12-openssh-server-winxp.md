@@ -1,6 +1,5 @@
----
-title: OpenSSH Server for Windows XP
----
+# OpenSSH Server for Windows XP
+
 
 Cara terbaik untuk menginstall OpenSSH server di mesin berbasis Windows adalah 
 dengan menggunakan Cygwin seperti yang telah dibahas pada 

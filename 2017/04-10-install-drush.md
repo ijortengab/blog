@@ -1,5 +1,6 @@
+# Install Drush
+
 ---
-title: Install Drush
 #draft: true
 ---
 

@@ -1,5 +1,6 @@
+# Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 3 WGet
+
 ---
-title: Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 3 WGet
 tags:
   - debian6
 ---

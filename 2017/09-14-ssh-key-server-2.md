@@ -1,6 +1,5 @@
----
-title: SSH Key untuk koneksi ke Server tanpa Password - 2
----
+# SSH Key untuk koneksi ke Server tanpa Password - 2
+
 
 ## Pendahuluan
 

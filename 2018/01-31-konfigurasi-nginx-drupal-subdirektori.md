@@ -1,6 +1,5 @@
----
-title: Konfigurasi Nginx Drupal yang berada di dalam subdirektori
----
+# Konfigurasi Nginx Drupal yang berada di dalam subdirektori
+
 
 ## Pertanyaan
 

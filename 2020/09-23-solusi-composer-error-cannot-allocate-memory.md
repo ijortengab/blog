@@ -1,6 +1,5 @@
----
-title: Solusi Composer Error Cannot Allocate Memory
----
+# Solusi Composer Error Cannot Allocate Memory
+
 
 ## Pendahuluan
 

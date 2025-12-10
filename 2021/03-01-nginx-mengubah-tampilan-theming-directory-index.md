@@ -1,5 +1,6 @@
+# Nginx - mengubah tampilan (theming) directory index
+
 ---
-title: Nginx - mengubah tampilan (theming) directory index
 tags:
   - nginx
 ---

@@ -1,6 +1,5 @@
----
-title: Install PHP versi non default pada Server Ubuntu/Debian
----
+# Install PHP versi non default pada Server Ubuntu/Debian
+
 
 ## Pendahuluan
 

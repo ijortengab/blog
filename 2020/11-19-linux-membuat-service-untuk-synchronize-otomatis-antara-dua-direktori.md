@@ -1,6 +1,5 @@
----
-title: Linux - Membuat service untuk synchronize otomatis antara dua direktori
----
+# Linux - Membuat service untuk synchronize otomatis antara dua direktori
+
 
 ## Studi Kasus
 

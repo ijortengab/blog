@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Install Windows legal dan gratis
----
+# Virtual Machine - Install Windows legal dan gratis
+
 
 ## Pendahuluan
 

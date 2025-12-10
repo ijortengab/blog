@@ -1,6 +1,5 @@
----
-title: Google Chrome for Windows XP v49.0.2623.112 Offline Installer (Standalone)
----
+# Google Chrome for Windows XP v49.0.2623.112 Offline Installer (Standalone)
+
 
 ## Pertanyaan
 

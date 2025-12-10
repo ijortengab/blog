@@ -1,6 +1,5 @@
----
-title: Linux - Cleanup direktori /var/log
----
+# Linux - Cleanup direktori /var/log
+
 
 ## Pendahuluan
 

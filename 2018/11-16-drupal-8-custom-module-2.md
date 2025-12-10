@@ -1,6 +1,5 @@
----
-title: Drupal 8 - Membuat Custom Module - part 2 - Redirect
----
+# Drupal 8 - Membuat Custom Module - part 2 - Redirect
+
 
 ## Studi Kasus
 

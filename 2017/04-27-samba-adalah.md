@@ -1,6 +1,5 @@
----
-title: Samba - Solusi Coding Windows Linux
----
+# Samba - Solusi Coding Windows Linux
+
 
 
 ## Perubahan Style

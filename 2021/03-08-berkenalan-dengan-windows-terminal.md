@@ -1,5 +1,6 @@
+# Berkenalan dengan Windows Terminal
+
 ---
-title: Berkenalan dengan Windows Terminal
 tags:
   - wt
 ---

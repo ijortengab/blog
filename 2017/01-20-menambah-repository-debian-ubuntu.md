@@ -1,6 +1,5 @@
----
-title: Menambah Repository pada Linux Debian/Ubuntu
----
+# Menambah Repository pada Linux Debian/Ubuntu
+
 
 ## Muqaddimah
 

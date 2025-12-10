@@ -1,6 +1,5 @@
----
-title: PHP - Array ke Excel
----
+# PHP - Array ke Excel
+
 
 ## Pendahuluan
 

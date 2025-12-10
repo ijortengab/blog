@@ -1,6 +1,5 @@
----
-title: Let's Encrypt - Menghapus akun yang duplikat pada satu server
----
+# Let's Encrypt - Menghapus akun yang duplikat pada satu server
+
 
 ## Latar Belakang
 

@@ -1,6 +1,5 @@
----
-title: Virtual Machine 64bit
----
+# Virtual Machine 64bit
+
 
 ## Pendahuluan
 

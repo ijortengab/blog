@@ -1,5 +1,6 @@
+# Bismillahirrahmanirrahim
+
 ---
-title: Bismillahirrahmanirrahim
 tags:
     - sculpin
 categories:

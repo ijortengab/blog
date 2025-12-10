@@ -1,6 +1,5 @@
----
-title: Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH
----
+# Windows rasa Linux - remote Windows dengan CLI menggunakan Cygwin-OpenSSH
+
 
 ## Latar Belakang
 

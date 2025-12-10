@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Install Debian 9.1
----
+# Virtual Machine - Install Debian 9.1
+
 
 ## Pendahuluan
 

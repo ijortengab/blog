@@ -1,6 +1,5 @@
----
-title: Definisi PathInfo pada URL
----
+# Definisi PathInfo pada URL
+
 
 ## Front Controller dan Rewrite
 

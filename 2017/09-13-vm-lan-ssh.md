@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Merakit LAN dan SSH
----
+# Virtual Machine - Merakit LAN dan SSH
+
 
 ## Pendahuluan
 

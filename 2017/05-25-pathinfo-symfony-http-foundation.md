@@ -1,6 +1,5 @@
----
-title: Mendapatkan PathInfo dengan Symfony HTTP-Foundation
----
+# Mendapatkan PathInfo dengan Symfony HTTP-Foundation
+
 
 ## Pendahuluan
 

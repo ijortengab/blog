@@ -1,6 +1,5 @@
----
-title: Menginstall Ubuntu 24.04 di WSL2
----
+# Menginstall Ubuntu 24.04 di WSL2
+
 
 ## Gerak Cepat
 

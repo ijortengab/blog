@@ -1,6 +1,5 @@
----
-title: Install OpenVPN Server di VPS OpenVZ
----
+# Install OpenVPN Server di VPS OpenVZ
+
 
 ## Disclaimer
 

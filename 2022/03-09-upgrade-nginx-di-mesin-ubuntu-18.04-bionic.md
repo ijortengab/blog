@@ -1,5 +1,6 @@
+# Upgrade nginx di mesin Ubuntu 18.04
+
 ---
-title: Upgrade nginx di mesin Ubuntu 18.04
 tags:
   - nginx
 ---

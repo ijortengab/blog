@@ -1,6 +1,5 @@
----
-title: Linux - Mengecek size direktori dengan du
----
+# Linux - Mengecek size direktori dengan du
+
 
 ## DU adalah
 

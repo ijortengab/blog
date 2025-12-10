@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Install Ubuntu Server 16.04 LTS
----
+# Virtual Machine - Install Ubuntu Server 16.04 LTS
+
 
 ## Pendahuluan
 

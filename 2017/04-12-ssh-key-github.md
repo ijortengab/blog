@@ -1,5 +1,6 @@
+# SSH Key untuk koneksi ke Github tanpa Password
+
 ---
-title: SSH Key untuk koneksi ke Github tanpa Password
 # draft: true
 ---
 

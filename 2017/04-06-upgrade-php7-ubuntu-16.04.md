@@ -1,6 +1,5 @@
----
-title: Upgrade PHP 7 di Ubuntu 14.04
----
+# Upgrade PHP 7 di Ubuntu 14.04
+
 
 ## Gerak cepat
 

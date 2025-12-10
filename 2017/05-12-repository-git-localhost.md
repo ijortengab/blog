@@ -1,6 +1,5 @@
----
-title: Membuat Repository Git Pribadi di Localhost
----
+# Membuat Repository Git Pribadi di Localhost
+
 
 ## Skenario
 

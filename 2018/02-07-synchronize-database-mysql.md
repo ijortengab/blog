@@ -1,6 +1,5 @@
----
-title: Synchronize database MySQL - Gak Pake Lama
----
+# Synchronize database MySQL - Gak Pake Lama
+
 
 ## Latar Belakang
 

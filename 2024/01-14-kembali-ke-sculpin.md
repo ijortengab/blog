@@ -1,5 +1,6 @@
+# Kembali ke Sculpin dari Gatsby
+
 ---
-title: Kembali ke Sculpin dari Gatsby
 tags:
   - sculpin
   - gatsby

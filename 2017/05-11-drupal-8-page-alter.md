@@ -1,6 +1,5 @@
----
-title: Drupal 8 - Page Alter
----
+# Drupal 8 - Page Alter
+
 
 ## Pendahuluan
 

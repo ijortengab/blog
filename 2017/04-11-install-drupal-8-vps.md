@@ -1,5 +1,6 @@
+# Instalasi Drupal 8 di Virtual Private Server
+
 ---
-title: Instalasi Drupal 8 di Virtual Private Server
 # draft: true
 ---
 

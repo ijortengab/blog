@@ -1,6 +1,5 @@
----
-title: Install Drupal Console
----
+# Install Drupal Console
+
 
 ## Pendahuluan
 

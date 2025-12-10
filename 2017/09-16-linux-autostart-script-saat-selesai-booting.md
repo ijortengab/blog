@@ -1,6 +1,5 @@
----
-title: Linux - Autostart script saat selesai booting
----
+# Linux - Autostart script saat selesai booting
+
 
 ## Pertanyaan
 

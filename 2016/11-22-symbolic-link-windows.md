@@ -1,6 +1,5 @@
----
-title: Membuat Symbolic Link pada Windows 7
----
+# Membuat Symbolic Link pada Windows 7
+
 
 ## Pendahuluan
 

@@ -1,5 +1,6 @@
+# Mendapatkan PathInfo dengan Class Request sederhana
+
 ---
-title: Mendapatkan PathInfo dengan Class Request sederhana
 #draft: true
 ---
 

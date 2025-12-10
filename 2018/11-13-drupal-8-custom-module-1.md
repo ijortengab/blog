@@ -1,6 +1,5 @@
----
-title: Drupal 8 - Membuat Custom Module - part 1 - Custom Page
----
+# Drupal 8 - Membuat Custom Module - part 1 - Custom Page
+
 
 ## Target
 

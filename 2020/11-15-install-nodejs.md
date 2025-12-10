@@ -1,6 +1,5 @@
----
-title: Install Node.js di mesin Ubuntu 20.04
----
+# Install Node.js di mesin Ubuntu 20.04
+
 
 ## Sekilas tentang Node.js
 

@@ -1,6 +1,5 @@
----
-title: Install OpenVPN Server GPL (Gak Pake Lama)
----
+# Install OpenVPN Server GPL (Gak Pake Lama)
+
 
 ## Pendahuluan
 

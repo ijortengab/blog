@@ -1,6 +1,5 @@
----
-title: Hapus Password Windows 7
----
+# Hapus Password Windows 7
+
 
 ## Disclaimer
 

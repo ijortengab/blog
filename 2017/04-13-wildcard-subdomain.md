@@ -1,5 +1,6 @@
+# Setup Wildcard Subdomain
+
 ---
-title: Setup Wildcard Subdomain
 # draft: true
 ---
 

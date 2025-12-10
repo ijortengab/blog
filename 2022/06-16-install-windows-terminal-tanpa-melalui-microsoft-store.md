@@ -1,5 +1,6 @@
+# Install Windows Terminal tanpa melalui Microsoft Store
+
 ---
-title: Install Windows Terminal tanpa melalui Microsoft Store
 tags:
   - wt
 ---

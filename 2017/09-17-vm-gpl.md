@@ -1,6 +1,5 @@
----
-title: Virtual Machine - Gak Pake Lama
----
+# Virtual Machine - Gak Pake Lama
+
 
 ## Dasar Pemalas
 

@@ -1,5 +1,6 @@
+# Menginstall Gitlist di WSL2
+
 ---
-title: Menginstall Gitlist di WSL2
 tags:
   - gitlist
   - wsl2

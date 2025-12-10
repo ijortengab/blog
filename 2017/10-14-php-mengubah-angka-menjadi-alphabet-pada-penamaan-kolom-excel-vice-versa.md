@@ -1,6 +1,5 @@
----
-title: PHP - Mengubah Angka menjadi Alphabet pada penamaan kolom Excel (vice versa)
----
+# PHP - Mengubah Angka menjadi Alphabet pada penamaan kolom Excel (vice versa)
+
 
 ## Pendahuluan
 

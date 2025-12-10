@@ -1,6 +1,5 @@
----
-title: Update Drupal 8 secara manual melalui CLI
----
+# Update Drupal 8 secara manual melalui CLI
+
 
 ## Gerak Cepat
 

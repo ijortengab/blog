@@ -1,6 +1,5 @@
----
-title: Screen sebagai solusi remote connection
----
+# Screen sebagai solusi remote connection
+
 
 ## Latar Belakang
 

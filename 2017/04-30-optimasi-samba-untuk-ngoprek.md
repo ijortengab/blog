@@ -1,6 +1,5 @@
----
-title: Optimasi Samba dengan VPN
----
+# Optimasi Samba dengan VPN
+
 
 Tulisan ini terkait dengan [tulisan sebelumnya][1].
 

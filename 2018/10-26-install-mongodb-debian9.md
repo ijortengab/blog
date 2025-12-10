@@ -1,6 +1,5 @@
----
-title: Install Mongodb di Debian 9
----
+# Install Mongodb di Debian 9
+
 
 ## Gerak Cepat
 

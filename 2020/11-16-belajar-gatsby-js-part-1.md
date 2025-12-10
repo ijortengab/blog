@@ -1,6 +1,5 @@
----
-title: Belajar Gatsby.js - part 1 - Hello World Starter
----
+# Belajar Gatsby.js - part 1 - Hello World Starter
+
 
 ## Pendahuluan
 

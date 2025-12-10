@@ -1,6 +1,5 @@
----
-title: Linux - Switch User Root dan ShutDown/Reboot Gak Pake Lama
----
+# Linux - Switch User Root dan ShutDown/Reboot Gak Pake Lama
+
 
 ## Pendahuluan
 

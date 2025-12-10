@@ -1,6 +1,5 @@
----
-title: Konfigurasi NginX untuk mendapatkan PathInfo
----
+# Konfigurasi NginX untuk mendapatkan PathInfo
+
 
 ## Skenario
 

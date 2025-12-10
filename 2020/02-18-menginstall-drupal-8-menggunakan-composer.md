@@ -1,6 +1,5 @@
----
-title: Menginstall Drupal 8 menggunakan Composer
----
+# Menginstall Drupal 8 menggunakan Composer
+
 
 ## Official 
 

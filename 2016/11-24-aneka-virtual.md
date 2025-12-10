@@ -1,5 +1,6 @@
+# Aneka Virtual di era digital
+
 ---
-title: Aneka Virtual di era digital
 #draft: true
 ---
 

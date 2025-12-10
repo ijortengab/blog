@@ -1,6 +1,5 @@
----
-title: Dari http ke https menggunakan Let's Encrypt dan DNS DigitalOcean
----
+# Dari http ke https menggunakan Let's Encrypt dan DNS DigitalOcean
+
 
 ## Disclaimer
 
