@@ -101,7 +101,7 @@ $('img[cloudinary]').each(function () {
 Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 
 ```
-<img cloudinary="$path_internal">
+&lt;img cloudinary="$path_internal"&gt;
 ```
 
 ## Contoh Hasil
@@ -109,7 +109,7 @@ Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 Hasil dari code ini:
 
 ```
-![Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;](/images/screenshot.509.png)
+&lt;img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &amp;quot;image hosting with upload api&amp;quot;"&gt;
 ```
 
 adalah gambar dibawah ini:
