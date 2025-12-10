@@ -21,7 +21,7 @@ Masuk kembali ke DNS Management-nya [RumahWeb]. Create Record CNAME untuk pembua
 
 [RumahWeb]: https://www.rumahweb.com/
 
-<img cloudinary="ijortengab.id/screenshot.655.png">
+![screenshot.655.png](/images/screenshot.655.png)
 
 Masuk kembali ke direktori penampungan ssl.
 
@@ -133,15 +133,15 @@ nginx -s reload
 
 Test pada browser Firefox dan Chrome. Keduanya sama-sama memberikan warning bahwa Certificate Authority tidak mereka kenal. Resiko ditanggung penumpang. 
 
-<img cloudinary="ijortengab.id/screenshot.712.png">
+![screenshot.712.png](/images/screenshot.712.png)
 
-<img cloudinary="ijortengab.id/screenshot.713.png">
+![screenshot.713.png](/images/screenshot.713.png)
 
 Karena pengguna website development terbatas hanya kepada developer dan orang-orang tertentu, maka kita lanjutkan mengunjungi website tersebut.
 
-<img cloudinary="ijortengab.id/screenshot.714.png">
+![screenshot.714.png](/images/screenshot.714.png)
 
-<img cloudinary="ijortengab.id/screenshot.715.png">
+![screenshot.715.png](/images/screenshot.715.png)
 
 
 ## Reference

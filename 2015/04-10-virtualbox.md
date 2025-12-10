@@ -50,25 +50,25 @@ Keseluruhan file yang saya dapat sebagai bahan belajar virtual mesin adalah:
 Eksekusi file installer virtual box dan lakukan step-step yang diminta. Jika
 diminta instal device, maka pilih Instal.
 
-<img cloudinary="ijortengab.id/screenshot-1.jpg">
+![screenshot-1.jpg](/images/screenshot-1.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-2.jpg">
+![screenshot-2.jpg](/images/screenshot-2.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-3.jpg">
+![screenshot-3.jpg](/images/screenshot-3.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-4.jpg">
+![screenshot-4.jpg](/images/screenshot-4.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-5.jpg">
+![screenshot-5.jpg](/images/screenshot-5.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-6.jpg">
+![screenshot-6.jpg](/images/screenshot-6.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-7.jpg">
+![screenshot-7.jpg](/images/screenshot-7.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-8.jpg">
+![screenshot-8.jpg](/images/screenshot-8.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-9.jpg">
+![screenshot-9.jpg](/images/screenshot-9.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-10.jpg">
+![screenshot-10.jpg](/images/screenshot-10.jpg)
 
 ## Create Virtual Machine
 
@@ -80,15 +80,15 @@ Alokasi Memori saya pilih 512 MB. Alokasi storage saya pilih type VDI, Fix,
 8 GB. Setelah konfigurasi ini, akan muncul pada sidebar sebuah virtual mesin
 dengan nama Ubuntuku.
 
-<img cloudinary="ijortengab.id/screenshot-11.jpg">
+![screenshot-11.jpg](/images/screenshot-11.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-13b.jpg">
+![screenshot-13b.jpg](/images/screenshot-13b.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-14.jpg">
+![screenshot-14.jpg](/images/screenshot-14.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-15.jpg">
+![screenshot-15.jpg](/images/screenshot-15.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-16.jpg">
+![screenshot-16.jpg](/images/screenshot-16.jpg)
 
 
 ## Install Ubuntu
@@ -98,33 +98,33 @@ dengan pilihan saat memilih version), lalu start. Window virtualbox kini
 seperti layar dari sebuah PC yang sedang booting dari Optical Disc (CD/DVD).
 Lakukan instalasi dan akan ada opsi restart jika finish.
 
-<img cloudinary="ijortengab.id/screenshot-17.jpg">
+![screenshot-17.jpg](/images/screenshot-17.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-18.jpg">
+![screenshot-18.jpg](/images/screenshot-18.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-19.jpg">
+![screenshot-19.jpg](/images/screenshot-19.jpg)
 
-<img cloudinary="ijortengab.id/ubuntuku1.png">
+![ubuntuku1.png](/images/ubuntuku1.png)
 
-<img cloudinary="ijortengab.id/ubuntuku2.png">
+![ubuntuku2.png](/images/ubuntuku2.png)
 
-<img cloudinary="ijortengab.id/ubuntuku3.png">
+![ubuntuku3.png](/images/ubuntuku3.png)
 
-<img cloudinary="ijortengab.id/ubuntuku4.png">
+![ubuntuku4.png](/images/ubuntuku4.png)
 
-<img cloudinary="ijortengab.id/ubuntuku5.png">
+![ubuntuku5.png](/images/ubuntuku5.png)
 
-<img cloudinary="ijortengab.id/ubuntuku7.png">
+![ubuntuku7.png](/images/ubuntuku7.png)
 
-<img cloudinary="ijortengab.id/ubuntuku6.png">
+![ubuntuku6.png](/images/ubuntuku6.png)
 
-<img cloudinary="ijortengab.id/ubuntuku8.png">
+![ubuntuku8.png](/images/ubuntuku8.png)
 
-<img cloudinary="ijortengab.id/ubuntuku9.png">
+![ubuntuku9.png](/images/ubuntuku9.png)
 
-<img cloudinary="ijortengab.id/ubuntuku10.png">
+![ubuntuku10.png](/images/ubuntuku10.png)
 
-<img cloudinary="ijortengab.id/ubuntuku11.png">
+![ubuntuku11.png](/images/ubuntuku11.png)
 
 ## Install Guest Additions
 
@@ -145,23 +145,23 @@ tersebut. Tekan tombol run, instalasi program addition dari virtual box akan
 berjalan. Setelah selesai maka restart, dan resolusi layar dari virtual mesin
 kini menjadi 1024x768 dan dapat diubah menjadi variasi lainnya.
 
-<img cloudinary="ijortengab.id/ubuntuku12.png">
+![ubuntuku12.png](/images/ubuntuku12.png)
 
-<img cloudinary="ijortengab.id/ubuntuku13.png">
+![ubuntuku13.png](/images/ubuntuku13.png)
 
-<img cloudinary="ijortengab.id/screenshot-20.jpg">
+![screenshot-20.jpg](/images/screenshot-20.jpg)
 
-<img cloudinary="ijortengab.id/ubuntuku14.png">
+![ubuntuku14.png](/images/ubuntuku14.png)
 
-<img cloudinary="ijortengab.id/ubuntuku15.png">
+![ubuntuku15.png](/images/ubuntuku15.png)
 
-<img cloudinary="ijortengab.id/ubuntuku16.png">
+![ubuntuku16.png](/images/ubuntuku16.png)
 
-<img cloudinary="ijortengab.id/ubuntuku17.png">
+![ubuntuku17.png](/images/ubuntuku17.png)
 
-<img cloudinary="ijortengab.id/ubuntuku18.png">
+![ubuntuku18.png](/images/ubuntuku18.png)
 
-<img cloudinary="ijortengab.id/ubuntuku19.png">
+![ubuntuku19.png](/images/ubuntuku19.png)
 
 ## Network setup
 
@@ -189,17 +189,17 @@ bernama eth1 dengan alamat IP lokal 192.168.56.101. Saat dilakukan ping dari
 Host ke Guest hasilnya terdapat respon yang artinya antara Host dan Guest sudah
 dapat saling berkomunikasi.
 
-<img cloudinary="ijortengab.id/screenshot-21.jpg">
+![screenshot-21.jpg](/images/screenshot-21.jpg)
 
-<img cloudinary="ijortengab.id/806568-screenshot-from-2015-04-10-11_07_03.png">
+![806568-screenshot-from-2015-04-10-11_07_03.png](/images/806568-screenshot-from-2015-04-10-11_07_03.png)
 
-<img cloudinary="ijortengab.id/screenshot-22.jpg">
+![screenshot-22.jpg](/images/screenshot-22.jpg)
 
-<img cloudinary="ijortengab.id/screenshot-23.jpg">
+![screenshot-23.jpg](/images/screenshot-23.jpg)
 
-<img cloudinary="ijortengab.id/705600-screenshot-from-2015-04-10-11_45_08.png">
+![705600-screenshot-from-2015-04-10-11_45_08.png](/images/705600-screenshot-from-2015-04-10-11_45_08.png)
 
-<img cloudinary="ijortengab.id/screenshot-24.jpg">
+![screenshot-24.jpg](/images/screenshot-24.jpg)
 
 Virtual mesin sudah tercipta dan kini tersedia alat untuk belajar pengembangan
 dan pengelolaan server.

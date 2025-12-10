@@ -30,7 +30,7 @@ Colok USB Flash Drive.
 
 Jalankan binary `usb_format.exe` run as admin. Format Flash disk dengan FileSystem FAT32, centang QuickFormat.
 
-<img cloudinary="ijortengab.id/screenshot.947.png">
+![screenshot.947.png](/images/screenshot.947.png)
 
 Jalankan binary `grubinst_gui.exe`.
 
@@ -40,11 +40,11 @@ Tekan tombol Refresh disamping field Part List hingga muncul options pada field 
 
 Tekan tombol Install.
 
-<img cloudinary="ijortengab.id/screenshot.917.png">
+![screenshot.917.png](/images/screenshot.917.png)
 
 Muncul command prompt, tekan ENTER untuk melanjutkan.
 
-<img cloudinary="ijortengab.id/screenshot.918.png">
+![screenshot.918.png](/images/screenshot.918.png)
 
 Mount file dot ISO `Hiren's.BootCD.15.2.iso` ke salah satu Virtual CD Drive atau extract file dot ISO tersebut.
 
@@ -54,7 +54,7 @@ Kemudian masuk ke folder `HBCD`, copy file `grldr` dan `menu.lst` ke folder satu
 
 Sehingga hasil akhir seperti terlihat pada gambar dibawah ini.
 
-<img cloudinary="ijortengab.id/screenshot.948.png">
+![screenshot.948.png](/images/screenshot.948.png)
 
 ## Finish
 

@@ -94,7 +94,7 @@ Arti kode diatas adalah apapun request yang berakhiran dot exe akan dicoba melih
 
 Test dengan langsung lihat di browser, cekidot http://ijortengab.id/putty.exe. Hasilnya memuaskan, tertera pada gambar dibawah.
 
-<img cloudinary="ijortengab.id/screenshot.593.png">
+![screenshot.593.png](/images/screenshot.593.png)
 
 ## Finishing
 

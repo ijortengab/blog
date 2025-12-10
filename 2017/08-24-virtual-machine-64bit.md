@@ -11,15 +11,15 @@ Salah satu provider virtual machine adalah [VirtualBox].
 Saat akan memilih virtual machine, maka opsi yang tersedia ternyata hanya CPU
 32bit.
 
-<img cloudinary="ijortengab.id/screenshot.1017.png">
+![screenshot.1017.png](/images/screenshot.1017.png)
 
-<img cloudinary="ijortengab.id/screenshot.1018.png">
+![screenshot.1018.png](/images/screenshot.1018.png)
 
 Jika dipaksakan menginstall sistem operasi 64 bit akan muncul notifikasi gagal.
 
 Contoh saat menginstall Debian 64bit di CPU 32bit:
 
-<img cloudinary="ijortengab.id/VirtualBox_24_08_2017_09_22_59.png">
+![VirtualBox_24_08_2017_09_22_59.png](/images/VirtualBox_24_08_2017_09_22_59.png)
 
 ## Pertanyaan
 
@@ -39,7 +39,7 @@ diatas, maka kita perlu meng-enable fitur Virtualisasi Prosesor di BIOS.
 Pastikan prosesor yang tertanam pada motherboard mendukung fitur Virtualisasi.
 Contoh yang mendukung yakni:
 
-<img cloudinary="ijortengab.id/screenshot.1020.png" width="800">
+![screenshot.1020.png" width="800](/images/screenshot.1020.png" width="800)
 
 ## Setup Bios
 
@@ -49,15 +49,15 @@ segera setelah menekan tombol power untuk turn on.
 Masuk ke tab "Security" >> menu "Virtualization" dan Enable pada Item
 "Intel (R) Virtualization Technology" dan kemudian Save.
 
-<img cloudinary="ijortengab.id/IMG_20170824_100637.jpg">
+![IMG_20170824_100637.jpg](/images/IMG_20170824_100637.jpg)
 
-<img cloudinary="ijortengab.id/IMG_20170824_100724.jpg">
+![IMG_20170824_100724.jpg](/images/IMG_20170824_100724.jpg)
 
 Setelah Restart, maka opsi 64 bit pada virtual machine di VirtualBox akhirnya
 muncul.
 
-<img cloudinary="ijortengab.id/screenshot.1021.png">
+![screenshot.1021.png](/images/screenshot.1021.png)
 
-<img cloudinary="ijortengab.id/screenshot.1022.png">
+![screenshot.1022.png](/images/screenshot.1022.png)
 
 

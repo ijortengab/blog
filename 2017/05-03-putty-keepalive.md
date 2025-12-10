@@ -16,7 +16,7 @@ PuTTy > Category > Connection > Sending of null packets to keep session active >
 
 Isi dengan value antara 10 sampai 30 (satuan detik). Saya prefer di angka `10`.
 
-<img cloudinary="ijortengab.id/screenshot.820.png">
+![screenshot.820.png](/images/screenshot.820.png)
 
 ## Permasalahan
 
@@ -38,7 +38,7 @@ Opsi lainnya dikosongkan (atau opsi default) seperti host name, port, type, dll.
 
 Kemudian save session tersebut.
 
-<img cloudinary="ijortengab.id/screenshot.822.png">
+![screenshot.822.png](/images/screenshot.822.png)
 
 ## Test
 

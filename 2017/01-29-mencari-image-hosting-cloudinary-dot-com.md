@@ -109,12 +109,12 @@ Untuk setiap artikel, memasukkan gambar cukup dengan pola sebagai berikut:
 Hasil dari code ini:
 
 ```
-<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
+![Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;](/images/screenshot.509.png)
 ```
 
 adalah gambar dibawah ini:
 
-<img cloudinary="ijortengab.id/screenshot.509.png" alt="Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;">
+![Screenshot hasil googling dengan query &quot;image hosting with upload api&quot;](/images/screenshot.509.png)
 
 ## Penutup
 

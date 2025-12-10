@@ -13,7 +13,7 @@ Programmer yang baik hati [telah membuat tools][1] untuk mempermudah download fi
 
 [1]: https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool?showall=1
 
-<img cloudinary="ijortengab.id/screenshot.616.png" title="Screenshot tampilan dari tools tersebut.">
+![screenshot.616.png" title="Screenshot tampilan dari tools tersebut.](/images/screenshot.616.png" title="Screenshot tampilan dari tools tersebut.)
 
 > This tool allows an easy and comfortable way to download genuine Windows 7, Windows 8.1 and Windows 10 disk images (ISO) directly from Microsoft's servers, as well as Office 2007, Office 2010, Office 2013, Office 2016, and Office 2011 for Mac.
 >

@@ -102,7 +102,7 @@ Masuk ke site:
 
 Create New Key.
 
-<img cloudinary="ijortengab.id/screenshot.720.edited.png">
+![screenshot.720.edited.png](/images/screenshot.720.edited.png)
 
 Title:
 
@@ -120,12 +120,12 @@ cat ~/.ssh/id_rsa.pub
 
 Pastekan di field Key.
 
-<img cloudinary="ijortengab.id/screenshot.721.edited.png">
+![screenshot.721.edited.png](/images/screenshot.721.edited.png)
 
 Tekan tombol [Add SSH key], dan akan muncul input-an password.
 
 
-<img cloudinary="ijortengab.id/screenshot.723.png">
+![screenshot.723.png](/images/screenshot.723.png)
 
 ## Testing your SSH connection
 

@@ -43,7 +43,7 @@ apt-get install nginx
 
 Tampilan default dari http://1.2.3.4 harusnya adalah halaman default dari nginx.
 
-<img cloudinary="ijortengab.id/screenshot.728.png">
+![screenshot.728.png](/images/screenshot.728.png)
 
 ## phonenumber.id
 
@@ -51,19 +51,19 @@ Domain `phonenumber.id` akan menggunakan DNS dari RumahWeb. Login ke client area
 
 Pastikan Nameserver mengarah ke RumahWeb.
 
-<img cloudinary="ijortengab.id/screenshot.730.png" style="border:1px solid black;">
+![screenshot.730.png](/images/screenshot.730.png)
 
 Manage DNS untuk domain `phonenumber.id`.
 
-<img cloudinary="ijortengab.id/screenshot.729.png" style="border:1px solid black;">
+![screenshot.729.png](/images/screenshot.729.png)
 
 Add new record dan create A Record untuk domain `phonenumber.id`.
 
-<img cloudinary="ijortengab.id/screenshot.732.png" style="border:1px solid black;">
+![screenshot.732.png](/images/screenshot.732.png)
 
 Add new record dan create A Record untuk domain `*. phonenumber.id`.
 
-<img cloudinary="ijortengab.id/screenshot.731.png" style="border:1px solid black;">
+![screenshot.731.png](/images/screenshot.731.png)
 
 Tunggu beberapa saat kemudian kunjungi `phonenumber.id` dan `apapun.phonenumber.id`. Kedua situs tersebut akan menampilkan hasil yang sama. Tampilan default bawaan nginx.
 
@@ -73,18 +73,18 @@ Domain `biography.id` akan menggunakan DNS dari DigitalOcean. Login ke client ar
 
 Pastikan Nameserver mengarah ke DigitalOcean.
 
-<img cloudinary="ijortengab.id/screenshot.733.png" style="border:1px solid black;">
+![screenshot.733.png](/images/screenshot.733.png)
 
 Login ke client area-nya RumahWeb. Masuk ke menu "Networking". Add a domain untuk `biography.id`.
 
-<img cloudinary="ijortengab.id/screenshot.734.png" style="border:1px solid black;">
+![screenshot.734.png](/images/screenshot.734.png)
 
 Create A record. Input Hostname adalah `@` yang berarti domain utama yang didaftarkan.
 
-<img cloudinary="ijortengab.id/screenshot.735.png" style="border:1px solid black;">
+![screenshot.735.png](/images/screenshot.735.png)
 
 Create A record. Input Hostname adalah `*` yang berarti subdomain wildcard yang didaftarkan.
 
-<img cloudinary="ijortengab.id/screenshot.736.png" style="border:1px solid black;">
+![screenshot.736.png](/images/screenshot.736.png)
 
 Tunggu beberapa saat kemudian kunjungi `biography.id` dan `apapun.biography.id`. Kedua situs tersebut akan menampilkan hasil yang sama. Tampilan default bawaan nginx.

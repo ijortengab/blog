@@ -262,11 +262,11 @@ service php7.0-fpm restart
 
 Buka website via browser dan jalankan instalasi.
 
-<img cloudinary="ijortengab.id/screenshot.716.png">
+![screenshot.716.png](/images/screenshot.716.png)
 
-<img cloudinary="ijortengab.id/screenshot.717.png">
+![screenshot.717.png](/images/screenshot.717.png)
 
-<img cloudinary="ijortengab.id/screenshot.718.png">
+![screenshot.718.png](/images/screenshot.718.png)
 
 ### Development
 
@@ -297,7 +297,7 @@ Congratulations, you installed Drupal!                                          
 
 Finish dan lihat di browser, website Drupal Development.
 
-<img cloudinary="ijortengab.id/screenshot.719.png">
+![screenshot.719.png](/images/screenshot.719.png)
 
 ## Nginx Configuration
 

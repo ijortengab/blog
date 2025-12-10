@@ -25,7 +25,7 @@ Untuk implementasi virtualhost, maka setidaknya dibutuhkan dua domain. Domain ya
 
 Certificate Authority menggunakan [GeoTrust]. Terdapat free trial certificate selama 30 hari. GeoTrust dipilih karena menduduki peringkat pertama dalam pencarian Google dengan query "free trial ssl". 
 
-<img cloudinary="ijortengab.id/screenshot.703.png">
+![screenshot.703.png](/images/screenshot.703.png)
 
 [RumahWeb]: https://www.rumahweb.com/
 [DigitalOcean]: https://www.digitalocean.com/
@@ -49,7 +49,7 @@ Sumber: <https://www.digitalocean.com/community/tutorials/how-to-set-up-multiple
 
 Masuk ke DNS Management dari registrar RumahWeb. Arahkan `juragan.web.id` ke IP DigitalOcean `1.2.3.4`. Lakukan hal yang sama dengan domain `ui.web.id`.
 
-<img cloudinary="ijortengab.id/screenshot.704.png" style="border:1px solid black;">
+![screenshot.704.png](/images/screenshot.704.png)
 
 ## Create User
 
@@ -397,57 +397,57 @@ Buka website Free SSL Certificate dari GeoTrust:
 
 https://www.geotrust.com/ssl/free-ssl-certificate/
 
-<img cloudinary="ijortengab.id/screenshot.656.png">
+![screenshot.656.png](/images/screenshot.656.png)
 
 Tekan tombol Get Your Free Certificate Now!
 
 Masuk ke halaman Formulir. Isi dengan lengkap.
 
-<img cloudinary="ijortengab.id/screenshot.677.edited.png">
+![screenshot.677.edited.png](/images/screenshot.677.edited.png)
 
 Masuk ke halaman informasi masa berlaku. Continue.
 
-<img cloudinary="ijortengab.id/screenshot.679.edited.png">
+![screenshot.679.edited.png](/images/screenshot.679.edited.png)
 
 Copy paste isi dari file `server.csr` kedalam textarea formulir. 
 
-<img cloudinary="ijortengab.id/screenshot.681.edited.png">
+![screenshot.681.edited.png](/images/screenshot.681.edited.png)
 
 Masuk ke halaman konfirmasi berdasarkan informasi `csr`. Continue.
 
-<img cloudinary="ijortengab.id/screenshot.684.edited.png">
+![screenshot.684.edited.png](/images/screenshot.684.edited.png)
 
 Isi formulir informasi contact person.
 
-<img cloudinary="ijortengab.id/screenshot.686.edited.png">
+![screenshot.686.edited.png](/images/screenshot.686.edited.png)
 
 Pilih alamat email tujuan untuk verifikasi domain. Opsi email level 1 adalah email berdasarkan `whois` nama domain. Opsi email level 2 adalah email net-admin dari domain yang bersangkutan. Saya memilih opsi email level pertama, karena mail server dari domain `juragan.web.id` belum ada.
 
-<img cloudinary="ijortengab.id/screenshot.688.edited.png">
+![screenshot.688.edited.png](/images/screenshot.688.edited.png)
 
 Masuk ke halaman order summary. Checklist pada pernyataan *agreement* dan Submit Order.
 
-<img cloudinary="ijortengab.id/screenshot.691.edited.png">
+![screenshot.691.edited.png](/images/screenshot.691.edited.png)
 
 Finish, sampai dihalaman terakhir. Catat atau screenshot nomor order untuk kebutuhan nantinya.
 
-<img cloudinary="ijortengab.id/screenshot.695.png">
+![screenshot.695.png](/images/screenshot.695.png)
 
 Cek email tujuan yang digunakan untuk verifikasi domain. Akan tiba email yang berisi link untuk masuk ke halaman konfirmasi.
 
-<img cloudinary="ijortengab.id/screenshot.696.edited.png">
+![screenshot.696.edited.png](/images/screenshot.696.edited.png)
 
 Follow link tersebut. Tiba dihalaman konfirmasi. Klik **I Approve**.
 
-<img cloudinary="ijortengab.id/screenshot.698.edited.png">
+![screenshot.698.edited.png](/images/screenshot.698.edited.png)
 
 Masuk ke halaman notifikasi sukses approval.
 
-<img cloudinary="ijortengab.id/screenshot.701.png">
+![screenshot.701.png](/images/screenshot.701.png)
 
 Terakhir kita cek email yang digunakan saat pendaftaran.
 
-<img cloudinary="ijortengab.id/screenshot.702.edited.png">
+![screenshot.702.edited.png](/images/screenshot.702.edited.png)
 
 Cek pada email yang berjudul **Your GeoTrust SSL Trial order has been completed**. Di dalam email tersebut terdapat kode sertifikat. Copy dan paste sebagai file di server.
 
@@ -456,7 +456,7 @@ cd /home/juragan/ssl
 vi geotrust.crt
 ```
 
-<img cloudinary="ijortengab.id/screenshot.705.edited.png">
+![screenshot.705.edited.png](/images/screenshot.705.edited.png)
 
 Edit kembali konfigurasi nginx.
 
@@ -496,15 +496,15 @@ Lakukan proses yang sama untuk domain `ui.web.id`. Saya menghindari penggunaan e
 
 Test pada browser, maka domain https://juragan.web.id dan https://ui.web.id telah live dengan sukses.
 
-<img cloudinary="ijortengab.id/screenshot.706.png">
+![screenshot.706.png](/images/screenshot.706.png)
 
-<img cloudinary="ijortengab.id/screenshot.707.png">
+![screenshot.707.png](/images/screenshot.707.png)
 
 Browser Firefox dapat dengan cepat memeriksa Certificate Authority cukup menge-klik icon gembok (secure) disamping URL pada Address Bar.
 
-<img cloudinary="ijortengab.id/screenshot.708.png">
+![screenshot.708.png](/images/screenshot.708.png)
 
-<img cloudinary="ijortengab.id/screenshot.709.png">
+![screenshot.709.png](/images/screenshot.709.png)
 
 
 ## Reference

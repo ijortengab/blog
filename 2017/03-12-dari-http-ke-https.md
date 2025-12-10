@@ -46,7 +46,7 @@ Comodo, Inc dipilih karena terdapat opsi [free trial][4] selama 90 hari.
 
 Masuk ke DNS Management-nya Rumahweb, kemudian set `systemix.id` diarahkan ke IP VPS.
 
-<img cloudinary="ijortengab.id/screenshot.576">
+![screenshot.576](/images/screenshot.576)
 
 ## Create User 
 
@@ -98,7 +98,7 @@ Cek di browser dan website port 80 telah live.
 curl systemix.id
 wget systemix.id -q -O -
 ```
-<img cloudinary="ijortengab.id/screenshot.577">
+![screenshot.577](/images/screenshot.577)
 
 
 ## Create Certificate 
@@ -154,7 +154,7 @@ Copy paste isi dari file systemix.csr kedalam box.
 
 Pilih **nginx** pada pertanyaan "Select the server software used to generate the CSR".
 
-<img cloudinary="ijortengab.id/screenshot.570">
+![screenshot.570](/images/screenshot.570)
 
 Next dan kita akan sampai pada form STEP 2. Domain Control Validation.
 
@@ -166,7 +166,7 @@ MD5 = 6720C8C58E17D6A9C3AA5F1A038947B2
 SHA-1 = D471359881F6BF35435AC1EFADFB535200C3879E
 ```
 
-<img cloudinary="ijortengab.id/screenshot.578">
+![screenshot.578](/images/screenshot.578)
 
 Buat file pada server root:
 
@@ -190,13 +190,13 @@ Next dan kita masuk ke Step 3: Your Corporate Details. Isi semua field yang requ
 
 Next. Tiba dihalaman Agreement. Checklist pada tickbox, dan klik tombol Continue.
 
-<img cloudinary="ijortengab.id/screenshot.572">
+![screenshot.572](/images/screenshot.572)
 
 Tiba di halaman Complete Order. Untuk melihat status validasi certificate dapat melalui halaman client area di https://secure.comodo.net/products/frontpage.
 
 Waktu yang dibutuhkan agar certificate selesai diproses oleh Comodo hanya kurang dari dua menit jika email aktif dan sesuai. Certifikat akan dikirim via attachment serta juga tertera pada body email.
 
-<img cloudinary="ijortengab.id/screenshot.579.edited">
+![screenshot.579.edited](/images/screenshot.579.edited)
 
 Jika certificate telah dikirim via email, download lampirannya dan upload kembali ke dalam server folder `/home/systemix/ssl` menggunakan Ftp Client atau Scp Client.
 
@@ -245,7 +245,7 @@ nginx -s reload
 
 Cek di browser dan website port 443 telah live.
 
-<img cloudinary="ijortengab.id/screenshot.580">
+![screenshot.580](/images/screenshot.580)
 
 Cek melalui console bila tanpa verifikasi host:
 

@@ -15,7 +15,7 @@ Sesuaikan variable diatas dengan value aktual, lalu save dengan nama file `login
 
 Eksekusi file `login.bat` maka Putty muncul dalam keadaan sudah login dan siap digunakan.
 
-<img cloudinary="ijortengab.id/screenshot.749.png">
+![screenshot.749.png](/images/screenshot.749.png)
 
 ## Ada cara yang lebih aman?
 
@@ -43,7 +43,7 @@ Program sudah tersedia jika instalasi `putty` menggunakan versi Installer `.msi`
 
 Jalankan `puttygen.exe`. 
 
-<img cloudinary="ijortengab.id/screenshot.750.png">
+![screenshot.750.png](/images/screenshot.750.png)
 
 Pada input `Number of bits in a generated key:` masukkan value `2048`. 
 
@@ -51,7 +51,7 @@ Pada input `Type of key to generate:` pilih value `SSH-2-RSA`.
 
 Klik tombol Generate. Putar-putar cursor mouse di blank area fieldset `Key` agar tecipta random string.
 
-<img cloudinary="ijortengab.id/screenshot.752.png">
+![screenshot.752.png](/images/screenshot.752.png)
 
 Tunggu sampai loading selesai sampai pair public dan private key tercipta. 
 
@@ -71,7 +71,7 @@ Save private key ke dalam file misal `C:\Users\ijortengab\.ssh\ijortengab-server
 
 Passphrase kita kosongkan saja.
 
-<img cloudinary="ijortengab.id/screenshot.753.png">
+![screenshot.753.png](/images/screenshot.753.png)
 
 ## Finishing
 
@@ -82,7 +82,7 @@ cd "C:\Program Files (x86)\PuTTY"
 start putty.exe 1.2.3.4 -l ijortengab -i "C:\Users\ijortengab\.ssh\ijortengab-server1.key.ppk"
 ```
 
-<img cloudinary="ijortengab.id/screenshot.754.png">
+![screenshot.754.png](/images/screenshot.754.png)
 
 Eksekusi file `login.bat` maka Putty muncul dalam keadaan sudah login dan siap digunakan.
 

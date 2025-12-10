@@ -37,11 +37,11 @@ Setelah samba terinstall, maka harusnya server dapat diakses melalui domain atau
 
 Contoh masuk ke explorer.exe melalui Run:
 
-<img cloudinary="ijortengab.id/screenshot.795.png">
+![screenshot.795.png](/images/screenshot.795.png)
 
 `Explorer.exe` muncul dengan path `\\ijortengab.id`.
 
-<img cloudinary="ijortengab.id/screenshot.796.png">
+![screenshot.796.png](/images/screenshot.796.png)
 
 Saat ini belum ada direktori sharing. Masuk kembali ke server.
 
@@ -175,15 +175,15 @@ service smbd restart
 
 Cek kembali path `\\ijortengab.id` melalui `explorer.exe`, maka akan muncul direktori sharing bernama `Tools`. 
 
-<img cloudinary="ijortengab.id/screenshot.797.png">
+![screenshot.797.png](/images/screenshot.797.png)
 
 Masuk kedalam direktori akan muncul popup untuk login, gunakan username Linux `ijortengab` dan password Samba-nya.
 
-<img cloudinary="ijortengab.id/screenshot.798.png">
+![screenshot.798.png](/images/screenshot.798.png)
 
 Explore file di Linux sekarang menjadi semudah explore file di Windows menggunakan Windows Explorer (`explorer.exe`).
 
-<img cloudinary="ijortengab.id/screenshot.799.png">
+![screenshot.799.png](/images/screenshot.799.png)
 
 ## Security
 
