@@ -21,26 +21,26 @@ Dapat diset permanen atau temporary dan langsung tanpa perlu shutdown Guest.
 
 Masuk ke Machine >> Settings.
 
-[Screenshot.](image://ijortengab.id/screenshot.1182.png)
+![Screenshot.](/images/screenshot.1182.png)
 
 Tab Shared Folders >> Add new shared folders.
 
-[Screenshot.](image://ijortengab.id/screenshot.1183.png)
+![Screenshot.](/images/screenshot.1183.png)
 
 Saya menjadikan folder `Downloads` yang berlokasi di `%HOMEDRIVE%%HOMEPATH%`
 atau `C:\Users\X220\Downloads` sebagai folder sharing dari Host (SMB server) 
 untuk diakses oleh Guest (SMB client).
 
-[Screenshot.](image://ijortengab.id/screenshot.1184.png)
+![Screenshot.](/images/screenshot.1184.png)
 
 Cara mengakses dari client adalah dengan meng-explore `My Network Places`. 
 
-[Screenshot.](image://ijortengab.id/screenshot.1185.png)
+![Screenshot.](/images/screenshot.1185.png)
 
 Lokasi folder sharing `Downloads`-nya Host dari Guest berada di
 `My Network Places >> VirtualBox Shared Folders >> Vboxsvr`.
 
-[Screenshot.](image://ijortengab.id/screenshot.1186.png)
+![Screenshot.](/images/screenshot.1186.png)
 
 ## Browser
 
@@ -62,7 +62,7 @@ tidak menyediakan akses direct download sehingga harus
 Download program setup diatas melalui Host (Windows 7). Kemudian install setup 
 Firefox dan Google Chrome dari Windows XP yang mengakses folder sharing Host.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.1.png)
+![Screenshot.](/images/screenshotxp.1.png)
 
 Setelah kedua browser tersebut terinstall, katakan selamat tinggal untuk IE6.
 
@@ -89,7 +89,7 @@ kasus ransomware wannacrypt.
 Meski demikian, update security ini dapat diabaikan karena tujuan menggunakan
 Windows XP sebatas testing. Set Automatic Update sebagai "Notify me only".
 
-[Screenshot.](image://ijortengab.id/screenshotxp.10.png)
+![Screenshot.](/images/screenshotxp.10.png)
  
 ## Background Bliss
 
@@ -97,13 +97,13 @@ Terakhir adalah kosmetik. Background Bliss tidak turut terbawa oleh program
 Windows XP Mode. Sehingga perlu kita set manual dengan mencarinya melalui 
 internet.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.2.png)
+![Screenshot.](/images/screenshotxp.2.png)
 
 ## Finish
 
 Selamat bernostalgia dengan Windows XP.
 
-![Screenshot.](image://ijortengab.id/screenshotxp.3.png)
+![Screenshot.](/images/screenshotxp.3.png)
 
 ## Reference
 

@@ -34,7 +34,7 @@ the ip is in Spamhaus's list; see https://postmaster.verizonmedia.com/error-code
 
 IP Public kita termasuk dalam blacklist Spamhaus.
 
-[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-04_14.27.24.jpg)
+![Screenshot.](/images/2021/screenshot.2021-07-04_14.27.24.jpg)
 
 Solusi adalah dengan mengirim request ke Spamhaus melalui formulir online:
 
@@ -82,7 +82,7 @@ Solusi adalah dengan mengirim request ke Yahoo melalui formulir online:
 
 Lalu klik link `Yahoo Sender Support Request`.
 
-[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-25_15.40.42.jpg)
+![Screenshot.](/images/2021/screenshot.2021-07-25_15.40.42.jpg)
 
 Jalan lain menuju formulir online adalah:
 
@@ -94,7 +94,7 @@ Jalan lain menuju formulir online adalah:
 
 Pada input email, masukkan alamat email yang berasal dari mail server kita (bukan dari provider lain seperti Gmail).
 
-[Screenshot.](image://ijortengab.id/2021/screenshot.2021-07-05_19.59.01.jpg)
+![Screenshot.](/images/2021/screenshot.2021-07-05_19.59.01.jpg)
 
 **Jawaban via Email**
 

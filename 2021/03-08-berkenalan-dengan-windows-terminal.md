@@ -24,11 +24,11 @@ Blog terkait:
 
 Fitur tab adalah **alasan utama** akhirnya menggunakan Windows Terminal.
 
-![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-08_08.49.32.jpg)
+![Screenshot.](/images/2021/screenshot.2021-03-08_08.49.32.jpg)
 
 Bahkan dalam satu `tab` masih dapat di-split menjadi beberapa `pane` (sub tab).
 
-![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-08_08.52.50.jpg)
+![Screenshot.](/images/2021/screenshot.2021-03-08_08.52.50.jpg)
 
 ## Install
 

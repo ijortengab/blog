@@ -39,7 +39,7 @@ imdisk -d -m R:
 
 Hasil benchmark:
 
-![Screenshot.](image://ijortengab.id/2022/screenshot.2022-06-07_12.32.12.jpg)
+![Screenshot.](/images/2022/screenshot.2022-06-07_12.32.12.jpg)
 
 Kecepatan hingga Gigabyte per second yang membuktikan bahwa RAM Disk berjalan normal.
 

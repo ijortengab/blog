@@ -14,11 +14,11 @@ Kondisi sebelum dan sesudah adalah sebagai berikut:
 
 Sebelum:
 
-![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_09.30.14.jpg)
+![Screenshot.](/images/2021/screenshot.2021-03-01_09.30.14.jpg)
 
 Sesudah:
 
-![Screenshot.](image://ijortengab.id/2021/screenshot.2021-03-01_11.24.21.jpg)
+![Screenshot.](/images/2021/screenshot.2021-03-01_11.24.21.jpg)
 
 ## Pendahuluan
 

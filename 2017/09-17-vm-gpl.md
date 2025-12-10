@@ -314,32 +314,32 @@ bisa kita eksekusi gak pake lama melalui RUN.
 
 Matikan vm `Debian 9.1`.
 
-![Screenshot.](image://ijortengab.id/screenshot.1204.png)
+![Screenshot.](/images/screenshot.1204.png)
 
 Masuk ke Run, ketikkan `GPL`. Ekstensi `.bat` dapat diacuhkan. Enter.
 
-![Screenshot.](image://ijortengab.id/screenshot.1203.png)
+![Screenshot.](/images/screenshot.1203.png)
 
 Program `GPL.bat` sedang menjalankan VM.
 
-![Screenshot.](image://ijortengab.id/screenshot.1205.png)
+![Screenshot.](/images/screenshot.1205.png)
 
 Program `GPL.bat` sedang menanti trigger selesai booting dari Guest.
 
-![Screenshot.](image://ijortengab.id/screenshot.1206.png)
+![Screenshot.](/images/screenshot.1206.png)
 
 Trigger diterima, saatnya menjalankan terminal. Lima detik kemudian program
 `GPL.bat` akan auto close.
 
-![Screenshot.](image://ijortengab.id/screenshot.1207.png)
+![Screenshot.](/images/screenshot.1207.png)
 
 Terminal pun muncul sudah `ssh` ke Guest.
 
-![Screenshot.](image://ijortengab.id/screenshot.1202.png)
+![Screenshot.](/images/screenshot.1202.png)
 
 Tampilan pada VirtualBox Manager, terlihat bahwa `Debian 9.1` telah running.
 
-![Screenshot.](image://ijortengab.id/screenshot.1208.png)
+![Screenshot.](/images/screenshot.1208.png)
 
 ## Test 2
 
@@ -349,14 +349,14 @@ Guest.
 Execute kembali `GPL` melalui Run. Bisa huruf kecil karena Windows case
 insensitive.
 
-![Screenshot.](image://ijortengab.id/screenshot.1209.png)
+![Screenshot.](/images/screenshot.1209.png)
 
 Program `GPL.bat` langsung mendetect bahwa VM telah running, dan kemudian
 menjalankan terminal dan koneksi ssh ke Guest.
 
-![Screenshot.](image://ijortengab.id/screenshot.1210.png)
+![Screenshot.](/images/screenshot.1210.png)
 
-![Screenshot.](image://ijortengab.id/screenshot.1211.png)
+![Screenshot.](/images/screenshot.1211.png)
 
 ## Instance
 

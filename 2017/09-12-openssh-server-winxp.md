@@ -14,7 +14,7 @@ Namun saat tulisan ini dibuat, Cygwin telah berhenti mendukung windows XP.
 
 Sumber: http://www.cygwin.com/
 
-[Screenshot.](image://ijortengab.id/screenshotxp.13.png)
+![Screenshot.](/images/screenshotxp.13.png)
 
 Terdapat tiga program yang sama-sama menggunakan engine openssh dan dibuat 
 sedemikian rupa sehingga compatible dengan Windows, salah satunya Windows XP
@@ -32,9 +32,9 @@ http://opensshwindows.sourceforge.net dengan sedikit tambahan aktifitas.
 Sebelum memulai, ada baiknya kita menginstall Notepad++ terlebih dahulu di 
 Windows XP.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.9.png)
+![Screenshot.](/images/screenshotxp.9.png)
 
-[Screenshot.](image://ijortengab.id/screenshotxp.11.png)
+![Screenshot.](/images/screenshotxp.11.png)
 
 ## Multi User
 
@@ -45,22 +45,22 @@ Kita buat user lain selain `Administrator`.
 Masuk ke `Control Panel >> User Accounts`. Cara cepat menggunakan `Run` ketik 
 `control userpasswords2`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.16.png)
+![Screenshot.](/images/screenshotxp.16.png)
 
 Tambah user selain `Administrator`, yakni `ijortengab`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.17.png)
+![Screenshot.](/images/screenshotxp.17.png)
 
 Tambah role sebagai `Administrators`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.18.png)
+![Screenshot.](/images/screenshotxp.18.png)
 
 ## Install OpenSSH for Windows
 
 Download program `OpenSSH for Windows` dari repository [IjorTengab Tools][3].
 Lakukan instalasi.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.12.png)
+![Screenshot.](/images/screenshotxp.12.png)
 
 Setelah instalasi, lakukan verifikasi port 22 yang didengar oleh sshd.
 
@@ -68,7 +68,7 @@ Setelah instalasi, lakukan verifikasi port 22 yang didengar oleh sshd.
 netstat -aon | find /i "22"
 ```
 
-[Screenshot.](image://ijortengab.id/screenshotxp.14.png)
+![Screenshot.](/images/screenshotxp.14.png)
 
 Secara default, lokasi direktori OpenSSH for Windows adalah di 
 `C:\Program Files\OpenSSH for Windows`. 
@@ -76,13 +76,13 @@ Secara default, lokasi direktori OpenSSH for Windows adalah di
 Masuk ke direktori tersebut. Buka file berlokasi di `etc/passwd` menggunakan 
 `notepad++`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.15.png)
+![Screenshot.](/images/screenshotxp.15.png)
 
 Dari isi file tersebut terlihat bahwa login ssh hanya untuk user 
 `Administrator` dengan home direktori berlokasi di `/home` alias di 
 `C:\Program Files\OpenSSH for Windows\home`. 
 
-[Screenshot.](image://ijortengab.id/screenshotxp.22.png)
+![Screenshot.](/images/screenshotxp.22.png)
 
 ## After Install
 
@@ -90,11 +90,11 @@ Dari isi file tersebut terlihat bahwa login ssh hanya untuk user
 
 Klik kanan pada `My Computer >> Properties`. 
 
-[Screenshot.](image://ijortengab.id/screenshotxp.29.png)
+![Screenshot.](/images/screenshotxp.29.png)
 
 Tab `Advanced`. Tombol `Environment Variables`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.30.png)
+![Screenshot.](/images/screenshotxp.30.png)
 
 System Variables. Variable Path. Append value berikut:
 
@@ -102,7 +102,7 @@ System Variables. Variable Path. Append value berikut:
 C:\Program Files\OpenSSH for Windows\bin
 ```
 
-[Screenshot.](image://ijortengab.id/screenshotxp.31.png)
+![Screenshot.](/images/screenshotxp.31.png)
 
 Restart mesin agar penambahan variable `Path` terimplementasi.
 
@@ -112,17 +112,17 @@ shutdown -r -t 0
 
 Test dengan membuka command prompt, kemudian eksekusi command `ls`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.32.png)
+![Screenshot.](/images/screenshotxp.32.png)
 
 **Firewall**
 
 Masuk ke Windows Firewall. Run `firewall.cpl`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.7.png)
+![Screenshot.](/images/screenshotxp.7.png)
 
 Tambahkan port `22` sebagai Exception pada Firewall.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.8.png)
+![Screenshot.](/images/screenshotxp.8.png)
 
 **Banner**
 
@@ -165,13 +165,13 @@ ssh localhost
 
 Sukses.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.33.png)
+![Screenshot.](/images/screenshotxp.33.png)
 
 Terminal yang terbuka adalah `cmd` dimana environmentnya adalah `Windows`.
 
 Ciri khas environtment `Windows` adalah adanya command `PATH`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.34.png)
+![Screenshot.](/images/screenshotxp.34.png)
 
 Untuk berpindah ke environment `Linux`, gunakan command `bash`.
 
@@ -195,7 +195,7 @@ hanya `Administrator`.
 
 Buka file `C:\Program Files\OpenSSH for Windows\etc\passwd` dengan `notepad++`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.22.png)
+![Screenshot.](/images/screenshotxp.22.png)
 
 Agar support multi user, maka kita perlu generate value pada file `passwd` agar
 support untuk user lainnya.
@@ -216,13 +216,13 @@ Buka kembali program notepad++, muncul warning karena file `passwd` telah
 dimodifikasi (dalam kasus ini program `mkpasswd` telah memperbarui file 
 `passwd`).
 
-[Screenshot.](image://ijortengab.id/screenshotxp.19.png)
+![Screenshot.](/images/screenshotxp.19.png)
 
 Kini seluruh user dalam system termasuk (invisible account) tercatat dalam file 
 `passwd`. Termasuk lokasi direktori `/home` yang kini per account sudah punya
 rumah masing-masing.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.20.png)
+![Screenshot.](/images/screenshotxp.20.png)
 
 ## Home_Directory
 
@@ -243,27 +243,27 @@ Mengapa? Agar kepemilikan home direktori sesuai dengan user yang bersangkutan.
 
 Saat ini session yang aktif adalah user `Administrator`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.24.png)
+![Screenshot.](/images/screenshotxp.24.png)
 
 Masuk ke folder `/home` atau `C:\Program Files\OpenSSH for Windows\home`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.21.png)
+![Screenshot.](/images/screenshotxp.21.png)
 
 Buat folder untuk user `Administrator`. Lalu copy paste file
 `C:\Program Files\OpenSSH for Windows\home\bash_profile` ke dalam folder 
 tersebut.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.25.png)
+![Screenshot.](/images/screenshotxp.25.png)
 
 **User_ijortengab**
 
 Log Off. 
 
-[Screenshot.](image://ijortengab.id/screenshotxp.26.png)
+![Screenshot.](/images/screenshotxp.26.png)
 
 Ganti user ke `ijortengab`.
 
-[Screenshot.](image://ijortengab.id/screenshotxp.27.png)
+![Screenshot.](/images/screenshotxp.27.png)
 
 Ulangi pembuatan home direktori `ijortengab` oleh username `ijortengab`.
 
@@ -273,7 +273,7 @@ Buat folder untuk user `ijortengab`. Lalu copy paste file
 `C:\Program Files\OpenSSH for Windows\home\bash_profile` ke dalam folder 
 tersebut. 
 
-[Screenshot.](image://ijortengab.id/screenshotxp.28.png)
+![Screenshot.](/images/screenshotxp.28.png)
 
 Test kepemilikan direktori home dengan command `ls -l`.
 
@@ -300,11 +300,11 @@ Gunakan mesin lain untuk ssh ke server Windows XP.
 
 Login sebagai user `Administrator` sukses.
 
-[Screenshot.](image://ijortengab.id/screenshot.1200.png)
+![Screenshot.](/images/screenshot.1200.png)
 
 Login sebagai user `ijortengab` juga sukses.
 
-[Screenshot.](image://ijortengab.id/screenshot.1201.png)
+![Screenshot.](/images/screenshot.1201.png)
 
 ## Reference
 

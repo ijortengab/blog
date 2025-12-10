@@ -14,7 +14,7 @@ Tiga `hard disk` lainnya yang identik merk WD 80GB (hasil kanibal) kita mount ke
 
 Kita akan menggunakan LVM untuk menggabungkan ketiga hard disk tersebut menjadi satu partisi.
 
-![Screenshot.](image://ijortengab.id/2021/IMG-20210812-WA0021-crop.jpg)
+![Screenshot.](/images/2021/IMG-20210812-WA0021-crop.jpg)
 
 ## Cek Jeroan
 
