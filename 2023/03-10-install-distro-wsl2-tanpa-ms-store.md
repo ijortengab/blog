@@ -1,11 +1,11 @@
-# Install Distro WSL 2 Tanpa Microsoft Store
-
 ---
 slug: blog/2023/03/10/install-distro-wsl2-tanpa-ms-store
 date: 2023-03-10
 tags:
   - wsl2
 ---
+
+# Install Distro WSL 2 Tanpa Microsoft Store
 
 ## Permasalahan
 

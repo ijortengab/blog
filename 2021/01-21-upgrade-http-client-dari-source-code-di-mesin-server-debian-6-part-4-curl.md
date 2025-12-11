@@ -1,5 +1,3 @@
-# Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 4 Curl
-
 ---
 tags:
   - debian6
@@ -550,6 +548,8 @@ configure: built with one SSL backend
 checking default CA cert bundle/path... /etc/ssl/certs/ca-certificates.crt
 checking whether to use builtin CA store of SSL library... no
 ---
+
+# Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 4 Curl
 configure: Configured to build curl/libcurl:
 
   Host setup:       x86_64-pc-linux-gnu

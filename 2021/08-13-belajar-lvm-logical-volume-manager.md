@@ -1,9 +1,9 @@
-# Belajar LVM (Logical Volume Manager) - Studi Kasus Combine Disk Drive
-
 ---
 tags:
   - lvm
 ---
+
+# Belajar LVM (Logical Volume Manager) - Studi Kasus Combine Disk Drive
 
 ## Studi Kasus
 

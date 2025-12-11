@@ -1,9 +1,9 @@
-# Nginx - mengubah tampilan (theming) directory index
-
 ---
 tags:
   - nginx
 ---
+
+# Nginx - mengubah tampilan (theming) directory index
 
 ## Pertanyaan
 

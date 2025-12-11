@@ -1,9 +1,9 @@
-# Solusi WSL Read-only file system
-
 ---
 tags:
   - wsl2
 ---
+
+# Solusi WSL Read-only file system
 
 ## Latar Belakang
 

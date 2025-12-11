@@ -1,5 +1,3 @@
-# Install Nginx dari Source Code di mesin Debian
-
 ---
 tags:
   - nginx
@@ -281,6 +279,8 @@ Sebagian output:
 checking for OpenSSL library ... not found
 checking for OpenSSL library in /usr/local/ ... found
 ---
+
+# Install Nginx dari Source Code di mesin Debian
 Configuration summary
   + using threads
   + using system PCRE library

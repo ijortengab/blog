@@ -1,10 +1,10 @@
-# Kembali ke Sculpin dari Gatsby
-
 ---
 tags:
   - sculpin
   - gatsby
 ---
+
+# Kembali ke Sculpin dari Gatsby
 
 ## Pendahulan
 

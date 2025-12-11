@@ -1,10 +1,10 @@
-# Membuat Service OpenVPN Client yang Membutuhkan Obfuscate Proxy
-
 ---
 tags:
   - obfuscate-proxy
   - openvpn
 ---
+
+# Membuat Service OpenVPN Client yang Membutuhkan Obfuscate Proxy
 
 ## Pertanyaan
 

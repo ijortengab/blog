@@ -1,10 +1,10 @@
-# Hosting Mail Server di DigitalOcean dan Yahoo Mail Blacklist
-
 ---
 tags:
   - mail-server
   - digitalocean
 ---
+
+# Hosting Mail Server di DigitalOcean dan Yahoo Mail Blacklist
 
 ## Pendahuluan
 

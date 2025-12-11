@@ -1,9 +1,9 @@
-# Konfigurasi OpenVPN Server - Part 2 Skenario Flexible Route Traffic
-
 ---
 tags:
   - openvpn
 ---
+
+# Konfigurasi OpenVPN Server - Part 2 Skenario Flexible Route Traffic
 
 ## Skenario Basic
 

@@ -1,9 +1,9 @@
-# Menyembunyikan trafik dengan Obfuscate Proxy - Part 1 Protokol SSH
-
 ---
 tags:
   - obfuscate-proxy
 ---
+
+# Menyembunyikan trafik dengan Obfuscate Proxy - Part 1 Protokol SSH
 
 ## Latar Belakang
 

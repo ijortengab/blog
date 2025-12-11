@@ -1,9 +1,9 @@
-# Berkenalan dengan Windows Subsytem of Linux (WSL)
-
 ---
 tags:
   - wsl2
 ---
+
+# Berkenalan dengan Windows Subsytem of Linux (WSL)
 
 ## Pendahuluan
 

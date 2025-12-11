@@ -1,5 +1,3 @@
-# Bismillahirrahmanirrahim
-
 ---
 tags:
     - sculpin
@@ -7,6 +5,8 @@ categories:
     - personal
 
 ---
+
+# Bismillahirrahmanirrahim
 
 My first Post using [Sculpin][1]. 
 

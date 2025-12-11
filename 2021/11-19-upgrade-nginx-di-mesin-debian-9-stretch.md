@@ -1,9 +1,9 @@
-# Upgrade nginx di mesin Debian 9 Stretch
-
 ---
 tags:
   - nginx
 ---
+
+# Upgrade nginx di mesin Debian 9 Stretch
 
 ## Pendahuluan
 

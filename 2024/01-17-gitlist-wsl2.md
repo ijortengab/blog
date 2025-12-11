@@ -1,10 +1,10 @@
-# Menginstall Gitlist di WSL2
-
 ---
 tags:
   - gitlist
   - wsl2
 ---
+
+# Menginstall Gitlist di WSL2
 
 ## Pendahulan
 

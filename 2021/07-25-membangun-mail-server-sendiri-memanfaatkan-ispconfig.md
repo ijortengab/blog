@@ -1,10 +1,10 @@
-# Membangun Mail Server Sendiri Memanfaatkan ISPConfig
-
 ---
 tags:
   - mail-server
   - ispconfig
 ---
+
+# Membangun Mail Server Sendiri Memanfaatkan ISPConfig
 
 ## Disclaimer
 

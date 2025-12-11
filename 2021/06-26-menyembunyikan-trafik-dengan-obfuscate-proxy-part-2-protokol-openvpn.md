@@ -1,10 +1,10 @@
-# Menyembunyikan trafik dengan Obfuscate Proxy - Part 2 Protokol OpenVPN
-
 ---
 tags:
   - obfuscate-proxy
   - openvpn
 ---
+
+# Menyembunyikan trafik dengan Obfuscate Proxy - Part 2 Protokol OpenVPN
 
 ## Pendahuluan
 

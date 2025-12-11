@@ -1,5 +1,3 @@
-# Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 2 OpenSSL
-
 ---
 tags:
   - debian6
@@ -240,6 +238,8 @@ install openssl.pc -> /usr/local/lib/pkgconfig/openssl.pc
 ---
 created directory `/usr/local/lib/engines-1.1'
 ---
+
+# Upgrade HTTP Client dari Source Code di mesin server Debian 6 - Part 2 OpenSSL
 *** Installing runtime programs
 install apps/openssl -> /usr/local/bin/openssl
 install ./tools/c_rehash -> /usr/local/bin/c_rehash
