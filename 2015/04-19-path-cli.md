@@ -1,10 +1,4 @@
----
-layout: post
-title: 'Kegunaan fitur PATH pada CLI'
-date: 2015-04-19 13:06
-comments: true
-categories: 
----
+# Kegunaan fitur PATH pada CLI
 
 ## Pendahuluan
 
@@ -18,7 +12,7 @@ Contoh pada Linux:
 /usr/bin/php -v
 ```
 
-atau 
+atau
 
 ```
 php -v
@@ -36,15 +30,15 @@ atau
 php -v
 ```
 
-Cara ringkas diatas karena sebenarnya alamat direktori lengkap telah terdaftar 
+Cara ringkas diatas karena sebenarnya alamat direktori lengkap telah terdaftar
 pada Variable PATH di Sistem Operasi.
 
 ## PATH adalah
 
-PATH adalah jalanan. Maksudnya adalah jalan-jalan yang akan dipakai untuk 
+PATH adalah jalanan. Maksudnya adalah jalan-jalan yang akan dipakai untuk
 mencari aplikasi.
 
-PATH adalah variable di Sistem Operasi yang berisi berbagai alamat direktori 
+PATH adalah variable di Sistem Operasi yang berisi berbagai alamat direktori
 dan digunakan untuk meringkas eksekusi program.
 
 Contoh di linux:
@@ -70,7 +64,7 @@ Perbedaan Linux dan Windows adalah:
 
 ## Which
 
-Untuk program dengan nama sama yang terdaftar pada direktori path yang 
+Untuk program dengan nama sama yang terdaftar pada direktori path yang
 berbeda-beda, maka akan digunakan direktori pada urutan yang paling awal.
 
 Untuk mengetahui direktori yang digunakan command saat ekeskusi program,

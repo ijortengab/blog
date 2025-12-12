@@ -1,10 +1,5 @@
----
-layout: post
-title: 'Lenovo Thinkpad X220'
-date: 2015-04-09 02:18
-comments: true
-categories: [lenovo]
----
+# Lenovo Thinkpad X220
+
 Alhamdulillah, tercapai juga niat beli laptop untuk keperluan bisnis. Begitu gaji turun pada tanggal 25 Maret 2015, aku langsung menghubungi penjual laptop second yang nomor kontaknya kuperoleh dari teman kantor.  Keesokan harinya, Kamis 26 Maret 2015, terjadilah transaksi COD dengan utusan beliau (baca:istrinya) di warung bakso samping stasiun Pondok Cina.
 
 Berikut beberapa spesifikasi dari laptop tersebut setelah di-custom:

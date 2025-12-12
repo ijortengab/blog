@@ -1,10 +1,5 @@
----
-layout: post
-title: 'Belajar Virtual Box'
-date: 2015-04-10 04:56
-comments: true
-categories: [virtualbox]
----
+# Belajar Virtual Box
+
 Dalam rangka belajar dan menambah pengetahuan tentang pengembangan dan
 pengelolaan server, aku mulai menginstall virtual mesin pada laptop dan PC
 kantor. Software yang kugunakan adalah

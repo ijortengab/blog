@@ -1,6 +1,4 @@
----
-title: Belajar menggunakan text editor VI
----
+# Belajar menggunakan text editor VI
 
 Vi (dibaca vi ai) adalah text editor dalam Command Line Interface (CLI).
 
